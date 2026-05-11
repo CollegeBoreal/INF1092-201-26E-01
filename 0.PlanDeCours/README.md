@@ -20,7 +20,8 @@
 ```mermaid
 flowchart TD
 
-A["Installation OS
+A["
+Installation OS
   - Windows
   - Image
   - Automatisation
