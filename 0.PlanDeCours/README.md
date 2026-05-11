@@ -27,12 +27,19 @@ Installation OS
   - Automatisation
 "]
 
---> B["Gestion système
-- Comptes
-- Groupes
-- Permissions"]
+--> B["
+Gestion système
+  - Comptes
+  - Groupes
+  - Permissions
+"]
 
-B --> C["Réseau & Virtualisation\n- Interfaces\n- Firewall\n- VM"]
+B --> C["
+Réseau & Virtualisation
+- Interfaces
+- Firewall
+- VM
+"]
 
 C --> D1["Maintenance\n- Updates\n- Monitoring\n- Performance"]
 C --> D2["Sécurité & logiciels\n- Policies\n- Installation\n- Accès"]
