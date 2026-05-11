@@ -18,7 +18,7 @@
 ---
 
 ```mermaid
-flowchart TD
+flowchart LR
 
 A["
 Installation OS
