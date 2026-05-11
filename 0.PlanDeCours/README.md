@@ -47,9 +47,20 @@ Maintenance
   - Monitoring
   - Performance
 "]
-C --> D2["Sécurité & logiciels\n- Policies\n- Installation\n- Accès"]
+C --> D2["
+Sécurité & logiciels
+  - Policies
+  - Installation
+  - Accès
+"]
 
-D1 --> E["Backup & Recovery\n- Backup données\n- Restore\n- Disaster recovery"]
+D1 --> E["
+Backup & Recovery
+- Backup données
+- Restore
+- Disaster recovery
+"]
+
 D2 --> E
 ```
 
