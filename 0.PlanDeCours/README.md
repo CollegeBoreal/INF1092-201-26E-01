@@ -21,9 +21,11 @@
 flowchart TD
 
 A["Installation OS
-- Windows
-- Image
-- Automatisation"]
+  - Windows
+  - Image
+  - Automatisation
+"]
+
 --> B["Gestion système
 - Comptes
 - Groupes
