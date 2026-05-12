@@ -32,8 +32,6 @@ cd Developer
 
    - coller l'URL du répertoire en mémoire dans le presse papier avec RIGHT-CLICK/PASTE
 
-   :warning: remplacer le `0X` avec le numéro de section
-
    ```sh
    git clone https://github.com/CollegeBoreal/INF1092-201-E26-01.git
    ```
