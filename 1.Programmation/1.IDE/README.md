@@ -49,13 +49,13 @@ cd INF1092-201-E26-01/1.Programmation/1.IDE
 :checkered_flag: pas à pas,
 
 - [ ] avec le nom de répertoire :id: (votre identifiant boreal)
-      mkdir :id:
+      > mkdir :id:
 - [ ] dans votre répertoire ajouter le fichier `README.md`
-      cd :id:
-      nano README.md
+      > cd :id:
+      > nano README.md
 
 - [ ] remonter vers le répertoire de la leçon
-      cd ..
+      > cd ..
 
 
 * mettre le répertoire en scene (add to stage)
