@@ -94,11 +94,6 @@ Et comprendre :
 
 ---
 
-Parfait 😄
-Voici **la leçon Git ultra-condensée pour informaticien** — **pragmatique, sans blabla**, orientée terrain.
-
----
-
 # 🧠 Git — l’essentiel pour informaticien
 
 ## 1. À quoi sert Git (en 1 phrase)
@@ -159,11 +154,11 @@ git clone https://...
 
 ### Messages de commit
 
-❌ `update`
-❌ `fix`
+- ❌ `update`
+- ❌ `fix`
 
-✅ `Fix nginx config syntax error`
-✅ `Add hourly log analysis script`
+- ✅ `Fix nginx config syntax error`
+- ✅ `Add hourly log analysis script`
 
 ---
 
