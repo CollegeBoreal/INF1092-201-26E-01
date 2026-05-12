@@ -116,7 +116,7 @@ git commit --message ":star: Mon premier commentaire"
 git pull --no-edit
 ```
 
-## :b: SSH
+## :ab: SSH
 
 ### :four: Gestion de votre clé SSH
 
@@ -188,7 +188,11 @@ git pull --no-edit
    origin  git@github.com:CollegeBoreal/INF1092-201-E26-01.git (push)
    ```
 
+### :five: Envoyer au serveur
 
+```bash
+git push
+```
 
 ## :toolbox: IDE
 
