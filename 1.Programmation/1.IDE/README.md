@@ -158,10 +158,12 @@ git pull --no-edit
        IdentityFile ~/.ssh/ma_cle.pk
    ```
 
-- [ ] [Ajouter votre clé publique à votre compte github][SSH_KEY_ACCOUNT]
+### :five: ⚙️ Rajouter sa clé publique à github.com
+
+⚠️ [Ajouter votre clé publique à votre compte github][SSH_KEY_ACCOUNT]
 
 
-### :five: Changer l'URL du cours
+### :six: Changer l'URL du cours
 
 1. **revenir au répertoire du cours**
 
@@ -188,7 +190,7 @@ git pull --no-edit
    origin  git@github.com:CollegeBoreal/INF1092-201-E26-01.git (push)
    ```
 
-### :five: Envoyer au serveur
+### 7️⃣ 🌩️ Envoyer au serveur github.com
 
 ```bash
 git push
