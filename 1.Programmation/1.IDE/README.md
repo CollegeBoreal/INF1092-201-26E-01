@@ -61,7 +61,9 @@ nano README.md
 ```
 
 - [ ] remonter vers le répertoire de la leçon
-      > cd ..
+```bash
+cd ..
+```
 
 
 * mettre le répertoire en scene (add to stage)
@@ -162,8 +164,6 @@ git pull --no-edit
 ### :five: Changer l'URL du cours
 
 1. **revenir au répertoire du cours**
-
-   :warning: remplacer le numéro de section `0X`
 
    ```sh
    cd ~/Developer/INF1092-201-E26-01/1.Programmation/1.IDE
