@@ -1,7 +1,7 @@
 # IDE (Integrated Development Environment)
 
 | SSH |
-|-|-|
+|-|
 | [:1st_place_medal: Participation](.scripts/Participation.md) |
 
 ### :o: Installation
