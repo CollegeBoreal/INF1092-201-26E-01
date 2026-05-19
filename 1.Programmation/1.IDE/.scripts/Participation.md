@@ -1,4 +1,4 @@
-# Participation au 19-05-2026 21:26
+# Participation au 19-05-2026 21:27
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -33,7 +33,7 @@
 | 14 | [300157423](../300157423/README.md) :point_right: [octocat](https://github.com/octocat) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 15 | [300157606](../300157606/README.md) :point_right: [ouahiba1994](https://github.com/ouahiba1994) <image src='https://avatars0.githubusercontent.com/u/261497731?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 16 | [300157733](../300157733/README.md) :point_right: [albachiralmouhamad](https://github.com/albachiralmouhamad) <image src='https://avatars0.githubusercontent.com/u/261491303?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 17 | [300158085](../300158085/README.md) :point_right: [kevinmayele-ai](https://github.com/kevinmayele-ai) <image src='https://avatars0.githubusercontent.com/u/258312358?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 17 | [300158085](../300158085/README.md) :point_right: [kevinmayele-ai](https://github.com/kevinmayele-ai) <image src='https://avatars0.githubusercontent.com/u/258312358?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 18 | [300159180](../300159180/README.md) :point_right: [abdenourzourane-cpu](https://github.com/abdenourzourane-cpu) <image src='https://avatars0.githubusercontent.com/u/261489848?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 19 | [300159195](../300159195/README.md) :point_right: [islemtd3-hue](https://github.com/islemtd3-hue) <image src='https://avatars0.githubusercontent.com/u/261489005?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 20 | [300159203](../300159203/README.md) :point_right: [riadhsahraoui](https://github.com/riadhsahraoui) <image src='https://avatars0.githubusercontent.com/u/261489597?s=460&v=4' width=20 height=20></image> | :x: | :x: |
