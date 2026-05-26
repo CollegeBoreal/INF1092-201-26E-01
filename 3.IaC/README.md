@@ -2,10 +2,10 @@
 
 | #️⃣ | Participations | Vérifications |
 |-|-|-| 
-| 🥇 | [:tada: Participation](.scripts/Participation-group1.md) | [:checkered_flag: Vérification](.scripts/Check-group1.md) |
-| 🥈 | [:tada: Participation](.scripts/Participation-group2.md) | [:checkered_flag: Vérification](.scripts/Check-group2.md) |
-| 🥉 | [:tada: Participation](.scripts/Participation-group3.md) | [:checkered_flag: Vérification](.scripts/Check-group3.md) |
-| 🥉 | [:tada: Participation](.scripts/Participation-group4.md) | [:checkered_flag: Vérification](.scripts/Check-group4.md) |
+| :one: | [:tada: Participation](.scripts/Participation-group1.md) | [:checkered_flag: Vérification](.scripts/Check-group1.md) |
+| 2️⃣ | [:tada: Participation](.scripts/Participation-group2.md) | [:checkered_flag: Vérification](.scripts/Check-group2.md) |
+| 3️⃣ | [:tada: Participation](.scripts/Participation-group3.md) | [:checkered_flag: Vérification](.scripts/Check-group3.md) |
+| 4️⃣ | [:tada: Participation](.scripts/Participation-group4.md) | [:checkered_flag: Vérification](.scripts/Check-group4.md) |
 
 ## 1. Introduction
 
