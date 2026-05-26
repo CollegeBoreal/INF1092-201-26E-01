@@ -39,53 +39,91 @@ $STUDENTS = @(
 )
 
 # --------------------------------------
-# Division des étudiants en 1 groupe
+# Division des étudiants en 3 groupes
 # --------------------------------------
 
 $TOTAL = $STUDENTS.Count
-$GROUP_SIZE = [Math]::Ceiling($TOTAL / 1)
+$GROUP_SIZE = [Math]::Ceiling($TOTAL / 3)
 
 $GROUP_1 = $STUDENTS[0..($GROUP_SIZE - 1)]
-$GROUP_2 = $STUDENTS[($GROUP_SIZE)..($TOTAL - 1)]
+$GROUP_2 = $STUDENTS[$GROUP_SIZE..(2 * $GROUP_SIZE - 1)]
+$GROUP_3 = $STUDENTS[(2 * $GROUP_SIZE)..($TOTAL - 1)]
 
 # --------------------------------------
-# Division des VMs en 2 groupes
+# Division des VMs en 3 groupes
 # --------------------------------------
 
 $SERVERS = @(
-"10.7.237.224"
+"10.7.237.194"
+"10.7.237.195"
+"10.7.237.196"
+"10.7.237.197"
+"10.7.237.198"
+"10.7.237.199"
+"10.7.237.200"
+"10.7.237.201"
+"10.7.237.202"
+"10.7.237.203"
+"10.7.237.204"
+"10.7.237.205"
+"10.7.237.206"
+"10.7.237.207"
+"10.7.237.208"
+"10.7.237.209"
+"10.7.237.210"
+"10.7.237.211"
+"10.7.237.212"
+"10.7.237.213"
+"10.7.237.214"
+"10.7.237.215"
+"10.7.237.216"
+"10.7.237.217"
+"10.7.237.218"
+"10.7.237.219"
+"10.7.237.220"
+"10.7.237.221"
+"10.7.237.222"
+"10.7.237.223"
 )
 
 $SERVER_GROUP_1 = $SERVERS[0..($GROUP_SIZE - 1)]
-$SERVER_GROUP_2 = $SERVERS[($GROUP_SIZE)..($TOTAL - 1)]
+$SERVER_GROUP_2 = $SERVERS[$GROUP_SIZE..(2 * $GROUP_SIZE - 1)]
+$SERVER_GROUP_3 = $SERVERS[(2 * $GROUP_SIZE)..($TOTAL - 1)]
+
 
 # --------------------------------------
-# S21	https://10.7.237.19:8006	64	16	272	Virtual Environment 7.4-20
-# S25	https://10.7.237.38:8006	64	16	272	Virtual Environment 7.4-20
+# S13	https://10.7.237.16:8006	64	16	272	Virtual Environment 7.4-20
+# S17	https://10.7.237.28:8006	64	16	272	Virtual Environment 7.4-20
+# S18	https://10.7.237.33:8006	64	16	272	Virtual Environment 7.4-20
 # --------------------------------------
 
 $PROXMOX_SERVERS = @(
-"10.7.237.19"
-"10.7.237.38"
+"10.7.237.16"
+"10.7.237.13"
+"10.7.237.33"
 )
 
 $PROXMOX_GROUP_1 = $PROXMOX_SERVERS[0] 
 $PROXMOX_GROUP_2 = $PROXMOX_SERVERS[1] 
+$PROXMOX_GROUP_3 = $PROXMOX_SERVERS[2] 
 
 # --------------------------------------
 # pm_token_id     = "tofu@pve!opentofu"
-# pm_token_secret = "4fa24fc3-bd8c-4916-ba6e-09xxxxxx3b00"
+# pm_token_secret = "4fa24fc3-bd8c-4916-ba6e-09a8aecc3b00"
+# 2 = "f728d095-1506-490f-81b1-ecdafdfb8ef9"
 # --------------------------------------
 
 $TOFU_SECRETS = @(
-"f2097a3c-f9f0-4558-9a43-5cd0ae718abe"
-"1cde2cfc-e100-47b9-9ee2-591ed83cfb8e"
+"4fa24fc3-bd8c-4916-ba6e-09a8aecc3b00"
+"55dccf39-a3db-4bad-8a28-954addb13739"
+"63cd5a0b-24a0-42a1-9ce3-993a2d9de8dd"
 )
 
 $TOFU_SECRET_GROUP_1 = $TOFU_SECRETS[0] 
 $TOFU_SECRET_GROUP_2 = $TOFU_SECRETS[1] 
+$TOFU_SECRET_GROUP_3 = $TOFU_SECRETS[2] 
 
 $PK_PROF="b300098957@ramena"
 
-## Cours Moodle
-$LMS_COURSE=4
+# https://${env:LMS_URL}/course/view.php?id=3
+$LMS_COURSE=3
