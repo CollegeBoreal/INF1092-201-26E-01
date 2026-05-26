@@ -1,2 +1,2 @@
  # 300160006
-<image src=image_2.jpg width='50%' height='50%' > </image>
+<image src=GALAX.jpg width='50%' height='50%' > </image>
