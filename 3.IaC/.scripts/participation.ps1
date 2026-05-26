@@ -4,7 +4,7 @@
 # --------------------------------------
 
 param(
-    [ValidateSet(1,2,3)]
+    [ValidateSet(1,2,34)]
     [int]$Group = 1
 )
 
@@ -15,6 +15,7 @@ switch ($Group) {
     1 { $ACTIVE_GROUP = $GROUP_1 }
     2 { $ACTIVE_GROUP = $GROUP_2 }
     3 { $ACTIVE_GROUP = $GROUP_3 }
+    4 { $ACTIVE_GROUP = $GROUP_4 }
     default { throw "Groupe invalide" }
 }
 
@@ -22,6 +23,7 @@ switch ($Group) {
     1 { $ACTIVE_SERVERS = $SERVER_GROUP_1 }
     2 { $ACTIVE_SERVERS = $SERVER_GROUP_2 }
     3 { $ACTIVE_SERVERS = $SERVER_GROUP_3 }
+    4 { $ACTIVE_SERVERS = $SERVER_GROUP_4 }
     default { throw "active server Groupe invalide" }
 }
 
@@ -29,6 +31,7 @@ switch ($Group) {
     1 { $PROXMOX_SERVER = $PROXMOX_GROUP_1 }
     2 { $PROXMOX_SERVER = $PROXMOX_GROUP_2 }
     3 { $PROXMOX_SERVER = $PROXMOX_GROUP_3 }
+    4 { $PROXMOX_SERVER = $PROXMOX_GROUP_4 }
     default { throw "Proxmox server Groupe invalide" }
 }
 
@@ -36,6 +39,7 @@ switch ($Group) {
     1 { $TOFU_SECRET = $TOFU_SECRET_GROUP_1 }
     2 { $TOFU_SECRET = $TOFU_SECRET_GROUP_2 }
     3 { $TOFU_SECRET = $TOFU_SECRET_GROUP_3 }
+    4 { $TOFU_SECRET = $TOFU_SECRET_GROUP_4 }
     default { throw "Tofu Secret Groupe invalide" }
 }
 
