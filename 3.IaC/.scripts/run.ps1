@@ -11,5 +11,6 @@
 pwsh .scripts/participation.ps1 -Group 1 > .scripts/Participation-group1.md 2>$null
 pwsh .scripts/participation.ps1 -Group 2 > .scripts/Participation-group2.md 2>$null
 pwsh .scripts/participation.ps1 -Group 3 > .scripts/Participation-group3.md 2>$null
+pwsh .scripts/participation.ps1 -Group 4 > .scripts/Participation-group4.md 2>$null
 
 
