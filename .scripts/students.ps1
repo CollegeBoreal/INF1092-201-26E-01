@@ -43,11 +43,15 @@ $STUDENTS = @(
 # --------------------------------------
 
 $TOTAL = $STUDENTS.Count
-$GROUP_SIZE = [Math]::Ceiling($TOTAL / 3)
+$GROUP_SIZE = [Math]::Ceiling($TOTAL / 4)
+
+$TOTAL = $STUDENTS.Count
+$GROUP_SIZE = [Math]::Ceiling($TOTAL / 4)
 
 $GROUP_1 = $STUDENTS[0..($GROUP_SIZE - 1)]
 $GROUP_2 = $STUDENTS[$GROUP_SIZE..(2 * $GROUP_SIZE - 1)]
-$GROUP_3 = $STUDENTS[(2 * $GROUP_SIZE)..($TOTAL - 1)]
+$GROUP_3 = $STUDENTS[(2 * $GROUP_SIZE)..(3 * $GROUP_SIZE - 1)]
+$GROUP_4 = $STUDENTS[(3 * $GROUP_SIZE)..($TOTAL - 1)]
 
 # --------------------------------------
 # Division des VMs en 3 groupes
@@ -88,24 +92,27 @@ $SERVERS = @(
 
 $SERVER_GROUP_1 = $SERVERS[0..($GROUP_SIZE - 1)]
 $SERVER_GROUP_2 = $SERVERS[$GROUP_SIZE..(2 * $GROUP_SIZE - 1)]
-$SERVER_GROUP_3 = $SERVERS[(2 * $GROUP_SIZE)..($TOTAL - 1)]
-
+$SERVER_GROUP_3 = $SERVERS[(2 * $GROUP_SIZE)..(3 * $GROUP_SIZE - 1)]
+$SERVER_GROUP_4 = $SERVERS[(3 * $GROUP_SIZE)..($TOTAL - 1)]
 
 # --------------------------------------
-# S13	https://10.7.237.16:8006	64	16	272	Virtual Environment 7.4-20
-# S17	https://10.7.237.28:8006	64	16	272	Virtual Environment 7.4-20
-# S18	https://10.7.237.33:8006	64	16	272	Virtual Environment 7.4-20
+# | 2    | 28       | HP Proliant DL360 G6️⃣ | S25       | 10.7.237.24             | 56       | 16  | 272     | —                              | —                                                        |
+# | 2    | 27       | HP Proliant DL360 G7️⃣ | S26       | 10.7.237.40             | 48       | 16  | 272     | —                              | —                                                        |
+# | 2    | 26       | HP Proliant DL360 G6️⃣ | S27       | 10.7.237.34             | 44       | 16  | 272     | —                              | —                                                        |
+# | 2    | 25       | HP Proliant DL360 G7️⃣ | S28       | 10.7.237.11             | 64       | 16  | 273     | —                              
 # --------------------------------------
 
 $PROXMOX_SERVERS = @(
-"10.7.237.16"
-"10.7.237.13"
-"10.7.237.33"
+"10.7.237.24"
+"10.7.237.40"
+"10.7.237.34"
+"10.7.237.11"
 )
 
 $PROXMOX_GROUP_1 = $PROXMOX_SERVERS[0] 
 $PROXMOX_GROUP_2 = $PROXMOX_SERVERS[1] 
 $PROXMOX_GROUP_3 = $PROXMOX_SERVERS[2] 
+$PROXMOX_GROUP_4 = $PROXMOX_SERVERS[3] 
 
 # --------------------------------------
 # pm_token_id     = "tofu@pve!opentofu"
@@ -117,11 +124,13 @@ $TOFU_SECRETS = @(
 "4fa24fc3-bd8c-4916-ba6e-09a8aecc3b00"
 "55dccf39-a3db-4bad-8a28-954addb13739"
 "63cd5a0b-24a0-42a1-9ce3-993a2d9de8dd"
+"63cd5a0b-24a0-42a1-9ce3-993a2d9de8dd"
 )
 
 $TOFU_SECRET_GROUP_1 = $TOFU_SECRETS[0] 
 $TOFU_SECRET_GROUP_2 = $TOFU_SECRETS[1] 
 $TOFU_SECRET_GROUP_3 = $TOFU_SECRETS[2] 
+$TOFU_SECRET_GROUP_4 = $TOFU_SECRETS[3] 
 
 $PK_PROF="b300098957@ramena"
 

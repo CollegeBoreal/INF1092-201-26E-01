@@ -18,7 +18,7 @@
 
 | Proxmox Serveur                                     | User/Pwd         |
 |-----------------------------------------------------|------------------|
-| [10.7.237.16](https://10.7.237.16:8006) | root/Boreal@2️⃣02️⃣6 |
+| [10.7.237.24](https://10.7.237.24:8006) | root/Boreal@2️⃣02️⃣6 |
 
 
 | TOFU Credentials                                    | :closed_lock_with_key: Secret |
@@ -39,7 +39,4 @@
 | 6 | [300152004](../300152004/README.md) [<image src='https://avatars0.githubusercontent.com/u/218153814?s=460&v=4' width=20 height=20></image>](https://github.com/danielmananga) | :x: | :x: | :x: | 10.7.237.200 |
 | 7 | [300153405](../300153405/README.md) [<image src='https://avatars0.githubusercontent.com/u/261492660?s=460&v=4' width=20 height=20></image>](https://github.com/rekaikkhaled) | :x: | :x: | :x: | 10.7.237.201 |
 | 8 | [300153416](../300153416/README.md) [<image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image>](https://github.com/rouabahkhalil28-crypto) | :x: | :x: | :x: | 10.7.237.202 |
-| 9 | [300155045](../300155045/README.md) [<image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image>](https://github.com/chouaibait) | :x: | :x: | :x: | 10.7.237.203 |
-| 10 | [300155462](../300155462/README.md) [<image src='https://avatars0.githubusercontent.com/u/231498971?s=460&v=4' width=20 height=20></image>](https://github.com/zakariamamssi05) | :x: | :x: | :x: | 10.7.237.204 |
-| 11 | [300156534](../300156534/README.md) [<image src='https://avatars0.githubusercontent.com/u/261489191?s=460&v=4' width=20 height=20></image>](https://github.com/salhiwalid540-hue) | :x: | :x: | :x: | 10.7.237.205 |
-| :abacus: | \$\\frac{0}{12}\$ = 0% | \$\displaystyle\sum_{i=1}^{12} s_i\$ = 0 |
+| :abacus: | \$\\frac{0}{9}\$ = 0% | \$\displaystyle\sum_{i=1}^{9} s_i\$ = 0 |
