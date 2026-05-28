@@ -1,4 +1,4 @@
-# Participation au 27-05-2026 23:34
+# Participation au 28-05-2026 16:45
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | README.md    | images |
 |------|----------------------------|--------------|--------|
-| 0 | [300124366](../300124366/README.md) :point_right: [rb0980h-dot](https://github.com/rb0980h-dot) <image src='https://avatars0.githubusercontent.com/u/261495945?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 0 | [300124366](../300124366/README.md) :point_right: [rb0980h-dot](https://github.com/rb0980h-dot) <image src='https://avatars0.githubusercontent.com/u/261495945?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 1 | [300147253](../300147253/README.md) :point_right: [octocat](https://github.com/octocat) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 2 | [300147891](../300147891/README.md) :point_right: [amadbarry96](https://github.com/amadbarry96) <image src='https://avatars0.githubusercontent.com/u/261496046?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 3 | [300150396](../300150396/README.md) :point_right: [ibkourouma](https://github.com/ibkourouma) <image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image> | :x: | :x: |
@@ -50,4 +50,4 @@
 | 31 | [300160504](../300160504/README.md) :point_right: [mmounir07](https://github.com/mmounir07) <image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 32 | [300160733](../300160733/README.md) :point_right: [belhadiyanis200-a11y](https://github.com/belhadiyanis200-a11y) <image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 33 | [300160862](../300160862/README.md) :point_right: [cherifyamna](https://github.com/cherifyamna) <image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| :abacus: | \$\\frac{1}{34}\$ = 2.94% | \$\displaystyle\sum_{i=1}^{34} s_i\$ = 1 |
+| :abacus: | \$\\frac{2}{34}\$ = 5.88% | \$\displaystyle\sum_{i=1}^{34} s_i\$ = 2 |
