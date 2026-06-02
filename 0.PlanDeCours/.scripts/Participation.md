@@ -48,5 +48,5 @@
 | 29 | [300160424](../300160424/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261502136?s=460&v=4' width=20 height=20></image>](https://github.com/youcef-1994) | :2nd_place_medal: | :x: |
 | 30 | [300160504](../300160504/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image>](https://github.com/mmounir07) | :2nd_place_medal: | :x: |
 | 31 | [300160733](../300160733/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image>](https://github.com/belhadiyanis200-a11y) | :2nd_place_medal: | :x: |
-| 32 | [300160862](../300160862/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image>](https://github.com/cherifyamna) | :2nd_place_medal: | :heavy_check_mark: |
+| 32 | [300160862](../300160862/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image>](https://github.com/cherifyamna) | :1st_place_medal: | :heavy_check_mark: |
 | :abacus: | \$\frac{15}{33}\$ = 45.45% | \$\displaystyle\sum_{i=1}^{33} s_i\$ = 15 |
