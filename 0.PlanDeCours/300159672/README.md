@@ -1,5 +1,6 @@
 # 300159672
-<img width="50" height="50" alt="animal" src="https://github.com/user-attachments/assets/4263dd2b-888b-49f1-8575-df1f2f7db418" />
+<img width="736" height="748" alt="animal" src="https://github.com/user-attachments/assets/cdb19428-bafa-4b2a-a96c-801e9b292ea3" />
+
 
 
 
