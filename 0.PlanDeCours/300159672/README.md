@@ -1,5 +1,4 @@
 # 300159672
 
-<img src="images/animal.jpg" width="50" height="50">
 
 
