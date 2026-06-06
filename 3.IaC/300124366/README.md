@@ -1,8 +1,11 @@
-Rapport d'atelier - Infrastructure as a Code
-Après avoir finalisé les matériels, on a procédé à la phase de l'installattion du système d'exploitation
+Rapport d'atelier - Infrastructure as a Code  
+
+Après avoir finalisé les matériels, on a procédé à la phase de l'installattion du système d'exploitation  
+
 Nous avons d'abord vérifié les composantes internes du serveur (processeurs, mémoire RAM, disques durs, etc.) avant de raccorder les périphériques essentiels (écran, clavier, souris) ainsi que les cables d'alimentation.
 Après le démarrage du serveur, nous nous sommes connectés à l'interface de gestion en saisissant les identifiants requis ( nom d'utilisateur, mot de passe.
-Une fois l'accès au serveur établi, nous avons configuré la machine pour booter sur la clé USB d'installation.
+Une fois l'accès au serveur établi, nous avons configuré la machine pour booter sur la clé USB d'installation.  
+
 Les capture d'écran suivantes documentent chronologiquement cette phase de démarrage et le lancement de l'installeur:
 <img width="1200" height="1600" alt="WhatsApp Image 2026-05-26 at 4 27 33 PM" src="https://github.com/user-attachments/assets/2637f887-3565-453f-afb6-79074b28921a" />
 <img width="1200" height="1600" alt="WhatsApp Image 2026-05-26 at 4 27 32 PM" src="https://github.com/user-attachments/assets/7c018521-6fa6-482d-bcba-25b7e5d51d31" />
