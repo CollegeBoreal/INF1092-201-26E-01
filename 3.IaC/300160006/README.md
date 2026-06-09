@@ -11,3 +11,4 @@
 ![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/43b22f71fb271d1de67d177799932e59224ef5e3/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(3).jpeg)
 ![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/4ea492862cceae3906e91c7d65b3a6059eeda81c/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(4).jpeg)
 ![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/3cddfd49c4540f3e5677a7d4942979941c46d1c2/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(5).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/7a7c46cd934ae913b59728931dc1b8751922da34/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(7).jpeg)
