@@ -1,4 +1,4 @@
-# 2. Infra
+# 2. Infrastructure
 
 ## Materiel
 
