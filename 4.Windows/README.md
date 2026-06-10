@@ -8,7 +8,7 @@
 
 🏁 Vérifier
 
-- Les CPUs sont en place
+- Les CPUs sont en place  
 - La mémoire
 - la carte `cache`
 - les périphériques d'entrées `USB A` et l'écran VGA
