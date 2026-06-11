@@ -39,7 +39,7 @@ Set-Service -Name sshd -StartupType Automatic
 ## 🔧 Étape 2 — Depuis le Mac (Terminal)
 
 ```bash
-scp ~/Downloads/WindowsServer2022.iso Administrateur@10.7.237.131:D:/ISO/
+scp ~/Downloads/WindowsServer2022.iso Administrateur@10.7.236.131:D:/ISO/
 ```
 
 👉 format :
