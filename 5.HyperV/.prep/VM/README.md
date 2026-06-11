@@ -30,3 +30,51 @@ Set-VMMemory -VMName "VM300098957" `
   -MinimumBytes 2GB `
   -MaximumBytes 6GB
 ```
+
+### 🟢 3. Vérification
+
+```powershell
+$vm="VM300098957"
+
+Get-VM -Name $vm
+Get-VMMemory -VMName $vm
+Get-VMProcessor -VMName $vm
+Get-VMHardDiskDrive -VMName $vm
+Get-VMNetworkAdapter -VMName $vm | Select VMName,SwitchName
+```
+
+```powershell
+PS C:\Users\Administrator> Get-VM -Name $vm
+
+Name        State CPUUsage(%) MemoryAssigned(M) Uptime   Status             Version
+----        ----- ----------- ----------------- ------   ------             -------
+VM300098957 Off   0           0                 00:00:00 Operating normally 10.0
+
+
+PS C:\Users\Administrator> Get-VMMemory -VMName $vm
+
+VMName      DynamicMemoryEnabled Minimum(M) Startup(M) Maximum(M)
+------      -------------------- ---------- ---------- ----------
+VM300098957 True                 2048       4096       6144
+
+
+PS C:\Users\Administrator> Get-VMProcessor -VMName $vm
+
+VMName      Count CompatibilityForMigrationEnabled CompatibilityForOlderOperatingSystemsEnabled
+------      ----- -------------------------------- --------------------------------------------
+VM300098957 2     False                            False
+
+
+PS C:\Users\Administrator> Get-VMHardDiskDrive -VMName $vm
+
+VMName      ControllerType ControllerNumber ControllerLocation DiskNumber Path
+------      -------------- ---------------- ------------------ ---------- ----
+VM300098957 IDE            0                0                             D:\VMs\VM300098957.vhdx
+
+
+PS C:\Users\Administrator> Get-VMNetworkAdapter -VMName $vm | Select VMName,SwitchName
+
+VMName      SwitchName
+------      ----------
+VM300098957 External
+```
