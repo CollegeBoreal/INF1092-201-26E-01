@@ -11,6 +11,19 @@ Number Friendly Name Serial Number                    HealthStatus         Opera
 0      HP LOGICAL... 5001438006EFCC90                 Healthy              Online                   273.4 GB MBR
 ```
 
+⚠️ 1TB Installed - offline
+
+```powershell
+get-disk
+```
+```
+Number Friendly Name Serial Number                    HealthStatus         OperationalStatus      Total Size Partition
+                                                                                                             Style
+------ ------------- -------------                    ------------         -----------------      ---------- ----------
+0      HP LOGICAL... 5001438006EFCC90                 Healthy              Online                   273.4 GB MBR
+1      PC811 SK h... ACE4_2E00_4167_A8D7_2EE4_AC00... Healthy              Offline                 953.87 GB MBR
+```
+
 ✅ 1TB Installed
 
 ```powershell
