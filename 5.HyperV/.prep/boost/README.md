@@ -152,10 +152,10 @@ CPU = limite réelle ⚠️
 
 ***
 
-# 🐓 winsat
+# 🧰 winsat - (Windows System Assessment Tool)
 
 ```bash
- winsat disk -drive C
+ winsat disk -drive D
 ```
 <details><summary>🪵 Log</summary>
 
@@ -163,27 +163,27 @@ CPU = limite réelle ⚠️
 Windows System Assessment Tool
 > Running: Feature Enumeration ''
 > Run Time 00:00:00.00
-> Running: Storage Assessment '-drive C -ran -read'
-> Run Time 00:00:03.66
-> Running: Storage Assessment '-drive C -seq -read'
-> Run Time 00:00:11.27
-> Running: Storage Assessment '-drive C -seq -write'
-> Run Time 00:00:25.28
-> Running: Storage Assessment '-drive C -flush -seq'
-> Run Time 00:00:17.00
-> Running: Storage Assessment '-drive C -flush -ran'
-> Run Time 00:00:21.67
+> Running: Storage Assessment '-drive D -ran -read'
+> Run Time 00:00:00.63
+> Running: Storage Assessment '-drive D -seq -read'
+> Run Time 00:00:08.66
+> Running: Storage Assessment '-drive D -seq -write'
+> Run Time 00:00:04.88
+> Running: Storage Assessment '-drive D -flush -seq'
+> Run Time 00:00:00.97
+> Running: Storage Assessment '-drive D -flush -ran'
+> Run Time 00:00:00.86
 > Dshow Video Encode Time                      0.00000 s
 > Dshow Video Decode Time                      0.00000 s
 > Media Foundation Decode Time                 0.00000 s
-> Disk  Random 16.0 Read                       6.51 MB/s          5.2
-> Disk  Sequential 64.0 Read                   232.98 MB/s          7.4
-> Disk  Sequential 64.0 Write                  30.57 MB/s          4.4
-> Average Read Time with Sequential Writes     7.012 ms          5.3
-> Latency: 95th Percentile                     15.266 ms          4.9
-> Latency: Maximum                             38.574 ms          7.9
-> Average Read Time with Random Writes         9.216 ms          4.7
-> Total Run Time 00:01:19.61
+> Disk  Random 16.0 Read                       618.69 MB/s          8.4
+> Disk  Sequential 64.0 Read                   1741.62 MB/s          8.9
+> Disk  Sequential 64.0 Write                  1202.02 MB/s          8.6
+> Average Read Time with Sequential Writes     0.067 ms          8.9
+> Latency: 95th Percentile                     0.138 ms          8.9
+> Latency: Maximum                             0.415 ms          8.9
+> Average Read Time with Random Writes         0.069 ms          8.9
+> Total Run Time 00:00:16.56
 ```
 
 </details>
