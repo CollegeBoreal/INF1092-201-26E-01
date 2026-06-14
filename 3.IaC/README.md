@@ -43,7 +43,7 @@ Il a trouvé des serveurs **HP DL360 G6 à 150$** et te demande :
 
 ### ✅ Travail demandé
 
-Propose une **méthode simple pour tester les serveurs**.
+Propose une **méthode simple pour tester les serveurs**. Créer un répertoire avec ton numéro d'étudiant :id: et décrit ses étapes dans ton fichier `README.md` avec les images que tu as prises pour argumenter tes recherches.
 
 ***
 
