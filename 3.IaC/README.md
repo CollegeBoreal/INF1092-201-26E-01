@@ -1,4 +1,4 @@
-# 🏗️ Infrastructure
+# 🧪 Infrastructure à Compléter d’un serveur (DL360 G6)
 
 | #️⃣ | Participations | Vérifications |
 |-|-|-| 
@@ -28,8 +28,6 @@
 | 2️⃣   |    |
 
 ***
-
-# 🧪 Infrastructure à Compléter d’un serveur (DL360 G6)
 
 ## 🧪 Tâche – Vérification serveur (DL360 G6)
 
