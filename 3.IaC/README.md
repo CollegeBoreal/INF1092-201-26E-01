@@ -178,7 +178,7 @@ Comprendre :
 | ------ | ----------- | ------------------------------ |
 | RAID 0 | Performance | Perte totale si 1 disque meurt |
 | RAID 1 | Sécurité ✅  | 50% capacité perdue            |
-| RAID 5 | Sécurité ✅  | 50% capacité perdue            |
+| RAID 5 | Sécurité ✅  | 66% capacité perdue            |
 
 💡 Le contrôleur P410i supporte plusieurs niveaux RAID matériel [\[hpe.com\]](https://www.hpe.com/psnow/downloadDoc/HP%20ProLiant%20DL360%20Generation%206%20%28G6%29-c04284365.pdf?id=c04284365&isFutureVersion=true&ver=11&form=false&preview=false&servePdfFile=true&hf=slim&isLinearized=false&contentDisposition=attachment)
 
