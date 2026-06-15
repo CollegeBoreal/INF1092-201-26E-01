@@ -37,13 +37,6 @@ jobs:
           pwsh .scripts/run.ps1
           Set-Location ../..
 
-      - name: Noter les devoirs
-        shell: pwsh
-        env:
-          LMS_URL: ${{ secrets.LMS_URL }}            # GitHub variable
-          API_SYNC_TOKEN: ${{ secrets.API_SYNC_TOKEN }} # GitHub secret
-        run: pwsh .scripts/grading/run-check.ps1 -Quiet
-
       - name: Commit files
         shell: pwsh
         run: |
