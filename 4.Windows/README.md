@@ -1,23 +1,136 @@
-# :window: Installer Windows
+# 🪟 INF1092 — Installer Windows Server 2022 (Datacenter)
 
-## :o: Materiel À surveiller
+## 🔍 1. Vérifications matériel AVANT installation
 
-- [ ] Apres allumage
+### 🚨 Symptôme critique
 
-* Fan reste longtemps :x: -> Problème Matériel
+* Ventilateur (**fan**) tourne longtemps à plein régime → ⚠️ problème matériel
 
-🏁 Vérifier
+### ✅ Checklist rapide
 
-- Les CPUs sont en place  
-- La mémoire
-- la carte `cache`
-- les périphériques d'entrées `USB A` et l'écran VGA
+* CPU(s) bien installés
+* RAM bien insérée
+* Carte **cache RAID** présente
+* Disque(s) détecté(s)
+* Écran VGA fonctionnel
+* Clavier/USB connectés
 
-## :a: Installer Windows Server Datacenter 2022
+***
 
-- soit par PXE - pxe@labinfo.local/Boreal@20️⃣26️⃣ 
-- soit par USB
+## ⚡ 2. Méthodes d’installation
 
+### 🌐 Option 1 — PXE (recommandé lab)
 
+* Boot réseau (**F12 / PXE boot**)
+* Serveur :
+  ```
+  pxe@labinfo.local
+  ```
+* Credentials :
+  
+  Boreal@20️⃣26️⃣
+  
+  
+***
 
-# :books: References
+### 💾 Option 2 — Clé USB
+
+* Insérer USB bootable
+* Choisir **Boot Menu (F11 / F12 / ESC selon serveur)**
+
+***
+
+## 🧱 3. Installation Windows Server 2022
+
+### Étapes essentielles (copier-coller mental)
+
+1. Choisir :
+   * **Windows Server 2022 Datacenter (Desktop Experience)** ✅
+
+2. Langue :
+   * Français (Canada) ou Anglais (selon lab)
+
+3. Disk :
+   * Sélectionner disque principal
+   * ⚠️ Supprimer partitions existantes si nécessaire
+
+4. Installation → attendre (≈ 10–20 min selon hardware)
+
+***
+
+## 🔐 4. Première connexion
+
+* Définir mot de passe admin : `Administrator`
+  ```
+  Complexe obligatoire (doit être: Boreal@20️⃣26️⃣)
+  ```
+
+***
+
+## ⚙️ 5. Post-install (ULTRA IMPORTANT lab)
+
+### 1. Renommer serveur
+
+```powershell
+Rename-Computer SRV-XX -Restart
+```
+
+***
+
+### 2. Configurer IP statique
+
+```powershell
+New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 10.7.237.X -PrefixLength 23 -DefaultGateway 10.7.237.1
+```
+
+***
+
+### 3. DNS
+
+```powershell
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 10.7.237.3
+```
+
+***
+
+### 4. Activer RDP
+
+```powershell
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
+```
+
+***
+
+## 🧪 6. Vérifications rapides
+
+```powershell
+hostname
+ipconfig
+ping 8.8.8.8
+```
+
+***
+
+## 🚨 7. Problèmes fréquents (LAB)
+
+| Problème        | Cause probable  | Fix                       |
+| --------------- | --------------- | ------------------------- |
+| PXE ne boot pas | VLAN / DHCP     | Vérifier réseau           |
+| Disque absent   | RAID mal config | Vérifier BIOS/Smart Array |
+| Fan 100%        | Hardware        | Vérifier RAM/CPU          |
+| Pas réseau      | Driver NIC      | Installer driver          |
+
+***
+
+## 🧠 TL;DR (méga condensé étudiant)
+
+```
+1. Check hardware ✅
+2. Boot PXE ou USB
+3. Install Datacenter GUI
+4. Delete partitions si besoin
+5. Set admin password
+6. Rename + IP + DNS
+7. Enable RDP
+```
