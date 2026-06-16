@@ -18,6 +18,8 @@
 | 2️⃣   | 25 | 🅰️ G6️⃣      | S25 | MXQ016001V✅ | 10.7.237.24                 | 64GB | 16  | 273.4G  |   
 | 2️⃣   | 24 | 🅰️ G6️⃣      | S13 | MXQ0030BLP✅ | 10.7.237.28                 | 64GB | 16  | 273.4G  | ➿ Switch HDDs+Cache from MXQ02302FC 
 
-<image src=images/signal-2026-06-16-101528_002.jpeg width=50% height=50% > </image>
-<image src=images/signal-2026-06-16-101528_003.jpeg width=50% height=50% > </image>
-<image src=images/signal-2026-06-16-101528_005.jpeg width=50% height=50% > </image>
+| |
+|-|
+| <image src=images/signal-2026-06-16-101528_002.jpeg width=50% height=50% > </image> |
+| <image src=images/signal-2026-06-16-101528_003.jpeg width=50% height=50% > </image> |
+| <image src=images/signal-2026-06-16-101528_005.jpeg width=50% height=50% > </image> |
