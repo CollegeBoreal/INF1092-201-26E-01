@@ -18,7 +18,7 @@
 |------|-------------|-----------|--------|
 | 0 | [300124366](../300124366/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261495945?s=460&v=4' width=20 height=20></image>](https://github.com/rb0980h-dot) | :1st_place_medal: | :heavy_check_mark: |
 | 1 | [300147253](../300147253/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image>](https://github.com/octocat) | :x: | :x: |
-| 2 | [300147891](../300147891/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261496046?s=460&v=4' width=20 height=20></image>](https://github.com/amadbarry96) | :2nd_place_medal: | :heavy_check_mark: |
+| 2 | [300147891](../300147891/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261496046?s=460&v=4' width=20 height=20></image>](https://github.com/amadbarry96) | :1st_place_medal: | :heavy_check_mark: |
 | 3 | [300150396](../300150396/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image>](https://github.com/ibkourouma) | :1st_place_medal: | :heavy_check_mark: |
 | 4 | [300151722](../300151722/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261488966?s=460&v=4' width=20 height=20></image>](https://github.com/islamoustani5-collab) | :2nd_place_medal: | :heavy_check_mark: |
 | 5 | [300152004](../300152004/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/218153814?s=460&v=4' width=20 height=20></image>](https://github.com/danielmananga) | :1st_place_medal: | :heavy_check_mark: |
