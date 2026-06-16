@@ -1,5 +1,17 @@
 # 🪟 INF1092 — Installer Windows Server 2022 (Datacenter)
 
+| #️⃣ | Participations |
+|-|-|
+| 1️⃣ | [:tada: Participation](.scripts/Participation-group1.md) |
+| 2️⃣ | [:tada: Participation](.scripts/Participation-group2.md) |
+| 3️⃣ | [:tada: Participation](.scripts/Participation-group3.md) |
+| 4️⃣ | [:tada: Participation](.scripts/Participation-group4.md) |
+| 5️⃣ | [:tada: Participation](.scripts/Participation-group5.md) |
+| 6️⃣ | [:tada: Participation](.scripts/Participation-group6.md) |
+| 7️⃣ | [:tada: Participation](.scripts/Participation-group7.md) |
+| 8️⃣ | [:tada: Participation](.scripts/Participation-group8.md) |
+| 9️⃣ | [:tada: Participation](.scripts/Participation-group9.md) |
+
 
 ## 🗄️ Rack 2️⃣ - 📇 42U
 

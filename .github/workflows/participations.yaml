@@ -37,6 +37,14 @@ jobs:
           pwsh .scripts/run.ps1
           Set-Location ../..
 
+          ##
+          ## Évaluation du chapitre 4.Windows
+          ##
+          Write-Host "Evaluating chapter 4.Windows  Participation"
+          Set-Location 4.Windows
+          pwsh .scripts/run.ps1
+          Set-Location ../..
+
       - name: Commit files
         shell: pwsh
         run: |
