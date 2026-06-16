@@ -1,7 +1,3 @@
-Voici une **explication claire et précise** de chaque commande (dans le contexte d’un serveur Hyper‑V Windows Server 2022 👇).
-
-***
-
 # 🔧 Bloc 1 — Préparer le serveur pour l’administration distante
 
 ```powershell
@@ -41,34 +37,9 @@ Enable-WSManCredSSP -Role server -Force
 
 ***
 
-# 🖥️ Bloc 2 — Installer Hyper‑V
-
-```powershell
-Install-WindowsFeature Hyper-V -IncludeManagementTools
-```
-
-✅ Installe :
-
-* Hyper‑V (hyperviseur)
-* Hyper‑V Manager + outils admin
-
-✔ Après ça :
-
-* le serveur devient host Hyper‑V
-* tu peux créer des VMs
-
 ***
 
-```powershell
-Restart-Computer -Force
-```
-
-✅ Redémarrage obligatoire  
-→ Hyper‑V s’active **au boot (hypervisor layer)**
-
-***
-
-# 🔐 Bloc 3 — Autoriser un hôte distant spécifique
+# 🔐 Bloc 2 — Autoriser un hôte distant spécifique
 
 ```powershell
 Set-Item WSMan:\localhost\Client\TrustedHosts -Value "10.7.237.27"
@@ -99,23 +70,12 @@ Set-Item WSMan:\localhost\Client\TrustedHosts -Value "10.7.237.27"
 
 1. Active remote management (PS + WinRM)
 2. Active délégation d’identifiants (CredSSP)
-3. Installe Hyper‑V
-4. Redémarre
-5. Autorise un client distant spécifique
+3. Redémarre
+4. Autorise un client distant spécifique
 
 ➡️ En résumé :
 
-> tu prépares un **Hyper‑V host administrable à distance**
-
-***
-
-# 💡 Dans ton setup (cours INF / lab)
-
-Ce bloc est typique pour :
-
-* piloter Hyper‑V depuis ton poste prof
-* automatiser création de VMs étudiants
-* utiliser PowerShell / Terraform / Ansible
+> tu prépares un **host administrable à distance**
 
 ***
 
@@ -123,10 +83,5 @@ Ce bloc est typique pour :
 
 * `Enable-PSRemoting` → accès distant PowerShell
 * `Enable-WSManCredSSP` → double hop auth
-* `Install-WindowsFeature Hyper-V` → installe hyperviseur
-* `Restart-Computer` → active Hyper‑V
 * `TrustedHosts` → autorise connexion depuis IP donnée
 
-***
-
-Si tu veux, je peux t’optimiser ce script pour ton lab (ex: multi-serveurs + étudiants + automation Proxmox vs Hyper‑V 😄).
