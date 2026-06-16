@@ -35,7 +35,7 @@ jobs:
           Write-Host "Evaluating chapter 3.IaC  Participation"
           Set-Location 3.IaC
           pwsh .scripts/run.ps1
-          Set-Location ../..
+          Set-Location ..
 
           ##
           ## Évaluation du chapitre 4.Windows
@@ -43,7 +43,7 @@ jobs:
           Write-Host "Evaluating chapter 4.Windows  Participation"
           Set-Location 4.Windows
           pwsh .scripts/run.ps1
-          Set-Location ../..
+          Set-Location ..
 
       - name: Commit files
         shell: pwsh
