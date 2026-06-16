@@ -27,7 +27,7 @@ Un employeur veut créer un **mini data center à faible coût**.
 
 Il a trouvé des serveurs **HP DL360 G6 à 150$** et te demande :
 
-👉 **“Comment rajouter de l<expace disque sur Windows Server 2022 Datacenter ?”**
+👉 **“Comment ajouter de l'expace disque sur Windows Server 2022 Datacenter ?”**
 
 ***
 
