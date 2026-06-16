@@ -27,6 +27,76 @@
 | 2️⃣   | 25 | 🅰️ G6️⃣      | S17 | MXQ02302FC⚠️ | 10.7.237.28 | 32GB ⚠️ | 16  | 273.4G  | 🪟 2022 DC 🚨 $\color{red}RAM-P2(3,6)$ |
 | 2️⃣   | 24 | 🅰️ G6️⃣      | S13 | MXQ0030BLP✅ | [10.7.237.16](https://10.7.237.16:8006) | 64GB | 16  | 273.4G  | ⚠️ A installer  | 
 
+***
+
+## 🧪 Tâche – Installation de Windows Server 2022 DataCenter
+
+### 🎯 Situation
+
+Un employeur veut créer un **mini data center à faible coût**.
+
+Il a trouvé des serveurs **HP DL360 G6 à 150$** et te demande :
+
+👉 **“Comment installer Windows Server 2022 Datacenter ?”**
+
+***
+
+### ✅ Travail demandé
+
+Propose une **méthode simple pour installer Windows Server sur les serveurs**. Créer un répertoire avec ton numéro d'étudiant :id: et décrit ses étapes dans ton fichier `README.md` avec les images que tu as prises pour argumenter tes recherches.
+
+***
+
+### ✅ Réponse attendue (format checklist)
+
+```
+1. Inspection physique
+   - Étape effectué dans le laboratoire précédent
+   - Matériel assemblé
+
+2. Alimentation
+   - PSU1 + PSU2 OK
+
+3. Réseau
+   - ports fonctionnels
+```
+
+***
+
+### ✅ Décision finale
+
+```
+INSTALLER ✅ si:
+- Windows Server 2022 fonctionne
+- Ethernet fonctionne
+- aucune erreur
+
+REFUSER ❌ si:
+- Installation non faite
+- erreur RAM
+- serveur instable
+```
+
+***
+
+### ⚡ Résumé ultra rapide
+
+```
+BOOT → PXE → INSTALL = connecter à Windows ✅
+```
+
+***
+
+## 🎯 Objectif
+
+Comprendre :
+
+* L'installation d'un serveur Windows
+* la connection à l'internet
+* L'accès à distance au serveur
+
+***
+
 ## 🔍 1. Vérifications matériel AVANT installation
 
 ### 🚨 Symptôme critique
