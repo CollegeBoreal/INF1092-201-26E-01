@@ -1,4 +1,4 @@
- Laboratoire IaC
+Laboratoire IaC
 **Étudiant :** Amadou  
 **Numéro :** 300159672  
 **Cours :** INF1092 
