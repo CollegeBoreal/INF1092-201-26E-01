@@ -1,515 +1,294 @@
-# 🏗️ Infrastructure as Code (IaC)
+# 🧪 Infrastructure à Compléter d’un serveur (DL360 G6)
 
-| #️⃣ | Participations | Vérifications |
-|-|-|-| 
-| 1️⃣ | [:tada: Participation](.scripts/Participation-group1.md) | [:checkered_flag: Vérification](.scripts/Check-group1.md) |
-| 2️⃣ | [:tada: Participation](.scripts/Participation-group2.md) | [:checkered_flag: Vérification](.scripts/Check-group2.md) |
-| 3️⃣ | [:tada: Participation](.scripts/Participation-group3.md) | [:checkered_flag: Vérification](.scripts/Check-group3.md) |
-| 4️⃣ | [:tada: Participation](.scripts/Participation-group4.md) | [:checkered_flag: Vérification](.scripts/Check-group4.md) |
-| 5️⃣ | [:tada: Participation](.scripts/Participation-group5.md) | [:checkered_flag: Vérification](.scripts/Check-group5.md) |
-| 6️⃣ | [:tada: Participation](.scripts/Participation-group6.md) | [:checkered_flag: Vérification](.scripts/Check-group6.md) |
-| 7️⃣ | [:tada: Participation](.scripts/Participation-group7.md) | [:checkered_flag: Vérification](.scripts/Check-group7.md) |
-| 8️⃣ | [:tada: Participation](.scripts/Participation-group8.md) | [:checkered_flag: Vérification](.scripts/Check-group8.md) |
+| #️⃣ | Participations |
+|-|-|
+| 1️⃣ | [:tada: Participation](.scripts/Participation-group1.md) |
+| 2️⃣ | [:tada: Participation](.scripts/Participation-group2.md) |
+| 3️⃣ | [:tada: Participation](.scripts/Participation-group3.md) |
+| 4️⃣ | [:tada: Participation](.scripts/Participation-group4.md) |
+| 5️⃣ | [:tada: Participation](.scripts/Participation-group5.md) |
+| 6️⃣ | [:tada: Participation](.scripts/Participation-group6.md) |
+| 7️⃣ | [:tada: Participation](.scripts/Participation-group7.md) |
+| 8️⃣ | [:tada: Participation](.scripts/Participation-group8.md) |
+| 9️⃣ | [:tada: Participation](.scripts/Participation-group9.md) |
 
-## 🗄️ Rack 2️⃣
+## 🗄️ Rack 2️⃣ - 📇 42U
 
-| Rack | #️⃣ | Type de serveur      | Étiquette | Host IP                 | RAM (GB) | CPU | DD (GB) | OS                             | Services                                                 |
-| ---- | -: | -------------------- | --------- | ----------------------- | -------- | --- | ------- | ------------------------------ | -------------------------------------------------------- |
-| 2️⃣    | 34       | HP Proliant DL360 G6️⃣ | S18       | 10.7.237.22             | 28       | 16  | 273.4G     | —      | —     |
-| 2️⃣    | 33       | HP Proliant DL360 G6️⃣ | S19       | 10.7.237.7              | 16       | 16  | 273.4G     | —      | —     |
-| 2️⃣    | 32       | HP Proliant DL360 G6️⃣ | S37       | 10.7.237.13             | 64       | 16  | 273.4G  | —      | —     |
-| 2️⃣    | 31       | HP Proliant DL360 G6️⃣ | S39       | 10.7.237.35             | 28       | 16  | 273.4G     | —                           
-| 2️⃣    |          |
-| 2️⃣    | 28       | HP Proliant DL360 G6️⃣ | S21       | 10.7.237.19             | 36       | 16  | 273.4G     | —      | —     |
-| 2️⃣    | 27       | HP Proliant DL360 G6️⃣ | S25       | 10.7.237.24             | 56       | 16  | 273.4G     | —      | —     |
-| 2️⃣    | 25       | HP Proliant DL360 G6️⃣ | S17       | 10.7.237.28             | 48       | 16  | 273.4G     | —      | —     |
-| 2️⃣    | 26       | HP Proliant DL360 G6️⃣ | S27       | 10.7.237.34             | 44       | 16  | 273.4G     | —      | —     |
+| Rack | U#️⃣| 🏙️ Serveurs | 🏷️  | S/N #️⃣     | Host IP                                 | RAM  | CPU | HD      | Operating Systems      | Services                           |
+| ---- | -:| ------------| --- | --------- | ---------------------------------------  | ---: | ---:| ------- | ---------------------- | ---------------------------------- |
+| 2️⃣   |    |
+| 2️⃣   | 34 | 🅰️ G6️⃣      | S18 | MXQ9410AFZ | 10.7.237.22                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   | 33 | 🅰️ G6️⃣      | S19 | MXQ00309PP | 10.7.237.7                              | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   | 32 | 🅰️ G6️⃣      | S37 | MXQ01105H4 | 10.7.237.13                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   | 31 | 🅰️ G6️⃣      | S39 | USE025N7B5 | 10.7.237.35                             | 64GB | 16  | 273.4G  | 🪟 2022 DC 🚨 $\color{red}RAM-P2G$ [1]       
+| 2️⃣   |    |
+| 2️⃣   | 28 | 🅰️ G6️⃣      | S21 | MXQ0390BMX | 10.7.237.19                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   | 27 | 🅰️ G6️⃣      | S25 | MXQ016001V | 10.7.237.24                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   | 25 | 🅰️ G6️⃣      | S17 | MXQ02302FC | 10.7.237.28                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   | 26 | 🅰️ G6️⃣      | S27 | USE928N320 | 10.7.237.34                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   |    |
 
+***
 
+## 🧪 Tâche – Vérification serveur (DL360 G6)
 
-## 1. Introduction
+### 🎯 Situation
 
-Traditionnellement, l’administration des systèmes se faisait **manuellement** :
+Un employeur veut créer un **mini data center à faible coût**.
 
-* installation à la main
-* configurations faites “à la souris”
-* documentation incomplète
-* environnements difficiles à reproduire
+Il a trouvé des serveurs **HP DL360 G6 à 150$** et te demande :
 
-👉 **Problème majeur** :
+👉 **“Comment vérifier qu’ils fonctionnent correctement AVANT de les acheter ?”**
 
-> *“Ça marche sur ce serveur, mais pas sur l’autre.”*
+***
 
-### Solution moderne : Infrastructure as Code (IaC)
+### ✅ Travail demandé
 
-L’**Infrastructure as Code** consiste à **décrire, déployer et gérer une infrastructure informatique à l’aide de code**, plutôt que par des actions manuelles.
+Propose une **méthode simple pour tester les serveurs**. Créer un répertoire avec ton numéro d'étudiant :id: et décrit ses étapes dans ton fichier `README.md` avec les images que tu as prises pour argumenter tes recherches.
 
----
+***
 
-## 2. Définition
-
-> **Infrastructure as Code (IaC)** est une approche de programmation système qui permet de gérer les ressources informatiques (serveurs, réseaux, services, utilisateurs, stockage) à l’aide de fichiers de configuration versionnés et exécutables automatiquement.
-
----
-
-## 3. Où se situe l’IaC en programmation système ?
-
-### Position dans la pile système
+### ✅ Réponse attendue (format checklist)
 
 ```
-Applications
-──────────────
-Services (Web, DB, DNS, AD, Containers)
-──────────────
-Infrastructure as Code (IaC)
-──────────────
-Shell / API OS / Hyperviseur / Cloud
-──────────────
-Noyau (Linux / Windows)
-──────────────
-Matériel
+1. Inspection physique
+   - état général
+   - ventilateurs OK
+
+2. Démarrage
+   - boot OK
+   - BIOS accessible
+
+3. Matériel
+   - CPU / RAM détectés
+   - disques présents
+
+4. RAID (important)
+   - status = OK
+   - aucun disque failed
+
+5. Disques
+   - santé (SMART OK)
+
+6. Diagnostic
+   - test RAM / CPU
+   - pas d’erreur
+
+7. Alimentation
+   - PSU1 + PSU2 OK
+
+8. Réseau
+   - ports fonctionnels
 ```
 
-👉 L’IaC :
+***
 
-* **ne programme pas le noyau**
-* **programme le système et son infrastructure**
-* agit via des **API, des services système et des hyperviseurs**
+### ✅ Décision finale
 
----
+```
+ACHETER ✅ si:
+- tout fonctionne
+- RAID sain
+- aucun error
 
-## 4. Pourquoi utiliser l’IaC ?
-
-### Problèmes sans IaC
-
-* erreurs humaines
-* incohérences entre serveurs
-* déploiements lents
-* documentation non fiable
-
-### Avantages de l’IaC
-
-| Avantage         | Description                            |
-| ---------------- | -------------------------------------- |
-| Reproductibilité | Même infrastructure, partout           |
-| Automatisation   | Déploiement sans intervention manuelle |
-| Versionnement    | Git = historique, rollback             |
-| Fiabilité        | Moins d’erreurs humaines               |
-| Rapidité         | Déploiement en minutes                 |
-| Auditabilité     | Tout est traçable                      |
-
----
-
-## 5. IaC vs scripts système classiques
-
-### Scripts système (bash / PowerShell)
-
-```bash
-apt update
-apt install nginx
-systemctl start nginx
+REFUSER ❌ si:
+- disque ou RAID FAIL
+- erreur RAM
+- serveur instable
 ```
 
-* impératif
-* dépend de l’ordre
-* difficile à maintenir
+***
 
-### IaC (déclaratif)
+### ⚡ Résumé ultra rapide
 
-```hcl
-resource "nginx_server" {
-  version = "1.24"
-  port    = 80
-}
+```
+BOOT → RAID → DISK → RAM → OK = acheter ✅
 ```
 
-* déclaratif
-* décrit **l’état final**
-* l’outil décide *comment* y arriver
+***
 
----
+## 🎯 Objectif
 
-## 6. Approches de l’IaC
+Comprendre :
 
-### 6.1 IaC déclaratif
+* les composants d’un serveur
+* l’assemblage logique
+* le RAID
+* l’utilisation en virtualisation
 
-> *Voici l’état voulu*
+***
 
-* Terraform / OpenTofu
-* CloudFormation
-* Kubernetes YAML
+# 🧩 PARTIE 1 — Identification des composants ✅
 
-✔ recommandé
-✔ reproductible
-✔ idempotent
+### ✅ Réponses attendues
 
----
+| Composant              | Rôle            | Présent? | Notes                  |
+| ---------------------- | --------------- | -------- | ---------------------- |
+| CPU (Xeon)             | Traitement      | ✅        | 2 sockets, multi‑cœurs |
+| RAM ECC DDR3           | Mémoire         | ✅        | Jusqu’à 192GB          |
+| Carte mère             | Interconnexion  | ✅        | Support Xeon 5500/5600 |
+| RAID P410i             | Gestion disques | ✅        | RAID matériel          |
+| Disques (SAS/SATA/SSD) | Stockage        | ✅        | 4 baies                |
+| PSU (2x)               | Alimentation    | ✅        | Redondance             |
+| NIC                    | Réseau          | ✅        | 2 × 1Gb                |
+| Ventilateurs           | Refroidissement | ✅        | Obligatoire            |
 
-### 6.2 IaC impératif
+💡 Tous ces éléments forment l’architecture standard d’un serveur (CPU, RAM, stockage, réseau, alimentation) [\[szwecent.com\]](https://www.szwecent.com/what-are-the-essential-components-of-a-server/)
 
-> *Fais ceci, puis cela*
+***
 
-* Scripts shell
-* Ansible (mixte)
+# ⚙️ PARTIE 2 — Assemblage logique ✅
 
-✔ flexible
-✖ plus complexe à maintenir
+### ✅ Ordre correct
 
----
-
-## 7. Que peut-on gérer avec l’IaC ?
-
-* Machines virtuelles
-* Réseaux (VLAN, bridges, firewall)
-* Stockage
-* Utilisateurs et permissions
-* Services (web, DB, DNS)
-* Containers
-* Clusters
-* Infrastructure cloud
-* Infrastructure locale (Proxmox, VMware)
-
-👉 **L’infrastructure devient un programme.**
-
----
-
-## 8. Outils IaC courants
-
-### Outils d’orchestration
-
-* **Terraform / OpenTofu**
-* CloudFormation
-* Pulumi
-
-### Outils de configuration
-
-* Ansible
-* Puppet
-* Chef
-
-### Plateformes ciblées
-
-* Proxmox
-* AWS / Azure / GCP
-* Kubernetes
-
----
-
-## 9. Exemple simple (conceptuel)
-
-### Objectif
-
-> Créer automatiquement une VM Linux avec un serveur web.
-
-### Étapes IaC
-
-1. Définir la VM
-2. Allouer CPU / RAM
-3. Créer le réseau
-4. Installer le service web
-5. Exposer le port
-
-👉 **Une seule commande** :
-
-```bash
-tofu apply
+```
+1. Installer CPU #1 et CPU #2
+2. Installer RAM (équilibrée par CPU)
+3. Installer contrôleur RAID (déjà intégré ici)
+4. Insérer les disques dans les baies
+5. Vérifier les ventilateurs
+6. Brancher les alimentations (PSU1 + PSU2)
+7. Fermer le châssis
+8. Installer dans le rack (1U)
 ```
 
----
+💡 Un serveur rack 1U est compact → airflow critique, densité élevée [\[clrn.org\]](https://www.clrn.org/how-to-build-a-rack-mount-server/)
 
-## 10. IaC et bonnes pratiques
+***
 
-* Infrastructure versionnée (Git)
-* Pas de modification manuelle en production
-* Séparation dev / test / prod
-* Variables et secrets sécurisés
-* Documentation = code
+# 💾 PARTIE 3 — RAID ✅
 
----
+### ✅ Réponses
 
-## 11. IaC et DevOps
+**Q1 — RAID recommandé :**
+👉 RAID 1
 
-L’IaC est un **pilier du DevOps** :
+**Pourquoi :**
 
-* CI/CD
-* déploiement continu
-* scalabilité
-* résilience
-* SRE
+* Redondance (miroir)
+* Sécurité des données
 
-👉 Sans IaC, **le DevOps n’est pas viable à grande échelle**.
+**Q2 — Si 1 disque tombe :**
+👉 Le serveur CONTINUE de fonctionner
 
----
+***
 
-## 12. Place de l’IaC dans le cours
+### ⚠️ Alternatif
 
-### Prérequis recommandés
+| RAID   | Avantage    | Inconvénient                   |
+| ------ | ----------- | ------------------------------ |
+| RAID 0 | Performance | Perte totale si 1 disque meurt |
+| RAID 1 | Sécurité ✅  | 50% capacité perdue            |
+| RAID 5 | Sécurité ✅  | 66% capacité perdue            |
 
-* Linux / Windows
-* Bash / PowerShell
-* Réseaux
-* Virtualisation
-
-### Position idéale dans la session
-
-1. Scripts système
-2. Services et démons
-3. Virtualisation
-4. **Infrastructure as Code**
-5. Orchestration avancée
-
----
-
-## 13. Objectifs pédagogiques
-
-À la fin de cette leçon, l’étudiant(e) sera capable de :
-
-* expliquer le concept d’IaC
-* distinguer script système et IaC
-* décrire une infrastructure de manière déclarative
-* utiliser un outil IaC de base
-* automatiser un déploiement système
-
----
-
-## 14. Phrase de conclusion
-
-> **L’Infrastructure as Code transforme l’administration système en une discipline de programmation structurée, reproductible et industrielle.**
-
-# :b: Expérimentation
-
-### 🎛️ Créer un fichier dans ce répertoire `(3.IaC)`:
-
-:checkered_flag: Finalement,
-
-- [ ] Créer un répertoire avec :id: (votre identifiant boreal)
-   - [ ] `mkdir ` :id:
-- [ ] dans votre répertoire ajouter le fichier `README.md`
-  - [ ] `nano `README.md
-- [ ] envoyer vers le serveur `github.com`
-  - [ ] `cd ..`
-  - [ ] `git add `:id: 
-  - [ ] `git commit -m "mon fichier ..."`
-  - [ ] `git push`
-
-- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
-   - [ ] `cd ` :id:
-
-- [ ] Continuer les 🔄 Exercices 
-
-### 🔄 Exercices
-
-<img src=images/Proxmox-INF1102.png width='50%' height='50%' > </img>
+💡 Le contrôleur P410i supporte plusieurs niveaux RAID matériel [\[hpe.com\]](https://www.hpe.com/psnow/downloadDoc/HP%20ProLiant%20DL360%20Generation%206%20%28G6%29-c04284365.pdf?id=c04284365&isFutureVersion=true&ver=11&form=false&preview=false&servePdfFile=true&hf=slim&isLinearized=false&contentDisposition=attachment)
 
 
-OpenTofu works **almost exactly like Terraform**, and Proxmox VE 7 is well-supported via the **Telmate Proxmox provider**.
+Parfait — ça devient **beaucoup plus intéressant pour ton lab** 👍  
+👉 Avec **3 disques SAS 10K**, on corrige la partie RAID.
 
-Below is a **minimal, working, PVE-7-friendly workflow**.
+***
 
-#### 1️⃣ Install OpenTofu
+# PARTIE 3 — RAID ✅
 
-On your workstation:
+### ✅ Réponses
 
-- [ ] Windows 🪟
+**RAID recommandé :**
+👉 **RAID 5**
 
-```bash
-choco install opentofu
+***
+
+## 📊 Explication simple (réponse modèle)
+
+```
+RAID 5 est adapté car :
+- nécessite minimum 3 disques ✅
+- offre tolérance à la panne (1 disque peut tomber)
+- optimise l’espace disque (pas 50% perdu comme RAID 1)
 ```
 
-- [ ] Mac 🍎
+***
 
-```bash
-brew install opentofu
+### ⚠️ Comportement en cas de panne
+
+👉 Si **1 disque tombe** :
+
+```
+- le serveur continue de fonctionner ✅
+- performance réduite ❌
+- reconstruction nécessaire après remplacement
 ```
 
-Verify:
+***
 
-```bash
-tofu version
+### 📦 Comparaison mise à jour (important pour examen)
+
+| RAID    | Disques requis | Tolérance panne | Capacité utile |
+| ------- | -------------- | --------------- | -------------- |
+| RAID 0  | 2+             | ❌               | 100%           |
+| RAID 1  | 2              | ✅ 1 disque      | 50%            |
+| RAID 5  | 3+ ✅           | ✅ 1 disque      | \~66%          |
+| RAID 10 | 4+             | ✅               | 50%            |
+
+💡 RAID 5 utilise une **parité distribuée** pour reconstruire les données [\[hpe.com\]](https://www.hpe.com/psnow/downloadDoc/HP%20ProLiant%20DL360%20Generation%206%20%28G6%29-c04284365.pdf?id=c04284365&isFutureVersion=true&ver=11&form=false&preview=false&servePdfFile=true&hf=slim&isLinearized=false&contentDisposition=attachment)
+
+### ✅ Version ultra-courte (cheat sheet étudiants)
+
 ```
-```lua
-OpenTofu v1.11.3
-on darwin_arm64
-+ provider registry.opentofu.org/telmate/proxmox v2.9.14
-```
-
----
-
-#### 2️⃣ Create project structure
-
-
-Go to your directory :id:
-
-- [ ] Sur bash 🐧
-
-```bash
-touch provider.tf main.tf variables.tf terraform.tfvars
+3 disques = RAID 5 ✅
+Tolère 1 panne ✅
+Capacité ≈ 66%
 ```
 
-- [ ] Sur Powershell 🪟
+***
 
-```powershell
-New-Item provider.tf, main.tf, variables.tf, terraform.tfvars -ItemType File
+# 🌐 PARTIE 4 — Virtualisation ✅
+
+### ✅ Réponses attendues
+
+**Q1 — Pourquoi bon pour virtualisation?**
+
+* 2 CPU → multi‑VM
+* Beaucoup de RAM
+* RAID → fiabilité
+* 2 NIC → segmentation réseau
+
+**Q2 — OS possible :**
+
+* VMware ESXi ✅
+* Proxmox ✅
+* Windows Server ✅
+* Linux ✅
+
+***
+
+# 🧠 PARTIE 5 — Contraintes ✅
+
+### ✅ Réponses obligatoires
+
+| Limitation  | Explication            |
+| ----------- | ---------------------- |
+| Pas UEFI    | Boot legacy uniquement |
+| CPU ancien  | Performance limitée    |
+| DDR3        | Pas optimal vs DDR4/5  |
+| RAID ancien | Moins flexible         |
+| 1Gb réseau  | Goulot possible        |
+
+***
+
+# ✅ Version ultra-courte (cheat sheet étudiants)
+
 ```
+CPU = traitement
+RAM = mémoire
+RAID = sécurité ou performance
+NIC = réseau
+PSU = alimentation
 
----
+RAID1 = recommandé ✅
 
-#### 3️⃣ Provider configuration (`provider.tf`)
-
-```hcl
-terraform {
-  required_providers {
-    proxmox = {
-      source  = "telmate/proxmox"
-      version = ">= 2.9.0"
-    }
-  }
-}
-
-provider "proxmox" {
-  pm_api_url      = var.pm_url
-  pm_api_token_id = var.pm_token_id
-  pm_api_token_secret = var.pm_token_secret
-  pm_tls_insecure = true
-}
+DL360 G6:
+- ancien hardware
+- pas UEFI
+- bon pour lab virtualisation
 ```
-
----
-
-#### 4️⃣ VM resource (Cloud-Init VM) (`main.tf`)
-
-Example **Ubuntu VM** cloned from a template:
-
-```hcl
-resource "proxmox_vm_qemu" "vm1" {
-  name        = var.pm_vm_name
-  target_node = "labinfo"
-  clone       = "ubuntu-jammy-template"
-  full_clone  = false
-
-  cores   = 2
-  sockets = 1
-  memory  = 2048
-
-  scsihw = "virtio-scsi-pci"
-
-  disk {
-    size    = "10G"
-    type    = "scsi"
-    storage = "local-lvm"
-  }
-
-  network {
-    model  = "virtio"
-    bridge = "vmbr0"
-  }
-
-  os_type = "cloud-init"
-
-  ipconfig0 = var.pm_ipconfig0
-  nameserver = var.pm_nameserver
-
-  ciuser  = "ubuntu"
-  sshkeys = <<EOF
-   ${file("~/.ssh/ma_cle.pub")}
-   ${file("~/.ssh/cle_publique_du_prof.pub")}
-  EOF
-}
-```
-
----
-
-#### 5️⃣ Variables (`variables.tf`)
-
-```hcl
-variable "pm_vm_name" {
-  type = string
-}
-
-variable "pm_ipconfig0" {
-  type = string
-}
-
-variable "pm_nameserver" {
-  type = string
-}
-
-variable "pm_url" {
-  type = string
-}
-
-variable "pm_token_id" {
-  type = string
-}
-
-variable "pm_token_secret" {
-  type      = string
-  sensitive = true
-}
-```
-
----
-
-#### 6️⃣ Secrets (`terraform.tfvars`)
-
-```hcl
-pm_vm_name      = "vm300xxxxxx"
-pm_ipconfig0    = "ip=10.7.237.xxx/23,gw=10.7.237.1"
-pm_nameserver   = "10.7.237.3"
-pm_url          = "https://10.7.237.xx:8006/api2/json"
-pm_token_id     = "tofu@pve!opentofu"
-pm_token_secret = "4fa24fc3-bd8c-4916-ba6e-09xxxxxxx3b00"
-```
-
-⚠️ **Do not commit this file**
-
----
-
-#### 7️⃣ Initialize & apply
-
-```bash
-tofu init
-tofu plan
-tofu apply
-```
-
-Type `yes`.
-
-🎉 VM will appear in Proxmox.
-
----
-
-#### 8️⃣ Test VM
-
-- [ ] 🐧 Linux
-
-```lua
-ssh -i ~/.ssh/ma_cle.pk \
-  -o StrictHostKeyChecking=no \
-  -o UserKnownHostsFile=/tmp/ssh_known_hosts_empty \
-  ubuntu@10.7.237.xxx
-```
-
-- [ ] 🪟 Powershell
-
-```powershell
-ssh -i ~/.ssh/ma_cle.pk `
-  -o StrictHostKeyChecking=no `
-  -o UserKnownHostsFile=/tmp/ssh_known_hosts_empty `
-  ubuntu@10.7.237.xxx
-```
-
-
-# :books: References
-
-| Cle du prof                     |
-|---------------------------------|
-| nano ~/.ssh/cle_publique_du_prof.pub |
-
-- [ ] Copier dans le fichier ci-dessus
-
-```lua
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2pLhMqFGKffSdYvNCMAyM7598oBY+m/3q5AMXmb7IE6vq42+yGzqEUzZu9WrFckFD4Hq52rIU5DeOvi83DCF3uroXjNTEtCKdi+tY7cV18bHmsDsBHMqTnpuvroofgFWA0Pi++b2kGW2I5eyy1Qjv5rOp7y11Xe6XeZFEz7qQO1/xNiBMJEruG9Xldgooe4hkaOF39qnbqD4ui3LxYaTUTEulstw4wN70dSB8Zu9YQP7A7KU2zIEwJ1aw8whfO1CAM/AVvoDyqMtV8VXoaZSHOBgluMtinQfyyt473S2ZZeJlnmhK0F1gdOhO4SVZNRMj96m30ryYkYBFWvvLRP5N b300098957@ramena
-```
-
-< images src="images/WhatsApp%20Image%202026-05-26%20at%2016.19.41%20(1).jpeg" width="50" height="50"> </h1>
