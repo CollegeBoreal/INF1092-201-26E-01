@@ -28,6 +28,7 @@ Pendant ce laboratoire, j’ai installé Microsoft Windows Server avec Windows D
 Après cela, j’ai sélectionné le disque de destination et lancé l’installation de Windows Server. Les fichiers ont été copiés automatiquement.
 À la fin de l’installation, j’ai accepté la licence et créé le compte Administrateur avec un mot de passe sécurisé. Le serveur était ensuite prêt à être utilisé.
 
+![image alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/a016fcb38293a766530c8c39d376d1721e41ebc2/4.Windows/300157606/images/IMG-20260620-WA0092.jpg)
 
 
 
