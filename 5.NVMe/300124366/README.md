@@ -1,5 +1,6 @@
 Rapport de laboratoire – Installation d’un disque NVMe
 
+
 Déroulement
 
 Lors du laboratoire, nous avons installé le disque NVMe dans son emplacement sur la carte mère. Après l’installation physique, nous avons vérifié que le disque était détecté par le système et nous avons utilisé plusieurs commandes PowerShell pour gérer le disque.
