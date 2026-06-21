@@ -30,6 +30,6 @@ Après cela, j’ai sélectionné le disque de destination et lancé l’install
 
 ![image alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/a016fcb38293a766530c8c39d376d1721e41ebc2/4.Windows/300157606/images/IMG-20260620-WA0092.jpg)
 
-
+![image alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/tree/2cefc5ae8491746094de5a5c4af951fe46207d8d/4.Windows/300157606/images)
 
 
