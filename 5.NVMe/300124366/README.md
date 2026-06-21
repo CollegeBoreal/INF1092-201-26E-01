@@ -108,3 +108,6 @@ Vérifier que le serveur est atteignable
 ![img10](images/img10.jpeg)
 ![img11](images/img11.jpeg)
 
+<img width="1200" height="1600" alt="WhatsApp Image 2026-06-20 at 4 13 46 PM" src="https://github.com/user-attachments/assets/650069f5-534c-4325-ab46-9425e83f4d6b" />
+
+
