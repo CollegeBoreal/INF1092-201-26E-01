@@ -152,6 +152,8 @@ Le fichier ISO **NE DOIT PAS être inventé ni copié d’un autre étudiant**.
 
 ## 🔵 Azure Education
 
+<image src=images/Azure-Education-Win2022.png width=50% height=50% > </image>
+
 ***
 
 ## ✅ Étapes
