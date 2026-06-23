@@ -4,9 +4,7 @@
 
 # ✅ ✅ MÉTHODE 2 — SCP (si tu fais du DevOps / automatisation)
 
-👉 Plus “pro” / scriptable
-
-## 🔧 Étape 1 — Activer SSH sur Windows
+## 🔧 Étape 1 — Activer SSH sur Windows Server 
 
 ```powershell
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
@@ -39,7 +37,7 @@ Set-Service -Name sshd -StartupType Automatic
 ## 🔧 Étape 2 — Depuis le Mac (Terminal)
 
 ```bash
-scp ~/Downloads/WindowsServer2022.iso Administrateur@10.7.236.131:D:/ISO/
+scp ~/Downloads/WindowsServer2022.iso Administrateur@10.7.236.131:D:/ISO/(ton ID)
 ```
 
 👉 format :
