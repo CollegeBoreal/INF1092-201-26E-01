@@ -39,9 +39,15 @@ $LMSStudents = Get-LMSStudentInfo -LMSResponse $responseLMS
 # ---------------------------------------------------------------------
 # List of Markdown files containing participation tables
 $files = @(
-    "./.scripts/Check-Group1.md",
-    "./.scripts/Check-Group2.md",
-    "./.scripts/Check-Group3.md"
+    "./.scripts/Participation-Group1.md",
+    "./.scripts/Participation-Group2.md",
+    "./.scripts/Participation-Group3.md",
+    "./.scripts/Participation-Group4.md",
+    "./.scripts/Participation-Group5.md",
+    "./.scripts/Participation-Group6.md",
+    "./.scripts/Participation-Group7.md",
+    "./.scripts/Participation-Group8.md",
+    "./.scripts/Participation-Group9.md"
 )
 
 # Parse participation entries from each file
