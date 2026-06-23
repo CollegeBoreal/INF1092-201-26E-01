@@ -20,11 +20,84 @@
 
 ⚠️ Rajouter SSH au serveur [㊙️ SSH](.prep/SSH)
 
-## 🎯 Objectif
 
-Créer une machine virtuelle **Windows Server 2022** fonctionnelle avec Hyper‑V.
+Voici un **résumé ultra‑clair du travail demandé** (format étudiant 👇)
 
 ***
+
+## 🎯 Objectif
+
+Créer une **machine virtuelle Windows Server 2022** fonctionnelle dans Hyper‑V.
+
+***
+
+## ✅ Étapes obligatoires
+
+### 1. 📥 Télécharger l’ISO
+
+* Depuis **Azure Education**
+* Le sauvegarder dans :
+
+```
+D:\ISO\VOTRE_NUMERO_ETUDIANT\
+```
+
+***
+
+### 2. 🖥️ Créer la VM
+
+* Nom : `VM + numéro étudiant`
+* Génération : **GEN1**
+* RAM : **4GB (fixe)**
+* CPU : **2**
+* Disque : **60GB**
+* Réseau : **External**
+
+***
+
+### 3. 💿 Ajouter l’ISO
+
+* Monter le fichier ISO téléchargé
+* Vérifier que la VM peut booter dessus
+
+***
+
+### 4. ▶️ Démarrer la VM
+
+* Lancer la VM
+* Débuter l’installation de Windows Server
+
+***
+
+### 5. 🔍 Vérifier la configuration
+
+* VM créée correctement
+* CPU / RAM / Disque OK
+* Réseau connecté
+
+***
+
+## ❗ Contraintes importantes
+
+* ISO = **obligatoirement depuis Azure**
+* Chaque étudiant = **son propre dossier**
+* GEN1 obligatoire (lab G6)
+* Pas de mémoire dynamique
+
+***
+
+## ✅ Résultat attendu
+
+✔ VM fonctionnelle  
+✔ Installation Windows démarre  
+✔ Configuration conforme
+
+***
+
+## ⚡ Résumé 1 ligne
+
+👉 *“Télécharger l’ISO Azure → créer VM GEN1 → configurer CPU/RAM/disque → monter ISO → démarrer et vérifier.”*
+
 
 # ✅ 🟢 Étapes à suivre (copier/coller)
 
