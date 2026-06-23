@@ -29,6 +29,8 @@ Créer une machine virtuelle **Windows Server 2022** fonctionnelle avec Hyper‑
 
 ## 1. 📌 Variables (À MODIFIER) :id:
 
+[📥 📀 Récupération du fichier ISO (OBLIGATOIRE)](README.md#--récupération-du-fichier-iso-obligatoire)
+
 ```powershell
 $vm="VMXXXXXXX"   # 👉 Remplacer par TON numéro étudiant
 $iso="D:\ISO\XXXXXXX\windows_server_2022.iso"  # 👉 Adapter chemin ISO
