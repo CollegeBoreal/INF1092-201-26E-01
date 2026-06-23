@@ -11,8 +11,8 @@ Nous avons configuré les ressources de la machine virtuelle, notamment la mémo
 Les captures d'écran suivantes montrent les principales étapes réalisées durant cet atelier.
 
 ```powershell
-$vm="VMXXXXXXX"
-$iso="D:\ISO\XXXXXXX\win2022.iso"
+$vm="VM300151722"
+$iso="E:\ISO\300151722\en-us_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
 
 New-VM -Name $vm -Generation 1 -MemoryStartupBytes 4GB `
   -NewVHDPath "D:\VMs\$vm\$vm.vhdx" -NewVHDSizeBytes 60GB `
