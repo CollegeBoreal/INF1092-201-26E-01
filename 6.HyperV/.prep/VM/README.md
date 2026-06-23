@@ -2,7 +2,7 @@
 
 ```powershell
 $vm="VM300098957"
-$iso="D:\ISO\en-us_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
+$iso="D:\ISO\300098957\en-us_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
 
 # 1. Create VM GEN1 (stable G6)
 New-VM -Name $vm `
