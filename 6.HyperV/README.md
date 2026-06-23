@@ -139,3 +139,83 @@ Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 
 Start-VM -Name $vm
 ```
+
+***
+
+# 📥 📀 Récupération du fichier ISO (OBLIGATOIRE)
+
+## ⚠️ IMPORTANT
+
+Le fichier ISO **NE DOIT PAS être inventé ni copié d’un autre étudiant**.
+
+👉 Il doit être téléchargé **personnellement** via le portail officiel :
+
+## 🔵 Azure Education
+
+***
+
+## ✅ Étapes
+
+1. Aller sur :
+   👉 <https://portal.azure.com>
+
+2. Se connecter avec votre compte scolaire
+
+3. Aller dans :
+   **Education → Software**
+
+4. Rechercher :
+   ```
+   Windows Server 2022
+   ```
+
+5. Télécharger l’ISO
+
+***
+
+## 📁 Organisation recommandée (LAB)
+
+Une fois téléchargé, placer le fichier :
+
+```
+D:\ISO\VOTRE_NUMERO_ETUDIANT\
+```
+
+Exemple :
+
+```
+D:\ISO\300098957\en-us_windows_server_2022_updated_july_2023_x64.iso
+```
+
+***
+
+## ✅ Mise à jour variable PowerShell
+
+```powershell
+$vm="VM300098957"
+$iso="D:\ISO\300098957\en-us_windows_server_2022_updated_july_2023_x64.iso"
+```
+
+***
+
+## ❗ Erreurs fréquentes (à éviter)
+
+❌ ISO manquant → la VM ne boot pas  
+❌ Mauvais chemin → erreur "file not found"  
+❌ ISO partagé entre étudiants → conflit / suppression  
+❌ ISO sur C:\ → manque d’espace
+
+***
+
+## 🎯 Validation rapide
+
+```powershell
+Test-Path $iso
+```
+
+👉 Résultat attendu :
+
+```
+True
+```
+
