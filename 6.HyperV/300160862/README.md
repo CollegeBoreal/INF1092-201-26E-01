@@ -4,8 +4,8 @@ yamna
 
 
 ``` powershell
-$vm="VMXXXXXXX"
-$iso="D:\ISO\XXXXXXX\win2022.iso"
+$vm="VM300160862"
+$iso="D:\ISO\300160862\win2022.iso"
 
 New-VM -Name $vm -Generation 1 -MemoryStartupBytes 4GB `
   -NewVHDPath "D:\VMs\$vm\$vm.vhdx" -NewVHDSizeBytes 60GB `
