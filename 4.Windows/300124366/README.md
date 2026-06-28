@@ -19,3 +19,6 @@ Post-Installation : Configuration du mot de passe Administrateur et accès au Ge
 
 4. Conclusion
 Malgré la panne matérielle de mon groupe, le fait de suivre l'autre équipe m'a permis de comprendre le processus de déploiement réseau (PXE), une méthode essentielle pour l'automatisation en entreprise.
+
+
+4.Windows/images/signal-2026-06-16-101451_002.jpeg
