@@ -21,4 +21,13 @@ Post-Installation : Configuration du mot de passe Administrateur et accès au Ge
 Malgré la panne matérielle de mon groupe, le fait de suivre l'autre équipe m'a permis de comprendre le processus de déploiement réseau (PXE), une méthode essentielle pour l'automatisation en entreprise.
 
 
+<img width="622" height="347" alt="Screenshot 2026-06-28 184623" src="https://github.com/user-attachments/assets/9a932b75-363f-46f0-865f-8a814016befa" />
+<img width="615" height="361" alt="Screenshot 2026-06-28 184634" src="https://github.com/user-attachments/assets/43d4b7b9-0279-4464-929d-4b6e8a3fe30e" />
+<img width="622" height="347" alt="Screenshot 2026-06-28 184610" src="https://github.com/user-attachments/assets/9af6ce5f-5634-4520-9bb8-227d2c1d37e3" />
+
+
+
+
+
+
 
