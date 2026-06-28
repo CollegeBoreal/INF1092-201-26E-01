@@ -1,4 +1,4 @@
-RAPPORT D'ATELIER : Installation de Windows Server 2022 via PXE
+RAPPORT D'ATELIER : Installation de Windows Server 2022 (DATA CENTER) via PXE
 Cours : Introduction à l'administration Système
 
 Étudiante : [Rosemene Bernard]
