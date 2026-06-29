@@ -1,5 +1,5 @@
 # 300160006
-$vm="VM30016000X"
+```$vm="VM30016000X"
 $iso="D:\ISO\300160006\en_us_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
 
 New-VM -Name $vm -Generation 1 -MemoryStartupBytes 4GB `
@@ -11,4 +11,4 @@ Set-VMMemory -VMName $vm -DynamicMemoryEnabled $false
 
 Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 
-Start-VM -Name $vm
+Start-VM -Name $vm```
