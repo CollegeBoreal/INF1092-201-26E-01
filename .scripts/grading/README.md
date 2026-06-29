@@ -10,14 +10,6 @@ https://${LMS_URL}/course/view.php?id=6
 
 - [ ] courseids[0]=6
 
-```json
-{
-  "id": 32,               // Assignment ID
-  "cmid": 37,            // Rubric Definition CMID
-  "name": "0.PlanDeCours"  // Assignment name
-}
-```
-
 - [ ] Retrieve all assignments from LMS
 
 ```bash
@@ -39,6 +31,11 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
   "id": 32,
   "cmid": 37,
   "name": "0.PlanDeCours"
+}
+{
+  "id": 37,
+  "cmid": 42,
+  "name": "1.IDE"
 }
 ```
 
