@@ -11,4 +11,5 @@ Set-VMMemory -VMName $vm -DynamicMemoryEnabled $false
 
 Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 
-Start-VM -Name $vm```
+Start-VM -Name $vm
+```
