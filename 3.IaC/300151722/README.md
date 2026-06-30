@@ -1,4 +1,4 @@
-Rapport d'atelier 
+# Rapport d'atelier 
 
 - ID : 300151722
 - Projet : 3.IaC
@@ -10,7 +10,11 @@ Par la suite, nous avons configuré le démarrage sur la clé USB afin de lancer
 
 Les captures d'écran suivantes montrent les différentes étapes réalisées durant cette procédure.
 
-<img width="4032" height="3024" alt="3 (15)" src="https://github.com/user-attachments/assets/1b8bb4ad-b636-4728-a7f1-792f264c5504" />
+## 🦴 Installation
+
+INstalle la version ,...
+
+<img width="4032" h0eight="3024" alt="3 (15)" src="https://github.com/user-attachments/assets/1b8bb4ad-b636-4728-a7f1-792f264c5504" />
 <img width="4032" height="3024" alt="3 (14)" src="https://github.com/user-attachments/assets/526951a2-c28b-4236-ae4b-d7c072d84121" />
 <img width="1204" height="1600" alt="3 (10)" src="https://github.com/user-attachments/assets/2e8e4fbf-1e38-43d4-ab22-884267904465" />
 <img width="3840" height="5120" alt="3 (6)" src="https://github.com/user-attachments/assets/dab092e5-935e-445e-959c-b9913dcb0e41" />
