@@ -32,14 +32,15 @@ $ACTIVE_GROUP   = $GROUP_DATA.Students
 . ../.scripts/functions.ps1
 . ../.scripts/commons.ps1
 
-Write-ParticipationHeader
-Write-PresenceHeader
-
 # --------------------------------------
 # FEEDBACK
 # --------------------------------------
 
 $FeedbackLookup = Get-FeedbackLookup -Students $Students
+
+Write-ParticipationHeader
+Write-PresenceHeader -FeedbackLookup $FeedbackLookup
+
 
 $s = 0
 
