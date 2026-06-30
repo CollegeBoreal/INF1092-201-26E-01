@@ -41,14 +41,23 @@ function Test-AllRequiredFilesPresent {
 }
 
 function Write-PresenceHeader {
+    param(
+        [hashtable]$FeedbackLookup = @{}
+    )
+
     Write-Output ""
     Write-Output "## :a: Présence"
     Write-Output ""
 
-    Write-Output "|:hash:| Boréal :id: | README.md | images |"
-    Write-Output "|------|-------------|-----------|--------|"
+    if ($FeedbackLookup.Count -gt 0) {
+        Write-Output "|:hash:| Boréal :id: | README.md | images | Appréciation | Commentaires |"
+        Write-Output "|------|-------------|-----------|--------|--------------|--------------|"
+    }
+    else {
+        Write-Output "|:hash:| Boréal :id: | README.md | images |"
+        Write-Output "|------|-------------|-----------|--------|"
+    }
 }
-
 
 function Write-StudentRow {
     param(
@@ -56,8 +65,55 @@ function Write-StudentRow {
         [string]$StudentID,
         [string]$GitHubLink,
         [string]$ReadmePath,
-        [hashtable]$Checks
+        [hashtable]$Checks,
+        [hashtable]$FeedbackLookup = @{}
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) |"
+    if ($FeedbackLookup.Count -gt 0) {
+
+        $Feedback = $FeedbackLookup[$StudentID]
+
+        $Appreciation = if ($Feedback) { $Feedback.Appreciation } else { "" }
+        $Comments     = if ($Feedback) { $Feedback.Comments } else { "" }
+
+        Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $Appreciation | $Comments |"
+    }
+    else {
+
+        Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) |"
+    }
+}
+
+# --------------------------------------
+# FEEDBACK
+# --------------------------------------
+
+function Get-FeedbackLookup {
+    param(
+        [string[]]$Students,
+        [string]$FeedbackFile = ".scripts/grading/feedback.csv"
+    )
+
+    $FeedbackLookup = @{}
+
+    if (-not (Test-Path $FeedbackFile)) {
+
+        $Students |
+            ForEach-Object {
+                [PSCustomObject]@{
+                    StudentID    = (($_ -split '\|')[0]).Trim()
+                    Appreciation = ":x:"
+                    Comments     = "À corriger"
+                }
+            } |
+            Export-Csv $FeedbackFile -NoTypeInformation
+
+        Write-Host "Created $FeedbackFile"
+    }
+
+    Import-Csv $FeedbackFile | ForEach-Object {
+        $FeedbackLookup[$_.StudentID] = $_
+    }
+
+    return $FeedbackLookup
 }

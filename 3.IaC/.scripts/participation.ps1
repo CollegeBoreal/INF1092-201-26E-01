@@ -35,6 +35,12 @@ $ACTIVE_GROUP   = $GROUP_DATA.Students
 Write-ParticipationHeader
 Write-PresenceHeader
 
+# --------------------------------------
+# FEEDBACK
+# --------------------------------------
+
+$FeedbackLookup = Get-FeedbackLookup -Students $Students
+
 $s = 0
 
 for ($i = 0; $i -lt $ACTIVE_GROUP.Count; $i++) {
@@ -53,8 +59,9 @@ for ($i = 0; $i -lt $ACTIVE_GROUP.Count; $i++) {
         -Index ($i + 1) `
         -StudentID $StudentID `
         -GitHubLink $url `
-        -ReadmePath $paths.README `
-        -Checks $checks
+        -ReadmePath $Paths.README `
+        -Checks $Checks `
+        -FeedbackLookup $FeedbackLookup
 
     if (Test-AllRequiredFilesPresent -Checks $checks) {
         $s++
