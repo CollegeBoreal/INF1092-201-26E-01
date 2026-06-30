@@ -1,23 +1,5 @@
-# =====================================================================
-# CONFIGURATION
-# =====================================================================
-# Static IDs and flags used throughout participation grading
-# =====================================================================
-
-# LMS assignment ID where participation grades will be submitted
-$LMSAssignmentID = 9
-
 # Enables verbose/debug output when set to $true
 $DEBUG = $false
-
-# Explicit emoji → rubric level mapping for DB execution criterion
-# (Used when the emoji represents more than pass/fail)
-$EmojiToScore = @{
-    ":red_circle:" = 67
-    ":green_circle:" = 68
-    ":boom:" = 69
-    ":link:" = 70
-}
 
 # =====================================================================
 # PARTICIPATION EXTRACTION FROM README.md
@@ -65,7 +47,7 @@ function Get-ParticipationGrades {
             # README.md quantity (fail/silver/gold)
             # ---------------------------------
             $readEmoji = ($cols[3]).Trim()
-            $levels = @(60, 61, 62)  # fail, silver, gold
+            $levels = @(438, 439, 440)  # fail, silver, gold
             $readScore = Get-RubricLevelIdFromReadmeEmoji `
                 -Emoji $readEmoji `
                 -Levels $levels
@@ -76,57 +58,41 @@ function Get-ParticipationGrades {
             $imgEmoji = ($cols[4]).Trim()
             $imgScore = Get-RubricLevelIdFromEmoji `
                 -Emoji $imgEmoji `
-                -FailLevelId 63 `
-                -PassLevelId 64
+                -FailLevelId 441 `
+                -PassLevelId 442
 
             # If README.md exceeds expectations,
             # images folder is implicitly considered present
-            if ($readScore -gt 62) {
-                $imgScore = 64
-            }
-
-            $mainEmoji = ($cols[5]).Trim()
-            $mainScore = Get-RubricLevelIdFromEmoji `
-                -Emoji $mainEmoji `
-                -FailLevelId 65 `
-                -PassLevelId 66
-
-            # ---------------------------------
-            # VM execution
-            # matches :green_circle: or :red_circle: 
-            # if :x: of revert to null‑coalescing operator (??) default value
-            # ---------------------------------
-            if ($cols[6] -match '(:[^:]+:)') {
-                $vmEmoji = $matches[1]
-                $vmScore = $EmojiToScore[$vmEmoji]  ?? $EmojiToScore[':red_circle:']
+            if ($readScore -gt 440) {
+                $imgScore = 442
             }
 
             # ---------------------------------
-            # VM execution
-            # matches :link: or :boom: 
-            # if :x: of revert to null‑coalescing operator (??) default value
+            # Appreciation (fail/silver/gold)
             # ---------------------------------
-            if ($cols[7] -match '(:[^:]+:)') {
-                $linkEmoji = $matches[1]
-                $linkScore = $EmojiToScore[$linkEmoji] ?? $EmojiToScore[':boom:']
-            }
+            $appEmoji = ($cols[5]).Trim()
+            $appLevels = @(443, 444, 445, 446)  # fail, bronze, silver, gold
+            $appScore = Get-RubricLevelIdFromReadmeEmoji `
+                -Emoji $appEmoji `
+                -Levels $appLevels
+
+            # ---------------------------------
+            # Commentaires 
+            # ---------------------------------
+            $comments = ($cols[6]).Trim()
 
             if ($DEBUG) {
                 Write-Output $borealId
                     , $readEmoji, $readScore
                     , $imgEmoji, $imgScore
-                    , $mainEmoji, $mainScore
-                    , $vmScore, $vmEmoji
-                    , $linkScore, $linkEmoji
             }
 
             $results += [PSCustomObject]@{
                 borealId  = $borealId
                 readme    = $readScore
                 image     = $imgScore
-                main      = $mainScore
-                vm        = $vmScore
-                link      = $linkScore
+                app       = $appScore
+                comments  = $comments
             }
         }
     }
@@ -144,9 +110,8 @@ function New-LMSRubricFromEntry {
     $requiredFields = @(
          "readme"
         , "image"
-        , "main"
-        , "vm"
-        , "link"
+        , "app"
+        , "comments"
     )
 
     foreach ($field in $requiredFields) {
@@ -157,11 +122,9 @@ function New-LMSRubricFromEntry {
 
     # Build rubric
     $rubric = @(
-        @{ criterionid = 26;  levelid = $Entry.readme;    remark = "Quantité README.md " }
-        @{ criterionid = 27;  levelid = $Entry.image;     remark = "Présence répertoire images " }
-        @{ criterionid = 28;  levelid = $Entry.main;      remark = "Présence code source" }
-        @{ criterionid = 29;  levelid = $Entry.vm;        remark = "Présence de la VM" }
-        @{ criterionid = 30;  levelid = $Entry.link;      remark = "Présence du la clé SSH Prof" }
+        @{ criterionid = 190;  levelid = $Entry.readme;    remark = "Quantité README.md " }
+        @{ criterionid = 191;  levelid = $Entry.image;     remark = "Présence répertoire images " }
+        @{ criterionid = 192;  levelid = $Entry.app;       remark = $Entry.comments }
     )
 
     # Validate level IDs (avoid Moodle crash)

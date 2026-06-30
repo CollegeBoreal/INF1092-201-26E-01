@@ -34,12 +34,21 @@ $responseLMS = Get-LMSGradableUsers -LMS_COURSE $LMS_COURSE
 # }
 $LMSStudents = Get-LMSStudentInfo -LMSResponse $responseLMS
 
+# =====================================================================
+# CONFIGURATION
+# =====================================================================
+# Static IDs and flags used throughout participation grading
+# =====================================================================
+
+# LMS assignment ID where participation grades will be submitted
+$LMSAssignmentID = 38
+
 # ---------------------------------------------------------------------
 # READ PARTICIPATION FILES
 # ---------------------------------------------------------------------
 # List of Markdown files containing participation tables
 $files = @(
-    "./.scripts/Participation-Group1.md",
+   "./.scripts/Participation-Group1.md",
     "./.scripts/Participation-Group2.md",
     "./.scripts/Participation-Group3.md",
     "./.scripts/Participation-Group4.md",
