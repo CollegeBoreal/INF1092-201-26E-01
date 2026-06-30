@@ -1,75 +1,70 @@
 name: Participations
 
-on: [push]
+on:
+  push:
 
 jobs:
   presence:
     name: Vérification de la participation
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      # ------------------------------------------------------------------
+      # Checkout repository
+      # ------------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      # ------------------------------------------------------------------
+      # Push grades to LMS
+      # ------------------------------------------------------------------
+      - name: Run PowerShell script (LMS sync)
+        shell: pwsh
+        env:
+          LMS_URL: ${{ secrets.LMS_URL }}
+          API_SYNC_TOKEN: ${{ secrets.API_SYNC_TOKEN }}
+        run: |
+          pwsh .scripts/push_grades.ps1
+
+      # ------------------------------------------------------------------
+      # Evaluate all chapters
+      # ------------------------------------------------------------------
       - name: Évaluer les chapitres
         shell: pwsh
         run: |
-          ##
-          ## Évaluation du chapitre 0.PlanDeCours
-          ##
-          Write-Host "Evaluating chapter 0.PlanDeCours Participation"
-          Set-Location 0.PlanDeCours
-          pwsh .scripts/run.ps1
-          Set-Location ..
+          $chapters = @(
+            "0.PlanDeCours",
+            "1.Programmation/1.IDE",
+            "3.IaC"
+          )
 
-          ##
-          ## Évaluation du chapitre 1.IDE
-          ##
-          Write-Host "Evaluating chapter 1.IDE Participation"
-          Set-Location 1.Programmation/1.IDE
-          pwsh .scripts/run.ps1
-          Set-Location ../..
+          foreach ($chapter in $chapters) {
+              Write-Host "--------------------------------------------"
+              Write-Host "Evaluating chapter $chapter Participation"
+              Push-Location $chapter
+              pwsh .scripts/run.ps1
+              Pop-Location
+          }
 
-          ##
-          ## Évaluation du chapitre 3.IaC
-          ##
-          Write-Host "Evaluating chapter 3.IaC  Participation"
-          Set-Location 3.IaC
-          pwsh .scripts/run.ps1
-          Set-Location ..
-
-          ##
-          ## Évaluation du chapitre 4.Windows
-          ##
-          Write-Host "Evaluating chapter 4.Windows  Participation"
-          Set-Location 4.Windows
-          pwsh .scripts/run.ps1
-          Set-Location ..
-
-          ##
-          ## Évaluation du chapitre 5.NVMe
-          ##
-          Write-Host "Evaluating chapter 5.NVMe Participation"
-          Set-Location 5.NVMe
-          pwsh .scripts/run.ps1
-          Set-Location ..
-
-          ##
-          ## Évaluation du chapitre 6.HyperV
-          ##
-          Write-Host "Evaluating chapter 6.HyperV Participation"
-          Set-Location 6.HyperV
-          pwsh .scripts/run.ps1
-          Set-Location ..
-
+      # ------------------------------------------------------------------
+      # Commit generated files
+      # ------------------------------------------------------------------
       - name: Commit files
         shell: pwsh
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Vérification de la participation" -a
 
+          if (git status --porcelain) {
+              git commit -am "Vérification de la participation"
+          } else {
+              Write-Host "No changes to commit"
+          }
+
+      # ------------------------------------------------------------------
+      # Push changes back to repository
+      # ------------------------------------------------------------------
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
