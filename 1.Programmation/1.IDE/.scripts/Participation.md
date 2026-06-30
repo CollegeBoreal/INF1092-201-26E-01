@@ -1,4 +1,4 @@
-# Participation au 30-06-2026 18:03
+# Participation au 30-06-2026 18:04
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -17,7 +17,7 @@
 |:hash:| Boréal :id:                | README.md    | images |
 |------|----------------------------|--------------|--------|
 | 0 | [300124366](../300124366/README.md) :point_right: [rb0980h-dot](https://github.com/rb0980h-dot) <image src='https://avatars0.githubusercontent.com/u/261495945?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 1 | [300147253](../300147253/README.md) :point_right: [octocat](https://github.com/octocat) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 1 | [300147253](../300147253/README.md) :point_right: [azzed98](https://github.com/azzed98) <image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 2 | [300147891](../300147891/README.md) :point_right: [amadbarry96](https://github.com/amadbarry96) <image src='https://avatars0.githubusercontent.com/u/261496046?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 3 | [300150396](../300150396/README.md) :point_right: [ibkourouma](https://github.com/ibkourouma) <image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 4 | [300151722](../300151722/README.md) :point_right: [islamoustani5-collab](https://github.com/islamoustani5-collab) <image src='https://avatars0.githubusercontent.com/u/261488966?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
