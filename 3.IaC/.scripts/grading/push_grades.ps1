@@ -13,14 +13,15 @@ $ErrorActionPreference = "Stop"
 # ---------------------------------------------------------------------
 # LOAD DEPENDENCIES
 # ---------------------------------------------------------------------
-# Student mapping utilities
-. ../.scripts/students.ps1
 
-# Core grading helpers (emoji parsing, rubric builders, etc.)
-. ../.scripts/grading/functions.ps1
+# repo/1.Programmation/1.IDE/.scripts/grading -> repo
+$RepoRoot = Resolve-Path (Join-Path $PSScriptRoot "../../..")
 
-# Moodle / LMS web service functions
-. .scripts/grading/WSfunctions.ps1
+. (Join-Path $RepoRoot ".scripts/students.ps1")
+. (Join-Path $RepoRoot ".scripts/grading/functions.ps1")
+
+# Fichier local au script
+. (Join-Path $PSScriptRoot "WSfunctions.ps1")
 
 # ---------------------------------------------------------------------
 # FETCH GRADABLE USERS FROM LMS
