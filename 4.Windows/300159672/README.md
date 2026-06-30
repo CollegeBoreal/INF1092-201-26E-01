@@ -25,7 +25,9 @@ Attendre la fin de l'installation (environ 15 minutes).
 
 
 4. **Première connexion**
-Étapes
+
+   
+Étapes :
 
 Se connecter avec Administrator **(pxe@labinfo.local)**.
 Créer un mot de passe sécurisé **(Boreal@2026).**
