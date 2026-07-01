@@ -56,6 +56,7 @@ jobs:
           API_SYNC_TOKEN: ${{ secrets.API_SYNC_TOKEN }}
         run: |
           $chapters = @(
+            "0.PlanDeCours",
             "3.IaC"
           )
 
