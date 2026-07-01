@@ -49,15 +49,15 @@ $LMSAssignmentID = 38
 # ---------------------------------------------------------------------
 # List of Markdown files containing participation tables
 $files = @(
-   "./.scripts/Participation-Group1.md",
-    "./.scripts/Participation-Group2.md",
-    "./.scripts/Participation-Group3.md",
-    "./.scripts/Participation-Group4.md",
-    "./.scripts/Participation-Group5.md",
-    "./.scripts/Participation-Group6.md",
-    "./.scripts/Participation-Group7.md",
-    "./.scripts/Participation-Group8.md",
-    "./.scripts/Participation-Group9.md"
+    "./.scripts/Participation-group1.md",
+    "./.scripts/Participation-group2.md",
+    "./.scripts/Participation-group3.md",
+    "./.scripts/Participation-group4.md",
+    "./.scripts/Participation-group5.md",
+    "./.scripts/Participation-group6.md",
+    "./.scripts/Participation-group7.md",
+    "./.scripts/Participation-group8.md",
+    "./.scripts/Participation-group9.md"
 )
 
 # Parse participation entries from each file
