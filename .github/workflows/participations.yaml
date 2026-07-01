@@ -16,17 +16,6 @@ jobs:
         uses: actions/checkout@v4
 
       # ------------------------------------------------------------------
-      # Push grades to LMS
-      # ------------------------------------------------------------------
-      - name: Run PowerShell script (LMS sync)
-        shell: pwsh
-        env:
-          LMS_URL: ${{ secrets.LMS_URL }}
-          API_SYNC_TOKEN: ${{ secrets.API_SYNC_TOKEN }}
-        run: |
-          pwsh .scripts/grading/push_grades.ps1
-
-      # ------------------------------------------------------------------
       # Evaluate all chapters
       # ------------------------------------------------------------------
       - name: Évaluer les chapitres
@@ -47,7 +36,7 @@ jobs:
           }
 
       # ------------------------------------------------------------------
-      # Push All Grades
+      # Push Grades to LMS
       # ------------------------------------------------------------------
       - name: Noter les chapitres
         shell: pwsh
