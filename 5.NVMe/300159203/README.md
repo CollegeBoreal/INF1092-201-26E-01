@@ -1,4 +1,4 @@
-Compte rendu – Installation d’un disque NVMe
+Compte rendu  Installation d’un disque NVMe
 Étudiant : 300159203
 🎯 Objectif
 L’objectif était d’ajouter de l’espace disque à un serveur HP DL360 G6 en installant un disque NVMe 1TB via un adaptateur PCIe/NVMe, puis de le rendre disponible sous Windows Server 2022 Datacenter.
