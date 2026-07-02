@@ -1,6 +1,6 @@
 Compte rendu  Installation d’un disque NVMe
 Étudiant : 300159203
-🎯 Objectif
+Objectif
 L’objectif était d’ajouter de l’espace disque à un serveur HP DL360 G6 en installant un disque NVMe 1TB via un adaptateur PCIe/NVMe, puis de le rendre disponible sous Windows Server 2022 Datacenter.
 Vérification du serveur
 Le serveur HP DL360 G6 démarre correctement
@@ -35,4 +35,3 @@ Vérification de la capacité : 1TB disponible
 ✔️ Disque prêt à l’utilisation
 <img width="2048" height="1536" alt="ff" src="https://github.com/user-attachments/assets/90a7f532-d4fc-4d6c-8016-5c4e440ddc7c" />
 <img width="2048" height="1536" alt="ee" src="https://github.com/user-attachments/assets/9ddab298-a761-4d1a-9d99-101010cb8377" />
-<img width="2048" height="1536" alt="gg" src="https://github.com/user-attachments/assets/0e44d236-3968-4527-b346-77fc0fe969b5" />
