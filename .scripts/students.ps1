@@ -79,13 +79,6 @@ $GROUPS = New-Groups -Items $STUDENTS -Size $GROUP_SIZE
 # --------------------------------------
 
 $SERVERS = @(
-"10.7.237.194"
-"10.7.237.195"
-"10.7.237.196"
-"10.7.237.197"
-"10.7.237.198"
-"10.7.237.199"
-"10.7.237.200"
 "10.7.237.201"
 "10.7.237.202"
 "10.7.237.203"
@@ -112,38 +105,26 @@ $SERVERS = @(
 "10.7.237.224"
 "10.7.237.225"
 "10.7.237.226"
+"10.7.237.227"
+"10.7.237.228"
+"10.7.237.229"
+"10.7.237.230"
+"10.7.237.231"
+"10.7.237.232"
+"10.7.237.233"
 )
 
 $SERVER_GROUPS = New-Groups -Items $SERVERS -Size $GROUP_SIZE
 
 # --------------------------------------
-# PROXMOX SERVERS (1 per group)
+# WINDOWS SERVERS (1 per group)
 # --------------------------------------
 
-$PROXMOX_SERVERS = @(
-"10.7.237.22"
+$WINDOWS_SERVERS = @(
 "10.7.237.7"
-"10.7.237.13"
 "10.7.237.35"
-"10.7.237.19"
 "10.7.237.24"
 "10.7.237.28"
-"10.7.237.34"
-)
-
-# --------------------------------------
-# TOKENS
-# --------------------------------------
-
-$TOFU_SECRETS = @(
-"4fa24fc3-bd8c-4916-ba6e-09a8aecc3b00"
-"55dccf39-a3db-4bad-8a28-954addb13739"
-"63cd5a0b-24a0-42a1-9ce3-993a2d9de8dd"
-"63cd5a0b-24a0-42a1-9ce3-993a2d9de8dd"
-"4fa24fc3-bd8c-4916-ba6e-09a8aecc3b00"
-"55dccf39-a3db-4bad-8a28-954addb13739"
-"63cd5a0b-24a0-42a1-9ce3-993a2d9de8dd"
-"63cd5a0b-24a0-42a1-9ce3-993a2d9de8dd"
 )
 
 # --------------------------------------
@@ -155,8 +136,7 @@ $LAB_GROUPS = for ($i = 0; $i -lt $GROUPS.Count; $i++) {
         Id        = $i + 1
         Students  = $GROUPS[$i]
         Servers   = $SERVER_GROUPS[$i]
-        Proxmox   = $PROXMOX_SERVERS[$i]
-        Token     = $TOFU_SECRETS[$i]
+        Proxmox   = $WINDOWS_SERVERS[$i]
     }
 }
 
