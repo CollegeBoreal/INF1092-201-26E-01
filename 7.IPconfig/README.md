@@ -1,6 +1,4 @@
-iExcellent ajout. Cela donne un laboratoire complet : **Configuration IP statique + Accès RDP à distance**.
-
-# INF1092 – Réseau Hyper‑V et accès RDP
+# Réseau Hyper‑V et accès RDP
 
 ## Objectifs
 
