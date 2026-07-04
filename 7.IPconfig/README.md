@@ -40,10 +40,10 @@ Exemple :
 
 | Paramètre  | Valeur        |
 | ---------- | ------------- |
-| IP         | 10.7.237.101  |
+| IP         | 10.7.237.x    |
 | Masque     | 255.255.255.0 |
 | Passerelle | 10.7.237.1    |
-| DNS        | 8.8.8.8       |
+| DNS        | 10.7.237.3    |
 
 Identifier l'interface :
 
@@ -56,8 +56,8 @@ Configuration :
 ```powershell
 New-NetIPAddress `
 -InterfaceAlias "Ethernet" `
--IPAddress 10.7.237.101 `
--PrefixLength 24 `
+-IPAddress 10.7.237.x `
+-PrefixLength 23 `
 -DefaultGateway 10.7.237.1
 ```
 
@@ -66,7 +66,7 @@ Configurer le DNS :
 ```powershell
 Set-DnsClientServerAddress `
 -InterfaceAlias "Ethernet" `
--ServerAddresses 8.8.8.8
+-ServerAddresses 10.7.237.3
 ```
 
 Vérification :
@@ -157,7 +157,7 @@ mstsc
 Entrer l'adresse IP de la VM :
 
 ```text
-10.7.237.101
+10.7.237.x
 ```
 
 Connexion :
@@ -192,7 +192,7 @@ Les étudiants verront leur session RDP active.
 Chaque étudiant tente :
 
 ```powershell
-ping 10.7.237.102
+ping 10.7.237.202
 ```
 
 Puis :
@@ -246,13 +246,13 @@ Get-NetIPConfiguration
 
 New-NetIPAddress `
 -InterfaceAlias "Ethernet" `
--IPAddress 10.7.237.101 `
--PrefixLength 24 `
+-IPAddress 10.7.237.x `
+-PrefixLength 23 `
 -DefaultGateway 10.7.237.1
 
 Set-DnsClientServerAddress `
 -InterfaceAlias "Ethernet" `
--ServerAddresses 8.8.8.8
+-ServerAddresses 10.7.237.3
 
 ping 10.7.237.1
 
@@ -280,7 +280,7 @@ Chaque étudiant fournit :
 1. Nom de la VM (`hostname`)
 2. Adresse IP statique
 3. Capture d'écran de `ipconfig`
-4. Résultat de `ping 8.8.8.8`
+4. Résultat de `ping 10.7.237.3`
 5. Résultat de `ping google.ca`
 6. Capture d'écran d'une connexion RDP réussie à sa VM
 
