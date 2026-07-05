@@ -1,0 +1,7 @@
+# Introduction
+
+Dans le cadre de ce travail, nous devons étudier une solution simple et économique pour augmenter la capacité de stockage d’un serveur HP DL360 G6 utilisant Windows Server 2022 Datacenter. L’objectif est d’installer un disque NVMe de 1 To à l’aide d’un adaptateur PCIe/NVMe, puis de le configurer afin qu’il soit utilisable par le système.
+
+Ce projet permet de vérifier la compatibilité du matériel, d’installer le disque, de le formater sous Windows et de confirmer son bon fonctionnement. Une fois l’installation terminée, l’accès à distance par le protocole RDP sera également vérifié afin de s’assurer que le serveur peut être administré à distance.
+
+Les différentes étapes de l’installation seront documentées dans ce fichier README.md à l’aide de captures d’écran prises durant le laboratoire. Enfin, une décision finale sera prise pour déterminer si le serveur répond aux exigences du projet et peut être utilisé dans un mini centre de données à faible coût.

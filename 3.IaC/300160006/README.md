@@ -1,0 +1,23 @@
+ # 300160006
+ # description
+  Ce travail présente l’ensemble des étapes réalisées lors de l’installation, du diagnostic et de la configuration d’un serveur. L’objectif principal était de préparer un serveur pleinement fonctionnel en vérifiant son état matériel, puis en installant un système d’exploitation adapté.
+La première phase a consisté en une inspection complète du matériel. Les composants internes tels que les disques de stockage, la mémoire RAM, le processeur, la carte mère et les connexions d’alimentation ont été examinés afin de s’assurer de leur bon fonctionnement. Cette vérification initiale a permis d’identifier et de corriger d’éventuels problèmes pouvant empêcher le démarrage ou perturber le fonctionnement du serveur.Une fois cette inspection terminée, nous avons raccordé les périphériques essentiels (écran, clavier, souris) ainsi que les câbles d’alimentation.
+Après la mise sous tension, nous avons accédé à l’interface de gestion du serveur en entrant les identifiants requis. Une fois connectés, nous avons configuré l’ordre de démarrage afin que la machine boote sur la clé USB contenant l’installateur du système d’exploitation.
+
+
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/609c44e5801f2902b8ac672b7b50689e5a3506fa/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(1).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/762316e8b169e6226b5a1d89db23cc61e45ad708/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(10).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/733290388d8d347779a72078116e97f821cf2815/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(11).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/3cb64075b82d3080ea17e54fe05cf4f0b0f63c32/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(12).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/53c841309317fb4e8bfd78e74d9284b540b1b301/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(13).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/63ac82e059f762185b307fa829ec29785c00fea9/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(15).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/30997cd1fb93df7394e05d89b3a2e00bfb18b171/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(17).jpeg*)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/0f14d9ed6239846a74e07a094b9eedb77787f705/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(18).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/23482dd6a38557d26e978c8c7a7f5769d1bcfd89/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(2).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/43b22f71fb271d1de67d177799932e59224ef5e3/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(3).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/4ea492862cceae3906e91c7d65b3a6059eeda81c/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(4).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/3cddfd49c4540f3e5677a7d4942979941c46d1c2/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(5).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/7a7c46cd934ae913b59728931dc1b8751922da34/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(7).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/720f3026208f8e4946439f383b69515c52ed60d8/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(8).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/9439baf65086c3baa32ff1fc7646e194f4a60a4f/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28%20(9).jpeg)
+![image alt](https://github.com/CollegeBoreal/INF1092-201-E26-01/blob/809757dd8730aaa847daf80b41b3c88d9037702d/3.IaC/300160006/images/WhatsApp%20Image%202026-06-07%20at%2020.12.28.jpeg)

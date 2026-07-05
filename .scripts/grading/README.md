@@ -1,22 +1,14 @@
 # Setup
 
-## :a: Class - INF1102-201-26H-05 - Programmation de systèmes
+## :a: Class - INF1092-201-26E-01 - Introduction à l'administration des systèmes
 
 ```
-https://${LMS_URL}/course/view.php?id=4
+https://${LMS_URL}/course/view.php?id=6
 ```
 
 ## :b: Assignments for:
 
-- [ ] courseids[0]=4
-
-```json
-{
-  "id": 8,               // Assignment ID
-  "cmid": 12,            // Rubric Definition CMID
-  "name": "4.CRON-TASK"  // Assignment name
-}
-```
+- [ ] courseids[0]=6
 
 - [ ] Retrieve all assignments from LMS
 
@@ -25,7 +17,7 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
 -d "wstoken=${API_SYNC_TOKEN}" \
 -d "wsfunction=mod_assign_get_assignments" \
 -d "moodlewsrestformat=json" \
--d "courseids[0]=4" | jq '.courses[].assignments[] | {id, cmid, name}'
+-d "courseids[0]=6" | jq '.courses[].assignments[] | {id, cmid, name}'
 ```
 ```
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -36,39 +28,19 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
 
 ```json
 {
-  "id": 25,
-  "cmid": 29,
+  "id": 32,
+  "cmid": 37,
+  "name": "0.PlanDeCours"
+}
+{
+  "id": 37,
+  "cmid": 42,
+  "name": "1.IDE"
+}
+{
+  "id": 38,
+  "cmid": 43,
   "name": "3.IaC"
-}
-{
-  "id": 26,
-  "cmid": 30,
-  "name": "4.CRON-TASK"
-}
-{
-  "id": 27,
-  "cmid": 31,
-  "name": "5.BATCH"
-}
-{
-  "id": 28,
-  "cmid": 32,
-  "name": "6.PWSH"
-}
-{
-  "id": 29,
-  "cmid": 33,
-  "name": "7.REGEX"
-}
-{
-  "id": 30,
-  "cmid": 34,
-  "name": "8.Project"
-}
-{
-  "id": 31,
-  "cmid": 35,
-  "name": "9.Ansible"
 }
 ```
 

@@ -4,45 +4,53 @@
 # These helper functions translate README or grading emojis into
 # rubric level IDs used by the LMS.
 # =====================================================================
-
 function Get-RubricLevelIdFromReadmeEmoji {
-    <#
-        Maps a README status emoji to a rubric level ID.
-
-        Expected levels order:
-        [0] = Fail
-        [1] = Silver
-        [2] = Gold
-
-        Supports both GitHub emoji codes (:x:, :1st_place_medal:)
-        and native Unicode emojis (❌, 🥈, 🥇).
-    #>
     param (
         [Parameter(Mandatory)]
         [string]$Emoji,
 
         [Parameter(Mandatory)]
-        [int[]]$Levels  # [fail, silver, gold]
+        [int[]]$Levels
     )
-
-    if ([string]::IsNullOrWhiteSpace($Emoji)) {
-        throw "Emoji is empty or null"
-    }
-
-    # Extract rubric level IDs for clarity
-    $fail   = $Levels[0]
-    $silver = $Levels[1]
-    $gold   = $Levels[2]
 
     $Emoji = $Emoji.Trim()
 
-    # Match against known emoji patterns
-    switch -Regex ($Emoji) {
-        ':x:|❌'                   { return $fail }
-        ':2nd_place_medal:|🥈'     { return $silver }
-        ':1st_place_medal:|🥇'     { return $gold }
+    switch ($Levels.Count) {
+
+        3 {
+            $fail   = $Levels[0]
+            $silver = $Levels[1]
+            $gold   = $Levels[2]
+
+            switch -Regex ($Emoji) {
+                ':x:|❌'               { return $fail }
+                ':2nd_place_medal:|🥈' { return $silver }
+                ':1st_place_medal:|🥇' { return $gold }
+                default {
+                    throw "Unknown README emoji for 3-level rubric: $Emoji"
+                }
+            }
+        }
+
+        4 {
+            $fail   = $Levels[0]
+            $bronze = $Levels[1]
+            $silver = $Levels[2]
+            $gold   = $Levels[3]
+
+            switch -Regex ($Emoji) {
+                ':x:|❌'               { return $fail }
+                ':3rd_place_medal:|🥉' { return $bronze }
+                ':2nd_place_medal:|🥈' { return $silver }
+                ':1st_place_medal:|🥇' { return $gold }
+                default {
+                    throw "Unknown README emoji for 4-level rubric: $Emoji"
+                }
+            }
+        }
+
         default {
-            throw "Unknown README emoji: $Emoji"
+            throw "Levels must contain either 3 values [fail,silver,gold] or 4 values [fail,bronze,silver,gold]"
         }
     }
 }
