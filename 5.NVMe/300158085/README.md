@@ -10,7 +10,7 @@ Pendant l’installation, nous avons sélectionné le disque disponible, soit le
 
 Une fois l’installation terminée, nous avons configuré le compte administrateur local en créant un mot de passe. Le serveur a ensuite affiché l’écran de connexion, puis le bureau de Windows Server 2022. Cela confirme que le système d’exploitation a bien été installé et qu’il démarre correctement.
 
-En conclusion, l’installation de Windows Server 2022 Datacenter sur le serveur HP G6 a été réalisée avec succès. Le stockage RAID a été configuré, le disque logique a été reconnu par l’assistant d’installation, le système a démarré correctement et le serveur est maintenant prêt pour la configuration réseau et l’administration à distance.
+En conclusion, l’installation de Windows Server 2022 Datacenter sur le serveur HP G6 a été réalisée avec succès. Le stockage RAID a été configuré, le disque logique a été reconnu par l’assistant d’installation, le système a démarré correctement et le serveur est maintenant prêt pour la configuration réseau et l’administration à distance..
 
 
 
