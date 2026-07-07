@@ -13,14 +13,15 @@ $ErrorActionPreference = "Stop"
 # ---------------------------------------------------------------------
 # LOAD DEPENDENCIES
 # ---------------------------------------------------------------------
-# Student mapping utilities
-. ../.scripts/students.ps1
 
-# Core grading helpers (emoji parsing, rubric builders, etc.)
-. ../.scripts/grading/functions.ps1
+# repo/1.Programmation/1.IDE/.scripts/grading -> repo
+$RepoRoot = Resolve-Path (Join-Path $PSScriptRoot "../../..")
 
-# Moodle / LMS web service functions
-. .scripts/grading/WSfunctions.ps1
+. (Join-Path $RepoRoot ".scripts/students.ps1")
+. (Join-Path $RepoRoot ".scripts/grading/functions.ps1")
+
+# Fichier local au script
+. (Join-Path $PSScriptRoot "WSFunctions.ps1")
 
 # ---------------------------------------------------------------------
 # FETCH GRADABLE USERS FROM LMS
@@ -34,14 +35,29 @@ $responseLMS = Get-LMSGradableUsers -LMS_COURSE $LMS_COURSE
 # }
 $LMSStudents = Get-LMSStudentInfo -LMSResponse $responseLMS
 
+# =====================================================================
+# CONFIGURATION
+# =====================================================================
+# Static IDs and flags used throughout participation grading
+# =====================================================================
+
+# LMS assignment ID where participation grades will be submitted
+$LMSAssignmentID = 38
+
 # ---------------------------------------------------------------------
 # READ PARTICIPATION FILES
 # ---------------------------------------------------------------------
 # List of Markdown files containing participation tables
 $files = @(
-    "./.scripts/Check-Group1.md",
-    "./.scripts/Check-Group2.md",
-    "./.scripts/Check-Group3.md"
+    "./.scripts/Participation-group1.md",
+    "./.scripts/Participation-group2.md",
+    "./.scripts/Participation-group3.md",
+    "./.scripts/Participation-group4.md",
+    "./.scripts/Participation-group5.md",
+    "./.scripts/Participation-group6.md",
+    "./.scripts/Participation-group7.md",
+    "./.scripts/Participation-group8.md",
+    "./.scripts/Participation-group9.md"
 )
 
 # Parse participation entries from each file
