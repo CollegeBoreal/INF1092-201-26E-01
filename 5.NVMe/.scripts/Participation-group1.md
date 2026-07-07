@@ -14,14 +14,14 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id: | README.md | images |
-|------|-------------|-----------|--------|
-| 1 | [300124366](../300124366/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261495945?s=460&v=4' width=20 height=20></image>](https://github.com/rb0980h-dot) | :1st_place_medal: | :heavy_check_mark: |
-| 2 | [300147253](../300147253/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image>](https://github.com/octocat) | :x: | :x: |
-| 3 | [300147891](../300147891/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261496046?s=460&v=4' width=20 height=20></image>](https://github.com/amadbarry96) | :x: | :x: |
-| 4 | [300150396](../300150396/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image>](https://github.com/ibkourouma) | :x: | :x: |
-| 5 | [300151722](../300151722/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261488966?s=460&v=4' width=20 height=20></image>](https://github.com/islamoustani5-collab) | :2nd_place_medal: | :heavy_check_mark: |
-| 6 | [300152004](../300152004/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/218153814?s=460&v=4' width=20 height=20></image>](https://github.com/danielmananga) | :x: | :x: |
-| 7 | [300153405](../300153405/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261492660?s=460&v=4' width=20 height=20></image>](https://github.com/rekaikkhaled) | :x: | :x: |
-| 8 | [300153416](../300153416/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/262935334?s=460&v=4' width=20 height=20></image>](https://github.com/rouabahkhalil28-crypto) | :2nd_place_medal: | :heavy_check_mark: |
+|:hash:| Boréal :id: | README.md | images | Appréciation | Commentaires |
+|------|-------------|-----------|--------|--------------|--------------|
+| 1 | [300124366](../300124366/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261495945?s=460&v=4' width=20 height=20></image>](https://github.com/rb0980h-dot) | :1st_place_medal: | :heavy_check_mark: | :x: | À corriger |
+| 2 | [300147253](../300147253/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: | :x: | À corriger |
+| 3 | [300147891](../300147891/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261496046?s=460&v=4' width=20 height=20></image>](https://github.com/amadbarry96) | :x: | :x: | :x: | À corriger |
+| 4 | [300150396](../300150396/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image>](https://github.com/ibkourouma) | :x: | :x: | :x: | À corriger |
+| 5 | [300151722](../300151722/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261488966?s=460&v=4' width=20 height=20></image>](https://github.com/islamoustani5-collab) | :2nd_place_medal: | :heavy_check_mark: | :x: | À corriger |
+| 6 | [300152004](../300152004/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/218153814?s=460&v=4' width=20 height=20></image>](https://github.com/danielmananga) | :x: | :x: | :x: | À corriger |
+| 7 | [300153405](../300153405/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261492660?s=460&v=4' width=20 height=20></image>](https://github.com/rekaikkhaled) | :x: | :x: | :x: | À corriger |
+| 8 | [300153416](../300153416/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/262935334?s=460&v=4' width=20 height=20></image>](https://github.com/rouabahkhalil28-crypto) | :2nd_place_medal: | :heavy_check_mark: | :x: | À corriger |
 | :abacus: | \$\frac{3}{8}\$ = 37.5% | \$\displaystyle\sum_{i=1}^{8} s_i\$ = 3 |

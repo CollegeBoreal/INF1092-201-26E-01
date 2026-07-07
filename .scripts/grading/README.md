@@ -47,6 +47,11 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
   "cmid": 46,
   "name": "4.Windows"
 }
+{
+  "id": 42,
+  "cmid": 47,
+  "name": "5.NVMe"
+}
 
 ```
 
