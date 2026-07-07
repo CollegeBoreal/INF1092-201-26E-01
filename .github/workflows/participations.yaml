@@ -48,6 +48,9 @@ jobs:
             "0.PlanDeCours",
             "1.Programmation/1.IDE",
             "3.IaC"
+            "4.Windows"
+            "5.NVMe"
+            "6.HyperV"
           )
 
           foreach ($chapter in $chapters) {

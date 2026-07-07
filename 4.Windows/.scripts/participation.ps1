@@ -32,8 +32,15 @@ $ACTIVE_GROUP   = $GROUP_DATA.Students
 . ../.scripts/functions.ps1
 . ../.scripts/commons.ps1
 
+# --------------------------------------
+# FEEDBACK
+# --------------------------------------
+
+$FeedbackLookup = Get-FeedbackLookup -Students $Students
+
 Write-ParticipationHeader
-Write-PresenceHeader
+Write-PresenceHeader -FeedbackLookup $FeedbackLookup
+
 
 $s = 0
 
@@ -53,8 +60,9 @@ for ($i = 0; $i -lt $ACTIVE_GROUP.Count; $i++) {
         -Index ($i + 1) `
         -StudentID $StudentID `
         -GitHubLink $url `
-        -ReadmePath $paths.README `
-        -Checks $checks
+        -ReadmePath $Paths.README `
+        -Checks $Checks `
+        -FeedbackLookup $FeedbackLookup
 
     if (Test-AllRequiredFilesPresent -Checks $checks) {
         $s++

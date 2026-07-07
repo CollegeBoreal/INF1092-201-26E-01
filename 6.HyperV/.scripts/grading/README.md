@@ -8,48 +8,24 @@
 https://${LMS_URL}/course/view.php?id=3
 ```
 
-## :one: LMS Assignment ID = 9
+## :one: LMS Assignment ID = 43
 
-```
-https://${LMS_URL}/mod/assign/view.php?id=9
-```
-
-- [ ] "id": 9 :point_left: Take this as the assignment number !!!
-- [ ] "cmid": 13
-
-```bash
-curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
--d "wstoken=${API_SYNC_TOKEN}" \
--d "wsfunction=mod_assign_get_assignments" \
--d "moodlewsrestformat=json" \
--d "courseids[0]=3" | jq '.courses[].assignments[] | {id, cmid, name}'
-```
-```
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100  1704    0  1587  100   117   2463    181 --:--:-- --:--:-- --:--:--  2645
-```
 ```json
 {
-  "id": 8,
-  "cmid": 12,
-  "name": "4.CRON-TASK"
-}
-{
-  "id": 9,
-  "cmid": 13,
-  "name": "3.IaC"
+  "id": 43,
+  "cmid": 48,
+  "name": "6.HyperV"
 }
 ```
 
-## :two: Rubric Definition CMID = 13
+## :two: Rubric Definition CMID = 48
 
 ```bash
 curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
 -d "wstoken=${API_SYNC_TOKEN}" \
 -d "wsfunction=core_grading_get_definitions" \
 -d "moodlewsrestformat=json" \
--d "cmids[0]=13" \
+-d "cmids[0]=48" \
 -d "areaname=submissions" | jq .
 ```
 ```
@@ -63,47 +39,47 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
 {
   "areas": [
     {
-      "cmid": 13,
-      "contextid": 448,
+      "cmid": 48,
+      "contextid": 567,
       "component": "mod_assign",
       "areaname": "submissions",
       "activemethod": "rubric",
       "definitions": [
         {
-          "id": 8,
+          "id": 42,
           "method": "rubric",
-          "name": "Présence",
-          "description": "",
+          "name": "Participation",
+          "description": "6.HyperV",
           "descriptionformat": 1,
           "status": 20,
           "copiedfromid": null,
-          "timecreated": 1776801503,
+          "timecreated": 1783435927,
           "usercreated": 3,
-          "timemodified": 1776801503,
+          "timemodified": 1783435954,
           "usermodified": 3,
           "timecopied": 0,
           "rubric": {
             "rubric_criteria": [
               {
-                "id": 26,
+                "id": 205,
                 "sortorder": 1,
                 "description": "README.md",
                 "descriptionformat": 1,
                 "levels": [
                   {
-                    "id": 60,
+                    "id": 483,
                     "score": 0,
                     "definition": "❌",
                     "definitionformat": 1
                   },
                   {
-                    "id": 61,
+                    "id": 484,
                     "score": 1,
                     "definition": "🥈",
                     "definitionformat": 1
                   },
                   {
-                    "id": 62,
+                    "id": 485,
                     "score": 2,
                     "definition": "🥇",
                     "definitionformat": 1
@@ -111,19 +87,19 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
                 ]
               },
               {
-                "id": 27,
+                "id": 206,
                 "sortorder": 2,
                 "description": "images",
                 "descriptionformat": 1,
                 "levels": [
                   {
-                    "id": 63,
+                    "id": 486,
                     "score": 0,
                     "definition": "❌",
                     "definitionformat": 1
                   },
                   {
-                    "id": 64,
+                    "id": 487,
                     "score": 1,
                     "definition": "✔️",
                     "definitionformat": 1
@@ -131,61 +107,33 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
                 ]
               },
               {
-                "id": 28,
+                "id": 207,
                 "sortorder": 3,
-                "description": "main.tf",
+                "description": "Appréciation",
                 "descriptionformat": 1,
                 "levels": [
                   {
-                    "id": 65,
+                    "id": 488,
                     "score": 0,
                     "definition": "❌",
                     "definitionformat": 1
                   },
                   {
-                    "id": 66,
+                    "id": 489,
                     "score": 1,
-                    "definition": "✔️",
-                    "definitionformat": 1
-                  }
-                ]
-              },
-              {
-                "id": 29,
-                "sortorder": 4,
-                "description": "VM",
-                "descriptionformat": 1,
-                "levels": [
-                  {
-                    "id": 67,
-                    "score": 0,
-                    "definition": "🔴",
+                    "definition": "🥉",
                     "definitionformat": 1
                   },
                   {
-                    "id": 68,
-                    "score": 1,
-                    "definition": "🟢",
-                    "definitionformat": 1
-                  }
-                ]
-              },
-              {
-                "id": 30,
-                "sortorder": 5,
-                "description": "SSH",
-                "descriptionformat": 1,
-                "levels": [
-                  {
-                    "id": 69,
-                    "score": 0,
-                    "definition": "💥",
+                    "id": 490,
+                    "score": 2,
+                    "definition": "🥈",
                     "definitionformat": 1
                   },
                   {
-                    "id": 70,
-                    "score": 1,
-                    "definition": "🔗",
+                    "id": 491,
+                    "score": 3,
+                    "definition": "🥇",
                     "definitionformat": 1
                   }
                 ]
@@ -198,6 +146,7 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
   ],
   "warnings": []
 }
+
 ```
 
 </details>
