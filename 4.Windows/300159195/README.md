@@ -1,3 +1,4 @@
+~~ islem ~~
 J'ai démarré le serveur HP DL360 G6 et vérifié que les principaux composants fonctionnaient correctement. Le serveur a ensuite tenté de démarrer via le réseau (PXE).
 <img width="2000" height="1126" alt="1" src="https://github.com/user-attachments/assets/c412616e-bf9e-4b5b-8cff-7c6e8d96a9e8" />
 
