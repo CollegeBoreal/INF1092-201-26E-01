@@ -1,4 +1,4 @@
-# Participation au 07-07-2026 17:25
+# Participation au 07-07-2026 17:30
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -47,6 +47,6 @@
 | 28 | [300160424](../300160424/README.md) :point_right: [youcef-1994](https://github.com/youcef-1994) <image src='https://avatars0.githubusercontent.com/u/261502136?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 29 | [300160504](../300160504/README.md) :point_right: [mmounir07](https://github.com/mmounir07) <image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 30 | [300160733](../300160733/README.md) :point_right: [belhadiyanis200-a11y](https://github.com/belhadiyanis200-a11y) <image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 31 | [300160862](../300160862/README.md) :point_right: [cherifyamna](https://github.com/cherifyamna) <image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 31 | [300160862](../300160862/README.md) :point_right: [cherifyamna](https://github.com/cherifyamna) <image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 32 | [300155045](../300155045/README.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | :abacus: | \$\\frac{11}{33}\$ = 33.33% | \$\displaystyle\sum_{i=1}^{33} s_i\$ = 11 |
