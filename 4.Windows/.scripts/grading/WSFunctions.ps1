@@ -47,7 +47,7 @@ function Get-ParticipationGrades {
             # README.md quantity (fail/silver/gold)
             # ---------------------------------
             $readEmoji = ($cols[3]).Trim()
-            $levels = @(438, 439, 440)  # fail, silver, gold
+            $levels = @(465, 466, 467)  # fail, silver, gold
             $readScore = Get-RubricLevelIdFromReadmeEmoji `
                 -Emoji $readEmoji `
                 -Levels $levels
@@ -58,20 +58,20 @@ function Get-ParticipationGrades {
             $imgEmoji = ($cols[4]).Trim()
             $imgScore = Get-RubricLevelIdFromEmoji `
                 -Emoji $imgEmoji `
-                -FailLevelId 441 `
-                -PassLevelId 442
+                -FailLevelId 468 `
+                -PassLevelId 469
 
             # If README.md exceeds expectations,
             # images folder is implicitly considered present
-            if ($readScore -gt 440) {
-                $imgScore = 442
+            if ($readScore -gt 467) {
+                $imgScore = 469
             }
 
             # ---------------------------------
             # Appreciation (fail/silver/gold)
             # ---------------------------------
             $appEmoji = ($cols[5]).Trim()
-            $appLevels = @(443, 444, 445, 446)  # fail, bronze, silver, gold
+            $appLevels = @(470, 471, 472, 473)  # fail, bronze, silver, gold
             $appScore = Get-RubricLevelIdFromReadmeEmoji `
                 -Emoji $appEmoji `
                 -Levels $appLevels
@@ -122,9 +122,9 @@ function New-LMSRubricFromEntry {
 
     # Build rubric
     $rubric = @(
-        @{ criterionid = 190;  levelid = $Entry.readme;    remark = "Quantité README.md " }
-        @{ criterionid = 191;  levelid = $Entry.image;     remark = "Présence répertoire images " }
-        @{ criterionid = 192;  levelid = $Entry.app;       remark = $Entry.comments }
+        @{ criterionid = 199;  levelid = $Entry.readme;    remark = "Quantité README.md " }
+        @{ criterionid = 200;  levelid = $Entry.image;     remark = "Présence répertoire images " }
+        @{ criterionid = 201;  levelid = $Entry.app;       remark = $Entry.comments }
     )
 
     # Validate level IDs (avoid Moodle crash)

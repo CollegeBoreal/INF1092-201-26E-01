@@ -38,10 +38,16 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
   "name": "1.IDE"
 }
 {
-  "id": 38,
-  "cmid": 43,
+  "id": 40,
+  "cmid": 45,
   "name": "3.IaC"
 }
+{
+  "id": 41,
+  "cmid": 46,
+  "name": "4.Windows"
+}
+
 ```
 
 </details>
