@@ -2,6 +2,8 @@
 
 Ce laboratoire avait pour but d'augmenter la capacité de stockage d'un serveur en y installant un disque NVMe de 1 To sous Windows Server 2022 Datacenter. Après avoir vérifié la compatibilité matérielle, le disque a été installé via un adaptateur PCIe, puis détecté correctement au démarrage du système. J'ai procédé à son initialisation, son formatage en NTFS et sa mise en service pour le stockage de données. La connexion réseau a ensuite été vérifiée et le Bureau à distance (RDP) activé pour permettre l'administration du serveur. Les captures d'écran du rapport illustrent les étapes clés : détection du disque, formatage, vérification de l'espace disponible et configuration de l'accès distant. Tous les objectifs ont été atteints : le disque NVMe est pleinement fonctionnel, la connexion réseau est stable et l'accès à distance est opérationnel, démontrant une solution simple et économique pour étendre le stockage d'un serveur existant.
 
+
+
 <img width="2048" height="1536" alt="PHOTO-2026-07-07-14-17-56 2" src="https://github.com/user-attachments/assets/bfcee0dd-9ad5-4964-9760-621edebed196" />
 
 <img width="2048" height="1536" alt="PHOTO-2026-07-07-14-17-56 5" src="https://github.com/user-attachments/assets/5f7f43fc-3ab1-4e6a-a8cf-6e26b8089a7c" />
