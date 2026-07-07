@@ -17,6 +17,10 @@ Cours : INF1092-201-E26-01
   <img width="4080" height="3072" alt="PXL_20260616_193051883" src="https://github.com/user-attachments/assets/171eb6aa-88f3-4f51-a798-888803135673" />
   <img width="4080" height="3072" alt="PXL_20260616_201154982 MP" src="https://github.com/user-attachments/assets/862c84f8-0c39-4575-8537-8fbbb0f9cbe3" />
   <img width="4080" height="3072" alt="PXL_20260616_185140683" src="https://github.com/user-attachments/assets/4244bb22-36cc-41f2-97f9-0349f5498eac" />
+  <img width="4080" height="3072" alt="PXL_20260616_200613951 MP" src="https://github.com/user-attachments/assets/992ecfb9-cc7a-4fb4-bf72-257bb440b8bb" />
+  <img width="4080" height="3072" alt="PXL_20260616_200613951 MP" src="https://github.com/user-attachments/assets/5680e6c7-8551-4f55-a750-0bafebb3f2ae" />
+
+
 
 
 
