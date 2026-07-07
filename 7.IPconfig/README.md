@@ -1,5 +1,13 @@
 # Réseau Hyper‑V et accès RDP
 
+| #️⃣ | Participations |
+|-|-|
+| 1️⃣ | [:tada: Participation](.scripts/Participation-group1.md) |
+| 2️⃣ | [:tada: Participation](.scripts/Participation-group2.md) |
+| 3️⃣ | [:tada: Participation](.scripts/Participation-group3.md) |
+| 4️⃣ | [:tada: Participation](.scripts/Participation-group4.md) |
+|    | [:tada: Participation](.scripts/Participation-group5.md) |
+
 ## Objectifs
 
 Chaque étudiant doit :
