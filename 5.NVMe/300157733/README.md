@@ -1,1 +1,30 @@
 ce travail concerne le windows
+<img width="1170" height="654" alt="WhatsApp Image25  2026-06-30 at 2 30 31 PM" src="https://github.com/user-attachments/assets/bde277d0-1fb3-44a8-bc6c-721268d369a6" />
+<img width="1536" height="2048" alt="WhatsApp Image24 2026-06-30 at 2 30 31 PM" src="https://github.com/user-attachments/assets/575f9fa5-9fdf-48e7-a3ec-9907e7180a48" />
+<img width="1536" height="2048" alt="WhatsApp Image23 2026-06-30 at 2 30 31 PM" src="https://github.com/user-attachments/assets/638a7483-33ba-48cf-958c-1d65391ce97a" />
+
+<img width="1536" height="2048" alt="WhatsApp Image21 2026-06-30 at 2 30 31 PM" src="https://github.com/user-attachments/assets/1a77fe40-265f-4d3c-8610-77a993efe625" />
+<img width="2048" height="1536" alt="WhatsApp Image20 2026-06-30 at 2 30 30 PM" src="https://github.com/user-attachments/assets/03b4207d-ec85-4dc6-a22d-b658eb4ddb66" />
+<img width="2048" height="1536" alt="WhatsApp Image19 2026-06-30 at 2 30 30 PM" src="https://github.com/user-attachments/assets/bf42b1ce-7fa9-4c58-a2c4-38c8dfc8b6f9" />
+<img width="2048" height="1536" alt="WhatsApp Image18 2026-06-30 at 2 30 30 PM" src="https://github.com/user-attachments/assets/6a8f7a61-b9f4-4d53-8305-81479fd6b16e" />
+<img width="2048" height="1536" alt="WhatsApp Image17 2026-06-30 at 2 30 30 PM" src="https://github.com/user-attachments/assets/ab8ea418-c8f3-4bbb-bb53-214924797414" />
+<img width="2048" height="1536" alt="WhatsApp Image16 2026-06-30 at 2 30 30 PM" src="https://github.com/user-attachments/assets/4e45c0c7-7057-4857-a181-ed559a10af1e" />
+<img width="2048" height="1536" alt="WhatsApp Image15 2026-06-30 at 2 30 30 PM" src="https://github.com/user-attachments/assets/d036acca-b735-4a3f-a6d9-3101694ffb4c" />
+<img width="2048" height="1536" alt="WhatsApp Image14 2026-06-30 at 2 30 30 PM" src="https://github.com/user-attachments/assets/bb220845-b4da-47c9-b438-0e7d55661fdb" />
+<img width="1536" height="2048" alt="WhatsApp Image13 2026-06-30 at 2 30 29 PM" src="https://github.com/user-attachments/assets/1c41d3ab-b949-462d-bcda-6f45926e1d34" />
+<img width="2048" height="1536" alt="WhatsApp Image12 2026-06-30 at 2 30 29 PM" src="https://github.com/user-attachments/assets/d2d926b2-408a-4235-ab3d-d59d85e481d4" />
+<img width="2048" height="1536" alt="WhatsApp Image11 2026-06-30 at 2 30 29 PM" src="https://github.com/user-attachments/assets/4c828fbd-2f33-42eb-a798-abf3b4c0ec21" />
+<img width="2048" height="1536" alt="WhatsApp Image9 2026-06-30 at 2 30 29 PM" src="https://github.com/user-attachments/assets/6d52f4af-5dc5-4f5c-9693-28b96a40274d" />
+
+
+<img width="2048" height="1536" alt="WhatsApp Image6 2026-06-30 at 2 30 28 PM" src="https://github.com/user-attachments/assets/b10e53fe-16e8-4561-9364-4d1d4264c14a" />
+<img width="2048" height="1536" alt="WhatsApp Image5 2026-06-30 at 2 30 28 PM" src="https://github.com/user-attachments/assets/f0b2468c-094e-4efe-a19b-88e5268f15b2" />
+
+<img width="2048" height="1536" alt="WhatsApp Image3 2026-06-30 at 2 30 28 PM" src="https://github.com/user-attachments/assets/e6a9e0e6-a2f1-44c5-b45b-91084b7f3722" />
+<img width="2048" height="1536" alt="WhatsApp Image2 2026-06-30 at 2 30 28 PM" src="https://github.com/user-attachments/assets/d04c530c-fa78-4f62-a3ea-a2a94fdd56b3" />
+<img width="2048" height="1536" alt="WhatsApp Image 2026-06-30 at 2 30 28 PM" src="https://github.com/user-attachments/assets/7cf116c5-7e20-408f-9992-2c87def979ec" />
+<img width="960" height="1280" alt="WhatsApp Image 2026-03-25 at 15 48 19" src="https://github.com/user-attachments/assets/fa57f144-3fb4-47ad-8f1d-44b533a47590" />
+<img width="2048" height="1536" alt="WhatsApp Image 10 2026-06-30 at 2 30 29 PM" src="https://github.com/user-attachments/assets/d61e13f3-0ecb-497c-8d89-d3cecc294a0b" />
+
+
+
