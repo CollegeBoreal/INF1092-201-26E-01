@@ -1,4 +1,6 @@
 **300159672**
+
+
 **Installation de Windows Server 2022 Datacenter**
 1. **Vérifications**
 2. J'ai Vérifié que le matériel fonctionne correctement.
