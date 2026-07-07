@@ -15,19 +15,19 @@
 
 | Windows Server 2022 Datacenter            | User/Pwd                   |
 |-------------------------------------------|----------------------------|
-| 10.7.237.28                                 | Administrator/Boreal@2️⃣02️⃣6 |
+| 10.7.237.225 10.7.237.226 10.7.237.227 10.7.237.228 10.7.237.229 10.7.237.230 10.7.237.231 10.7.237.232                                 | Administrator/Boreal@2️⃣02️⃣6 |
 
 
 ## :a: Présence
 
 |:hash:| Boréal :id: | README.md | images | Appréciation | Commentaires | :link: IP |
 |------|-------------|-----------|--------|--------------|--------------|-----------|
-| 1 | [300159672](../300159672/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/233241856?s=460&v=4' width=20 height=20></image>](https://github.com/1999amadou03-star) | :x: | :x: | :x: | À corriger |
-| 2 | [300159887](../300159887/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261490027?s=460&v=4' width=20 height=20></image>](https://github.com/hammichebillal06-dot) | :x: | :x: | :x: | À corriger |
-| 3 | [300159995](../300159995/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261493465?s=460&v=4' width=20 height=20></image>](https://github.com/nidalon52-glitch) | :x: | :x: | :x: | À corriger |
-| 4 | [300160006](../300160006/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489041?s=460&v=4' width=20 height=20></image>](https://github.com/maimouna247) | :x: | :x: | :x: | À corriger |
-| 5 | [300160424](../300160424/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261502136?s=460&v=4' width=20 height=20></image>](https://github.com/youcef-1994) | :x: | :x: | :x: | À corriger |
-| 6 | [300160504](../300160504/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image>](https://github.com/mmounir07) | :x: | :x: | :x: | À corriger |
-| 7 | [300160733](../300160733/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image>](https://github.com/belhadiyanis200-a11y) | :x: | :x: | :x: | À corriger |
-| 8 | [300160862](../300160862/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image>](https://github.com/cherifyamna) | :x: | :x: | :x: | À corriger |
+| 1 | [300159672](../300159672/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/233241856?s=460&v=4' width=20 height=20></image>](https://github.com/1999amadou03-star) | :x: | :x: | :x: | À corriger | 10.7.237.225 |
+| 2 | [300159887](../300159887/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261490027?s=460&v=4' width=20 height=20></image>](https://github.com/hammichebillal06-dot) | :x: | :x: | :x: | À corriger | 10.7.237.226 |
+| 3 | [300159995](../300159995/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261493465?s=460&v=4' width=20 height=20></image>](https://github.com/nidalon52-glitch) | :x: | :x: | :x: | À corriger | 10.7.237.227 |
+| 4 | [300160006](../300160006/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489041?s=460&v=4' width=20 height=20></image>](https://github.com/maimouna247) | :x: | :x: | :x: | À corriger | 10.7.237.228 |
+| 5 | [300160424](../300160424/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261502136?s=460&v=4' width=20 height=20></image>](https://github.com/youcef-1994) | :x: | :x: | :x: | À corriger | 10.7.237.229 |
+| 6 | [300160504](../300160504/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image>](https://github.com/mmounir07) | :x: | :x: | :x: | À corriger | 10.7.237.230 |
+| 7 | [300160733](../300160733/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image>](https://github.com/belhadiyanis200-a11y) | :x: | :x: | :x: | À corriger | 10.7.237.231 |
+| 8 | [300160862](../300160862/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image>](https://github.com/cherifyamna) | :x: | :x: | :x: | À corriger | 10.7.237.232 |
 | :abacus: | \$\frac{0}{8}\$ = 0% | \$\displaystyle\sum_{i=1}^{8} s_i\$ = 0 |

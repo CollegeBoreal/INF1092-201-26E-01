@@ -40,7 +40,8 @@ function Write-LabStudentRow {
         [string]$GitHubLink,
         [string]$ReadmePath,
         [hashtable]$Checks,
-        [hashtable]$FeedbackLookup = @{}
+        [hashtable]$FeedbackLookup = @{},
+        [string]$Server
     )
 
     if ($FeedbackLookup.Count -gt 0) {
@@ -50,10 +51,10 @@ function Write-LabStudentRow {
         $Appreciation = if ($Feedback) { $Feedback.Appreciation } else { "" }
         $Comments     = if ($Feedback) { $Feedback.Comments } else { "" }
 
-        Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $Appreciation | $Comments |"
+        Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $Appreciation | $Comments | $($Server) |"
     }
     else {
 
-        Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) |"
+        Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Server) |"
     }
 }

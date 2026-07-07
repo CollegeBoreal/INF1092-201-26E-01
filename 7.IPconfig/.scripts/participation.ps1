@@ -28,7 +28,7 @@ $GROUP_DATA = $LAB_GROUPS[$Group - 1]
 
 $ACTIVE_GROUP   = $GROUP_DATA.Students
 
-$WINDOWS_SERVER = $WINDOWS_SERVERS[$Group - 1] 
+$WINDOWS_SERVER = $GROUP_DATA.Servers
 
 # Importer les fonctions
 . ../.scripts/functions.ps1
@@ -68,7 +68,8 @@ for ($i = 0; $i -lt $ACTIVE_GROUP.Count; $i++) {
         -GitHubLink $url `
         -ReadmePath $Paths.README `
         -Checks $Checks `
-        -FeedbackLookup $FeedbackLookup
+        -FeedbackLookup $FeedbackLookup `
+        -Server $WINDOWS_SERVER[$i]
 
     if (Test-AllRequiredFilesPresent -Checks $checks) {
         $s++
