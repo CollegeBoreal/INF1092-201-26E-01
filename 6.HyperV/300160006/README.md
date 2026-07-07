@@ -1,7 +1,7 @@
 # 300160006
 ```POWERSHELL
 $vm="VM300160006"
-$iso="D:\ISO\300160006\en_us_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
+$iso="D:\ISO\300160006\en-us_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
 
 New-VM -Name $vm -Generation 1 -MemoryStartupBytes 4GB `
   -NewVHDPath "D:\VMs\$vm\$vm.vhdx" -NewVHDSizeBytes 60GB `

@@ -1,3 +1,0 @@
-ID : 300153416
-Projet : 4.WINDOWS
-Cours : INF1092-201-E26-01

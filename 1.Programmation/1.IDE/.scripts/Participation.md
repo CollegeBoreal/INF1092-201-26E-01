@@ -1,4 +1,4 @@
-# Participation au 07-07-2026 17:12
+# Participation au 07-07-2026 18:26
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -39,7 +39,7 @@
 | 20 | [300159203](../300159203/README.md) :point_right: [riadhsahraoui](https://github.com/riadhsahraoui) <image src='https://avatars0.githubusercontent.com/u/261489597?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 21 | [300159437](../300159437/README.md) :point_right: [bob19142005](https://github.com/bob19142005) <image src='https://avatars0.githubusercontent.com/u/203893881?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 22 | [300159463](../300159463/README.md) :point_right: [hammahichem99](https://github.com/hammahichem99) <image src='https://avatars0.githubusercontent.com/u/261489495?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
-| 23 | [300159693](../300159693/README.md) :point_right: [mazigh-2000](https://github.com/mazigh-2000) <image src='https://avatars0.githubusercontent.com/u/288084942?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 23 | [300159693](../300159693/README.md) :point_right: [mazigh-2000](https://github.com/mazigh-2000) <image src='https://avatars0.githubusercontent.com/u/288084942?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 24 | [300159672](../300159672/README.md) :point_right: [1999amadou03-star](https://github.com/1999amadou03-star) <image src='https://avatars0.githubusercontent.com/u/233241856?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 25 | [300159887](../300159887/README.md) :point_right: [hammichebillal06-dot](https://github.com/hammichebillal06-dot) <image src='https://avatars0.githubusercontent.com/u/261490027?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 26 | [300159995](../300159995/README.md) :point_right: [nidalon52-glitch](https://github.com/nidalon52-glitch) <image src='https://avatars0.githubusercontent.com/u/261493465?s=460&v=4' width=20 height=20></image> | :x: | :x: |
@@ -47,6 +47,6 @@
 | 28 | [300160424](../300160424/README.md) :point_right: [youcef-1994](https://github.com/youcef-1994) <image src='https://avatars0.githubusercontent.com/u/261502136?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 29 | [300160504](../300160504/README.md) :point_right: [mmounir07](https://github.com/mmounir07) <image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 30 | [300160733](../300160733/README.md) :point_right: [belhadiyanis200-a11y](https://github.com/belhadiyanis200-a11y) <image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 31 | [300160862](../300160862/README.md) :point_right: [cherifyamna](https://github.com/cherifyamna) <image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 31 | [300160862](../300160862/README.md) :point_right: [cherifyamna](https://github.com/cherifyamna) <image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 32 | [300155045](../300155045/README.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | :abacus: | \$\\frac{11}{33}\$ = 33.33% | \$\displaystyle\sum_{i=1}^{33} s_i\$ = 11 |
