@@ -1,6 +1,6 @@
 D : 300153416
 Nom : rouabah khalil
 Cours : INF1092-201-E26-01
-          - Atelier de configuration de stockage et de déploiement réseau système.
-Première phase dédiée à la création d'un volume logique en RAID 5 avec trois disques durs de 146.8 GB sur un contrôleur HP Smart Array P410i.
-Seconde phase centrée sur l'installation automatisée de Windows Server 2022 Standard via un serveur de déploiement réseau WDS.
+
+    Description de l'atelier : Montage et composants du serveur
+Cet atelier pratique consiste à réassembler entièrement le serveur après son démontage complet, puis à identifier chaque composant matériel afin d'en comprendre le rôle exact.
