@@ -15,7 +15,7 @@
 
 | Windows Server 2022 Datacenter            | User/Pwd                   |
 |-------------------------------------------|----------------------------|
-| 10.7.237.233                                 | Administrator/Boreal@2️⃣02️⃣6 |
+|                                  | Administrator/Boreal@2️⃣02️⃣6 |
 
 
 ## :a: Présence
