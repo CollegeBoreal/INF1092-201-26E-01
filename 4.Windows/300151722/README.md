@@ -14,7 +14,7 @@ Dans ce laboratoire, nous avons installé Windows Server 2022 DataCenter sur un 
 L’objectif était de préparer le serveur, vérifier le matériel, démarrer l’installation et configurer les paramètres de base après l’installation.
 
 
-##<< Vérification du matériel avant l’installation >>##
+## Vérification du matériel avant l’installation ##
 
 Avant de commencer l’installation, j’ai vérifié les composants principaux du serveur.
 
