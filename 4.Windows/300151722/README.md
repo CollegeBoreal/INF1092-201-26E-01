@@ -1,8 +1,11 @@
 Rapport d'atelier - Installation de Windows Server 2022 DataCenter
 
 ID : 300151722
+
 Nom : Islam Oustani
+
 Projet : 4.Windows
+
 Cours : INF1092-201-E26-01
 
 Situation
@@ -11,7 +14,7 @@ Dans ce laboratoire, nous avons installé Windows Server 2022 DataCenter sur un 
 L’objectif était de préparer le serveur, vérifier le matériel, démarrer l’installation et configurer les paramètres de base après l’installation.
 
 
-<< Vérification du matériel avant l’installation >>
+##<< Vérification du matériel avant l’installation >>##
 
 Avant de commencer l’installation, j’ai vérifié les composants principaux du serveur.
 
@@ -60,5 +63,4 @@ On entre le nom d’utilisateur et le mot de passe pour accéder à l’installa
 Fin de l’installation
 Cette photo montre que Windows Server 2022 Datacenter est installé correctement. Le bureau Windows est affiché, donc l’installation est terminée et le serveur fonctionne.
 
-Pas besoin de dire que c’est une photo de groupe 😄
 <img width="5120" height="3840" alt="WhatsApp Image 2026-06-16 at 15 23 30" src="https://github.com/user-attachments/assets/30266a40-8673-402b-8bf8-d438b586ea6b" />
