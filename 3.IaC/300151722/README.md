@@ -15,7 +15,7 @@ Cette photo montre l'étiquette d'identification du serveur HP. On peut voir le 
 <img width="4032" height="3024" alt="1 (2)" src="https://github.com/user-attachments/assets/73ab1b08-9647-42f5-bfd0-b32ce1875e28" />
 
 j’ai ouvert le serveur afin d’identifier les composants internes et comprendre leur rôle. Cette étape permet de vérifier l’organisation du serveur et de mieux comprendre son fonctionnement matériel.
-j’ai ouvert le serveur afin d’identifier les composants internes et comprendre leur rôle. Cette étape permet de vérifier l’organisation du serveur et de mieux comprendre son fonctionnement matériel.
+<img width="3840" height="5120" alt="2" src="https://github.com/user-attachments/assets/50ad4030-c2b3-4041-8051-4d5d53b707f9" />
 
 Cette photo montre les sockets des processeurs sur la carte mère du serveur. Cette étape sert à identifier l’endroit où les CPU sont installés. Le processeur est important, car il exécute les instructions du système.
 <img width="1204" height="1600" alt="3" src="https://github.com/user-attachments/assets/e166e7b8-39c1-4129-8b2b-ad404f975f38" />
