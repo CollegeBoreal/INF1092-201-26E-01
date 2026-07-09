@@ -1,5 +1,6 @@
 # 300160006
- ```New-NetIPAddress `
+ ```
+ New-NetIPAddress `
 -InterfaceAlias "Ethernet" `
 -IPAddress 10.7.237.x `
 -PrefixLength 23 `
