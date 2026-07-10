@@ -73,7 +73,6 @@ on verifier bien que on a assez de ram
 Vérification visuelle et physique de la quantité de mémoire RAM installée sur la carte mère.
 
 <img width="1536" height="2048" alt="11" src="https://github.com/user-attachments/assets/f2e6ee20-cdc7-4003-869b-f3257bbda64d" />
-Mise sous tension du serveur et affichage de l'écran d'initialisation (POST).
 <img width="1536" height="2048" alt="10" src="https://github.com/user-attachments/assets/f58ad932-f45e-4354-bb1f-d5634a74dd78" />
 
 <img width="1536" height="2048" alt="9" src="https://github.com/user-attachments/assets/9b6e564f-e142-4584-a951-100d02bfda0e" />
