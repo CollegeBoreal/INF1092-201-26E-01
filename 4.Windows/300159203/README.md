@@ -1,8 +1,27 @@
 Compte rendu — Installation Windows Server 2022 Étudiant 
+1. Inspection physique
+
+- ✅ Étape effectuée dans le laboratoire précédent.
+- ✅ CPU installé correctement.
+- ✅ RAM détectée.
+- ✅ Carte RAID présente.
+- ✅ Disques détectés.
+- ✅ Écran VGA fonctionnel.
+- ✅ Clavier et souris connectés.
 J’ai démarré le serveur HP DL360 G6, vérifié que le matériel essentiel fonctionnait (CPU, RAM, RAID, disques, alimentation et ports réseau)
 <img width="2000" height="1126" alt="a" src="https://github.com/user-attachments/assets/e7073a6e-e086-46f9-a773-38e480f15410" />
+2. Alimentation
 
+- ✅ PSU1 : Fonctionnel
+- ✅ PSU2 : Fonctionnel
+
+Les deux alimentations étaient branchées et le serveur a démarré normalement.
 puis j’ai lancé l’installation de Windows Server 2022 Datacenter via le boot PXE du laboratoire
+3. Réseau
+
+- ✅ Les ports Ethernet fonctionnent.
+- ✅ Le serveur est connecté au réseau du laboratoire.
+- ✅ Le démarrage PXE a fonctionné correctement.
 <img width="2000" height="1126" alt="e" src="https://github.com/user-attachments/assets/773001ca-62b5-49b8-b207-af754f4787fe" />
 <img width="2000" height="1126" alt="d" src="https://github.com/user-attachments/assets/e3b0b1f2-3f99-49bc-b110-551740a8ce01" />
 <img width="2000" height="1126" alt="c" src="https://github.com/user-attachments/assets/784df739-655c-47c9-bec3-9d6a76b3e435" />
@@ -15,8 +34,21 @@ Une fois l’installation terminée et le serveur redémarré pour la première 
 <img width="2000" height="1126" alt="k" src="https://github.com/user-attachments/assets/2faf64c2-7e2e-4b39-bebb-ad40996bfec5" />
 <img width="2000" height="1126" alt="g" src="https://github.com/user-attachments/assets/2a74c296-7849-4fb0-89ab-3e52ae3d2979" />
 <img width="2000" height="1126" alt="n" src="https://github.com/user-attachments/assets/82273d50-174a-41e5-b964-edeb06570684" />
+Configuration après l'installation
+
+Le mot de passe du compte Administrator a été configuré avec succès.
+
+Les commandes de configuration de l'adresse IP statique, du DNS, du renommage du serveur et de l'activation du Bureau à distance (RDP) n'ont pas été réalisées dans ce laboratoire.
 
 j’ai effectué les vérifications de base pour confirmer que le système était fonctionnel : affichage du hostname, vérification de l’adresse IP avec ipconfig et tests de connectivité réseau (ping). Je me suis arrêté à cette étape après avoir validé que le serveur répondait correctement et j’ai pris les captures d’écran nécessaires pour documenter le fonctionnement du réseau.
 <img width="1536" height="2048" alt="c94240fe-2359-403e-a009-b11cf9f131b1" src="https://github.com/user-attachments/assets/e001af97-cbed-48c6-aaba-f30a641e40a2" />
 <img width="2048" height="1536" alt="8805aede-0cab-4cbe-93c8-a422034f2233" src="https://github.com/user-attachments/assets/33fa78d1-a59e-4dab-9b76-ac80483ab347" />
+## Vérifications finales
 
+Les vérifications suivantes ont été réalisées :
+
+- ✅ hostname
+- ✅ ipconfig
+- ✅ ping
+
+Les résultats montrent que le serveur fonctionne correctement et que la connectivité réseau est opérationnelle.
