@@ -8,7 +8,7 @@ ID: 300124366
 
 Voici les commandes effectuées pour la configuration du reseau Hyper-v 
 
-hostname :
+hostname : WIN-3RSSC2K52KK
 
 Get-NetAdapter
 
