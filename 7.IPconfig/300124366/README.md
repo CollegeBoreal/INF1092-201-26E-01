@@ -6,9 +6,9 @@ Date :10/07/2026
 
 ID: 300124366
 
-Voici les commandes effectuées pour la configuration du reseau Hyper-v 
-
 hostname : WIN-3RSSC2K52KK
+
+Voici les commandes effectuées pour la configuration du reseau Hyper-v 
 
 Get-NetAdapter
 
