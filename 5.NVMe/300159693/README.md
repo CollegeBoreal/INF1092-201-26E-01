@@ -1,0 +1,2 @@
+Rapport de laboratoire – Installation d'un disque NVMe
+Lors de ce laboratoire, nous avons installé un disque NVMe de 1 To sur un serveur HP DL360 G6 à l'aide d'un adaptateur PCIe. Après l'installation du matériel, nous avons démarré Windows Server 2022 Datacenter afin de vérifier que le disque était correctement détecté par le système d'exploitation. Nous avons ensuite procédé à son initialisation, à son partitionnement et à son formatage. Enfin, nous avons effectué des tests de fonctionnement pour confirmer que le disque était opérationnel et prêt à être utilisé.
