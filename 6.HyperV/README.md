@@ -18,7 +18,11 @@
 | 2️⃣   | 25 | 🅰️ G6️⃣      | S25 | MXQ016001V✅ | 10.7.237.24                 | 64GB | 16  | 273.4G  | $\color{green}\text{1TBNVMe}$  $\color{red}\text{E:}$  
 | 2️⃣   | 24 | 🅰️ G6️⃣      | S13 | MXQ0030BLP✅ | 10.7.237.28                 | 64GB | 16  | 273.4G  | $\color{green}\text{1TBNVMe}$  $\color{green}\text{D:}$
 
-⚠️ Rajouter SSH au serveur [㊙️ SSH](.prep/SSH)
+
+| Préparations |
+|-|
+| ⚠️ Rajouter SSH au serveur [㊙️ SSH](.prep/SSH) |
+| ⚠️ Rajouter HyperV au serveur [🎋 HyperV](.prep/HyperV) |
 
 
 Voici un **résumé ultra‑clair du travail demandé** (format étudiant 👇)
