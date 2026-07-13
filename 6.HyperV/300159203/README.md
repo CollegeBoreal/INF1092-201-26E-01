@@ -48,6 +48,7 @@ Vérification:
 <img width="1177" height="1600" alt="52ccfccf-5cd3-4451-a547-b28dd3d4c8fa" src="https://github.com/user-attachments/assets/ee2f40bf-3bc9-4340-be3b-88a882533e5e" />
 
 mon cheat sheet :
+
 $vm="VM300159203"
 $iso="E:\ISO\300159203\fr-fr_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
 
