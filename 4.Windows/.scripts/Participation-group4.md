@@ -16,8 +16,8 @@
 
 |:hash:| Boréal :id: | README.md | images | Appréciation | Commentaires |
 |------|-------------|-----------|--------|--------------|--------------|
-| 1 | [300157307](../300157307/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494517?s=460&v=4' width=20 height=20></image>](https://github.com/amaradjida7-hub) | :2nd_place_medal: | :heavy_check_mark: | :x: | À corriger |
-| 2 | [300157423](../300157423/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261497291?s=460&v=4' width=20 height=20></image>](https://github.com/gaya-994) | :2nd_place_medal: | :heavy_check_mark: | :x: | À corriger |
-| 3 | [300157606](../300157606/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261497731?s=460&v=4' width=20 height=20></image>](https://github.com/ouahiba1994) | :1st_place_medal: | :heavy_check_mark: | :x: | À corriger |
-| 4 | [300157727](../300157727/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/262933367?s=460&v=4' width=20 height=20></image>](https://github.com/rayan23082001) | :x: | :x: | :x: | À corriger |
+| 1 | [300157307](../300157307/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494517?s=460&v=4' width=20 height=20></image>](https://github.com/amaradjida7-hub) | :2nd_place_medal: | :heavy_check_mark: | :3rd_place_medal: | 1️⃣ Pas grand chose à corriger |
+| 2 | [300157423](../300157423/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261497291?s=460&v=4' width=20 height=20></image>](https://github.com/gaya-994) | :2nd_place_medal: | :heavy_check_mark: | :2nd_place_medal: | 1️⃣ Bon texte mais aucune illustration |
+| 3 | [300157606](../300157606/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261497731?s=460&v=4' width=20 height=20></image>](https://github.com/ouahiba1994) | :1st_place_medal: | :heavy_check_mark: | :1st_place_medal: | 1️⃣ Bon texte mais manque d'illustrations |
+| 4 | [300157727](../300157727/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/262933367?s=460&v=4' width=20 height=20></image>](https://github.com/rayan23082001) | :x: | :x: | :x: | 1️⃣ Rien à corriger |
 | :abacus: | \$\frac{3}{4}\$ = 75% | \$\displaystyle\sum_{i=1}^{4} s_i\$ = 3 |
