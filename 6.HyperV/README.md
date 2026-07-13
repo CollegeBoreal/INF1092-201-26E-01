@@ -21,8 +21,8 @@
 
 | ⚠️ Préparation |
 |-|
-| - [ ] Rajouter SSH au serveur [㊙️ SSH](.prep/SSH) |
-| - [ ] Rajouter HyperV au serveur [🎋 HyperV](.prep/HyperV) |
+| 1️⃣ Rajouter SSH au serveur [㊙️ SSH](.prep/SSH) |
+| 2️⃣ Rajouter HyperV au serveur [🎋 HyperV](.prep/HyperV) |
 
 
 Voici un **résumé ultra‑clair du travail demandé** (format étudiant 👇)
