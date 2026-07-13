@@ -42,6 +42,8 @@ Après avoir sélectionné l'installation personnalisée et ciblé notre disque 
 Au terme du processus d'installation et après le redémarrage automatique de la machine virtuelle, le système a affiché l'écran des paramètres de personnalisation. Nous avons défini et confirmé le mot de passe de sécurité complexe destiné à protéger le compte local principal du serveur
 <img width="2048" height="1536" alt="a71d775e-9e59-4761-aff1-d7127141c174" src="https://github.com/user-attachments/assets/bc1b7902-86e0-41ed-8b11-4bb33f545136" />
 instalation de windows sur la VM reussie
+
+
 Vérification:
 <img width="1177" height="1600" alt="52ccfccf-5cd3-4451-a547-b28dd3d4c8fa" src="https://github.com/user-attachments/assets/ee2f40bf-3bc9-4340-be3b-88a882533e5e" />
 
