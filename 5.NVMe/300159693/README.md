@@ -1,5 +1,30 @@
 Rapport de laboratoire – Installation d'un disque NVMe
 Lors de ce laboratoire, nous avons installé un disque NVMe de 1 To sur un serveur HP DL360 G6 à l'aide d'un adaptateur PCIe. Après l'installation du matériel, nous avons démarré Windows Server 2022 Datacenter afin de vérifier que le disque était correctement détecté par le système d'exploitation. Nous avons ensuite procédé à son initialisation, à son partitionnement et à son formatage. Enfin, nous avons effectué des tests de fonctionnement pour confirmer que le disque était opérationnel et prêt à être utilisé.
+Installation d'un disque NVMe 1TB sur un serveur
+Objectif
+Cette procédure présente une méthode simple pour installer un disque NVMe de 1TB sur un serveur afin d'augmenter la capacité de stockage et d'améliorer les performances du système.
+
+Étapes d'installation
+1. Préparation du matériel
+Avant l'installation, il faut éteindre complètement le serveur et débrancher l'alimentation pour travailler en toute sécurité. Il faut ensuite vérifier la compatibilité du serveur avec un disque NVMe 1TB, notamment la présence d'un emplacement M.2 ou d'un adaptateur NVMe compatible.
+
+2. Installation physique du disque
+Le disque NVMe est installé dans son emplacement prévu sur la carte mère du serveur. Il faut le fixer correctement avec la vis de maintien, puis refermer le boîtier du serveur et reconnecter l'alimentation.
+
+3. Vérification dans le BIOS/UEFI
+Après le démarrage du serveur, accéder au BIOS/UEFI afin de vérifier que le disque NVMe est bien détecté par le système. Cette étape permet de confirmer que l'installation matérielle a été effectuée correctement.
+
+4. Initialisation et configuration du disque
+Une fois reconnu par le système d'exploitation, le disque doit être initialisé, formaté et configuré avant son utilisation. Un nouveau volume peut ensuite être créé afin de stocker des données ou installer des applications.
+
+5. Validation du fonctionnement
+Pour terminer, effectuer un test de lecture et d'écriture afin de vérifier les performances du disque et s'assurer qu'il fonctionne correctement avec le serveur.
+
+Conclusion
+L'ajout d'un disque NVMe de 1TB est une solution simple pour améliorer la capacité de stockage et les performances d'un serveur. En suivant les étapes de préparation, d'installation, de configuration et de validation, le disque peut être intégré efficacement dans l'infrastructure existante.
+
+Preuves d'installation
+Les images ci-dessous présentent les différentes étapes réalisées lors de la recherche et de l'installation du disque NVMe.
 <img width="1536" height="2048" alt="WhatsApp Image 2026-07-07 at 15 37 27" src="https://github.com/user-attachments/assets/d041a9bc-e33f-498a-827c-bdff40362b9a" />
 <img width="1536" height="2048" alt="WhatsApp Image 2026-07-07 at 15 37 28" src="https://github.com/user-attachments/assets/c3ce2fb2-ff35-45c5-8144-ffc070211aa0" />
 <img width="1536" height="2048" alt="WhatsApp Image 2026-07-07 at 15 37 30" src="https://github.com/user-attachments/assets/b240f876-bbcf-4886-9336-c9d6500601c9" />
