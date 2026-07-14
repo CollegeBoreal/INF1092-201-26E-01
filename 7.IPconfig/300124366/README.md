@@ -66,6 +66,7 @@ Passerelle par défaut : 10.7.237.1
 Serveur DNS : 10.7.237.3
 
 
+
 Vérification de la configuration réseau
 
 La commande suivante a été utilisée :
