@@ -31,5 +31,7 @@ Après l’installation, j’ai ouvert une session avec le compte Administrator 
 Enfin, j’ai vérifié que Windows Server 2022 Datacenter était installé correctement et que le serveur était prêt à être utilisé.
 
 <img width="1200" height="1600" alt="WhatsApp Image 2026-06-14 at 13 54 45 (1)" src="https://github.com/user-attachments/assets/f29505d8-3fb1-4219-ac5e-b8e2a3b51610" />
+<img width="1536" height="2048" alt="WhatsApp Image 2026-06-14 at 13 54 46 (2)" src="https://github.com/user-attachments/assets/544668ec-beb8-4e51-964d-f81eecaa41b1" />
+
 <img width="1536" height="2048" alt="WhatsApp Image 2026-06-14 at 13 54 46 (1)" src="https://github.com/user-attachments/assets/fb6dddde-c224-4f46-a9dd-1be35f4d2c4e" />
 <img width="1152" height="2048" alt="WhatsApp Image 2026-06-14 at 13 54 47 (1)" src="https://github.com/user-attachments/assets/184e3ac7-64ce-4537-ae6d-a29fb1723c61" />
