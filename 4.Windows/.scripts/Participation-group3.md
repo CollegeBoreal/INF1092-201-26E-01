@@ -17,7 +17,7 @@
 |:hash:| Boréal :id: | README.md | images | Appréciation | Commentaires |
 |------|-------------|-----------|--------|--------------|--------------|
 | 1 | [300155462](../300155462/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/231498971?s=460&v=4' width=20 height=20></image>](https://github.com/zakariamamssi05) | :2nd_place_medal: | :heavy_check_mark: | :3rd_place_medal: | 1️⃣ Pas grand chose à corriger |
-| 2 | [300156534](../300156534/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489191?s=460&v=4' width=20 height=20></image>](https://github.com/salhiwalid540-hue) | :x: | :x: | :x: | 1️⃣ Rien à corriger |
+| 2 | [300156534](../300156534/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489191?s=460&v=4' width=20 height=20></image>](https://github.com/salhiwalid540-hue) | :2nd_place_medal: | :heavy_check_mark: | :x: | 1️⃣ Rien à corriger |
 | 3 | [300157250](../300157250/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261491627?s=460&v=4' width=20 height=20></image>](https://github.com/jeanpi-erre01) | :x: | :x: | :x: | 1️⃣ Rien à corriger |
 | 4 | [300157298](../300157298/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/288085455?s=460&v=4' width=20 height=20></image>](https://github.com/amar20101999) | :x: | :x: | :x: | 1️⃣ Rien à corriger |
-| :abacus: | \$\frac{1}{4}\$ = 25% | \$\displaystyle\sum_{i=1}^{4} s_i\$ = 1 |
+| :abacus: | \$\frac{2}{4}\$ = 50% | \$\displaystyle\sum_{i=1}^{4} s_i\$ = 2 |
