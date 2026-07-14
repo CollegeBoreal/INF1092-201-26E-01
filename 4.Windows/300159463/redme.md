@@ -1,4 +1,4 @@
-Démarrage du serveur avec le compte Administrator.
+ Démarrage du serveur avec le compte Administrator.
  Chargement du profil utilisateur.
  Configuration initiale (pays, langue et clavier). Installation des fonctionnalités et des pilotes du système.
  Finalisation de l'installation de Windows Server 2022.
