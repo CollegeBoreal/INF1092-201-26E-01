@@ -16,3 +16,9 @@ Cette expérience m’a également aidé à améliorer ma capacité à diagnosti
 
 En conclusion, malgré certaines difficultés, ce lab a été une expérience enrichissante. Il m’a permis de consolider mes compétences techniques et de mieux me préparer à résoudre des problèmes similaires dans de futurs travaux.
 
+ 
+<img width="2048" height="1148" alt="signal-2026-06-16-101231_006" src="https://github.com/user-attachments/assets/db3952f5-a34a-4ab6-911f-a319a7cb4257" />
+
+<img width="2048" height="1148" alt="signal-2026-06-16-101231_002" src="https://github.com/user-attachments/assets/0473014f-1a56-4a25-a0f7-3f898efdbcfb" />
+
+
