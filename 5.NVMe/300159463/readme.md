@@ -8,6 +8,6 @@ Le matériel essentiel (CPU, RAM, réseau Ethernet)
 <img width="2048" height="1536" alt="6" src="https://github.com/user-attachments/assets/46858efb-b2ed-430a-a0b7-bbc684302468" />
 <img width="2048" height="1536" alt="7" src="https://github.com/user-attachments/assets/acd41110-bec5-4ffd-a44f-141d99688216" />
 <img width="2048" height="1536" alt="8" src="https://github.com/user-attachments/assets/7ec6bf8f-dd28-485d-9dbc-11ca367cc3bf" />
-<img width="2048" height="1536" alt="9" src="https://github.com/user-attachments/assets/7583a5ab-eee4-46c2-94e2-08f16cf3b06c" />
+
 <img width="2048" height="1536" alt="10" src="https://github.com/user-attachments/assets/4be9c794-f4fc-4176-9049-878f09897da5" />
 
