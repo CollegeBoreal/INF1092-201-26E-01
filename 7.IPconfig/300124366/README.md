@@ -57,7 +57,7 @@ Adresse IPv4 statique
 
 L'adresse IP configurée: 10.7.237.201
 
-Masque de sous-réseau : 255.255.254.0
+Masque de sous-réseau : 255.255.255.0
 
 Passerelle par défaut : 10.7.237.1
 
