@@ -29,6 +29,6 @@ Initialisation du disque au format GPT.
 Création d'un volume simple.
 Formatage du volume en NTFS.
 Vérification de la capacité disponible (1 To).
+<img width="4032" height="1816" alt="20260616_142451" src="https://github.com/user-attachments/assets/655160b2-a830-45a0-86f9-662ab20a223c" />
+Cette image montre que l'installation et la configuration du disque NVMe de 1 To ont été réalisées avec succès sur le serveur Windows Server 2022 Datacenter. Le Server Manager est ouvert et le système fonctionne normalement, ce qui confirme que le serveur est opérationnel après l'ajout du nouveau matériel. Le disque est correctement reconnu par Windows, initialisé, formaté en NTFS et prêt à être utilisé pour le stockage de données. Cette capture d'écran constitue une preuve que l'objectif du laboratoire a été atteint avec succès.
 
-Résultat
-L'installation et la configuration du disque NVMe de 1 To ont été réalisées avec succès. Le disque est correctement reconnu par Windows Server 2022 Datacenter, formaté en NTFS et prêt à être utilisé pour le stockage de données.
