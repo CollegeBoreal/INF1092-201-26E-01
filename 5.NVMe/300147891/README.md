@@ -1,38 +1,31 @@
-# Rapport d'installation d'un disque NVMe sur serveur HP DL360 G6
+Rapport d'installation d'un disque NVMe sur serveur HP DL360 G6
 
-## Répertoire du projet
-Création du dossier : `[TON_NUMERO_ETUDIANT]`
+Répertoire du projet
+Création du dossier : `300147891`
 
-## Objectif
+Objectif
 Ajouter de l'espace disque à un serveur HP DL360 G6 fonctionnant avec Windows Server 2022 Datacenter en utilisant un disque NVMe de 1TB avec un adaptateur PCIe.
 
----
+Checklist de réalisation
 
-# Checklist de réalisation
-
-## 1. Serveur HP DL360 G6 avec Windows Server 2022 Datacenter ✅
+1. Serveur HP DL360 G6 avec Windows Server 2022 Datacenter ✅
 
 ☑ Windows Server 2022 Datacenter installé et fonctionnel  
 ☑ Serveur démarré correctement  
 ☑ Matériel assemblé dans le laboratoire  
 ☑ Vérification du fonctionnement de la mémoire RAM et du processeur  
 
-**Résultat :**  
+Résultat : 
 Le serveur démarre correctement et Windows Server 2022 Datacenter est opérationnel.
 
-📷 Capture d'écran :
-*(Ajouter ici une image du serveur démarré ou de Windows Server 2022)*
+2. Installation du disque NVMe ✅
 
----
-
-# 2. Installation du disque NVMe ✅
-
-## Matériel utilisé :
+Matériel utilisé :
 
 ☑ Adaptateur PCIe vers NVMe compatible avec le serveur  
 ☑ Disque NVMe 1TB installé  
 
-## Étapes réalisées :
+Étapes réalisées :
 
 1. Arrêt complet du serveur.
 2. Installation de l'adaptateur PCIe/NVMe dans un port PCIe disponible.
@@ -40,17 +33,12 @@ Le serveur démarre correctement et Windows Server 2022 Datacenter est opératio
 4. Redémarrage du serveur.
 5. Vérification de la détection du nouveau disque dans Windows Server.
 
-**Résultat :**  
-Le disque NVMe est reconnu par Windows Server 2022.
+Résultat :
+Le disque NVMe est reconnu par Windows Server 2022
 
-📷 Capture d'écran :
-*(Ajouter ici une image du disque NVMe installé ou détecté dans Windows)*
+3. Formatage du disque NVMe ✅
 
----
-
-# 3. Formatage du disque NVMe ✅
-
-## Étapes réalisées :
+Étapes réalisées :
 
 1. Ouverture de **Gestion des disques Windows**.
 2. Initialisation du nouveau disque.
@@ -58,19 +46,14 @@ Le disque NVMe est reconnu par Windows Server 2022.
 4. Formatage en **NTFS**.
 5. Attribution d'une lettre de lecteur.
 
-**Résultat :**
+Résultat :
 
 ☑ Disque NVMe disponible avec environ 1TB d'espace libre.  
 ☑ Le disque peut être utilisé pour stocker des données.
 
-📷 Capture d'écran :
-*(Ajouter ici une image de Gestion des disques montrant le disque de 1TB)*
+4. Activation de l'accès à distance (RDP) ✅
 
----
-
-# 4. Activation de l'accès à distance (RDP) ✅
-
-## Étapes réalisées :
+ Étapes réalisées :
 
 1. Activation du Bureau à distance dans Windows Server.
 2. Vérification du pare-feu Windows.
@@ -80,15 +63,9 @@ Le disque NVMe est reconnu par Windows Server 2022.
 
 ☑ Connexion RDP fonctionnelle.  
 ☑ Administration du serveur possible à distance.
+Décision finale : INSTALLER ✅
 
-📷 Capture d'écran :
-*(Ajouter ici une image de la connexion RDP réussie)*
-
----
-
-# Décision finale : INSTALLER ✅
-
-## Critères validés :
+Critères validés :
 
 ✅ Windows Server 2022 Datacenter fonctionne  
 ✅ Connexion Ethernet fonctionnelle  
@@ -96,9 +73,7 @@ Le disque NVMe est reconnu par Windows Server 2022.
 ✅ Stockage supplémentaire disponible  
 ✅ Accès distant RDP fonctionnel  
 
----
-
-# Conclusion
+Conclusion
 
 L'ajout d'un disque NVMe de 1TB avec un adaptateur PCIe est une solution économique pour augmenter l'espace de stockage du serveur HP DL360 G6.
 
