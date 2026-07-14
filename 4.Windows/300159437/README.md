@@ -1,13 +1,3 @@
-<img src="photo1.jpeg" width="200" height="200" />
+Dans ce travail je montre l instalation de windows sur un server 
 
-<img src="photo2.jpeg" width="200" height="200" />
-
-<img src="photo3.jpeg" width="200" height="200" />
-
-<img src="photo4.jpeg" width="200" height="200" />
-
-<img src="photo7.jpeg" width="200" height="200" />
-
-<img src="photo8.jpeg" width="200" height="200" />
-
-<img src="photo9.jpeg" width="200" height="200" />
+<img src="photo1.jpeg" width="700" height="400" alt="Description de l'image">
