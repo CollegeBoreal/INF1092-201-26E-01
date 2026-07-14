@@ -1,1 +1,7 @@
+Pendant ce laboratoire, j'ai installé Microsoft Windows Server 2022 Datacenter à l'aide de Windows Deployment Services (WDS). Avant de commencer, j'ai vérifié que le matériel fonctionnait correctement, notamment le processeur (CPU), la mémoire vive (RAM), les disques, ainsi que les connexions du clavier, de l'écran, de l'alimentation et du réseau.
 
+J'ai ensuite démarré le serveur en utilisant le démarrage PXE, puis sélectionné Windows Server 2022 Datacenter. Après avoir choisi la langue et la disposition du clavier, j'ai sélectionné le disque d'installation et supprimé les anciennes partitions lorsque nécessaire. L'installation de Windows Server a ensuite été lancée et les fichiers se sont copiés automatiquement.
+
+Une fois l'installation terminée, je me suis connecté avec le compte Administrator  et j'ai configuré un mot de passe sécurisé (Boreal@2026). Le serveur était alors correctement installé, configuré et prêt à être utilisé.
+<img width="2048" height="1536" alt="IMG-20260620-WA0093" src="https://github.com/user-attachments/assets/03d7b3c4-7049-4424-81a5-46cb1830ad93" />
+Cette image confirme que Windows Server 2022 Datacenter a été installé avec succès. Le Server Manager est ouvert, ce qui indique que le serveur fonctionne correctement. On y voit également les principaux outils d'administration, comme PowerShell, Task Manager et Event Viewer, prêts à être utilisés pour configurer les rôles et gérer le serveur. Cette capture d'écran démontre que l'installation est terminée et que le système est prêt pour les prochaines configurations.
