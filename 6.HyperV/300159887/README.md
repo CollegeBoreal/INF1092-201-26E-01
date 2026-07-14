@@ -1,6 +1,6 @@
 ```
 $vm="VM300159887"
-$iso="D:\ISO\30159887\win2022.iso"
+$iso="D:\ISO\30159887\en-us_windows_server_2022_updated_july_2023_x64_dvd_541692c3.iso"
 
 New-VM -Name $vm -Generation 1 -MemoryStartupBytes 4GB `
   -NewVHDPath "D:\VMs\$vm\$vm.vhdx" -NewVHDSizeBytes 60GB `
