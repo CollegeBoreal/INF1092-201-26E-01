@@ -1,4 +1,4 @@
-# Participation au 14-07-2026 05:17
+# Participation au 14-07-2026 05:21
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -25,7 +25,7 @@
 | 6 | [300153405](../300153405/README.md) :point_right: [rekaikkhaled](https://github.com/rekaikkhaled) <image src='https://avatars0.githubusercontent.com/u/261492660?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 7 | [300153416](../300153416/README.md) :point_right: [rouabahkhalil28-crypto](https://github.com/rouabahkhalil28-crypto) <image src='https://avatars0.githubusercontent.com/u/262935334?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 8 | [300155462](../300155462/README.md) :point_right: [zakariamamssi05](https://github.com/zakariamamssi05) <image src='https://avatars0.githubusercontent.com/u/231498971?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 9 | [300156534](../300156534/README.md) :point_right: [salhiwalid540-hue](https://github.com/salhiwalid540-hue) <image src='https://avatars0.githubusercontent.com/u/261489191?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 9 | [300156534](../300156534/README.md) :point_right: [salhiwalid540-hue](https://github.com/salhiwalid540-hue) <image src='https://avatars0.githubusercontent.com/u/261489191?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 10 | [300157250](../300157250/README.md) :point_right: [jeanpi-erre01](https://github.com/jeanpi-erre01) <image src='https://avatars0.githubusercontent.com/u/261491627?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 11 | [300157298](../300157298/README.md) :point_right: [amar20101999](https://github.com/amar20101999) <image src='https://avatars0.githubusercontent.com/u/288085455?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 12 | [300157307](../300157307/README.md) :point_right: [amaradjida7-hub](https://github.com/amaradjida7-hub) <image src='https://avatars0.githubusercontent.com/u/261494517?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
@@ -49,4 +49,4 @@
 | 30 | [300160733](../300160733/README.md) :point_right: [belhadiyanis200-a11y](https://github.com/belhadiyanis200-a11y) <image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 31 | [300160862](../300160862/README.md) :point_right: [cherifyamna](https://github.com/cherifyamna) <image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 32 | [300155045](../300155045/README.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| :abacus: | \$\\frac{15}{33}\$ = 45.45% | \$\displaystyle\sum_{i=1}^{33} s_i\$ = 15 |
+| :abacus: | \$\\frac{16}{33}\$ = 48.48% | \$\displaystyle\sum_{i=1}^{33} s_i\$ = 16 |
