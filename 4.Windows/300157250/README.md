@@ -13,3 +13,17 @@ Pour conclure, cet atelier m’a permis de suivre toutes les étapes nécessaire
 
 
 <img src="images/10.JPG" width="50%">
+<img src="images/11.JPG" width="50%">
+<img src="images/12.JPG" width="50%">
+<img src="images/13.JPG" width="50%">
+<img src="images/14.JPG" width="50%">
+<img src="images/15.JPG" width="50%">
+<img src="images/16.JPG" width="50%">
+<img src="images/17.JPG" width="50%">
+<img src="images/18.JPG" width="50%">
+<img src="images/19.JPG" width="50%">
+<img src="images/20.JPG" width="50%">
+<img src="images/21.JPG" width="50%">
+<img src="images/22.JPG" width="50%">
+<img src="images/23.JPG" width="50%">
+<img src="images/24.JPG" width="50%">
