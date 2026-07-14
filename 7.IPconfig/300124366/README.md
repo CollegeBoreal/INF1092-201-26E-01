@@ -49,9 +49,11 @@ query user
 Informations de la machine virtuelle
 
 Nom de la VM (Hostname)
+
 PS C:\Users\Administrator> hostname
+
 SRV-XX
-hostname : WIN-3RSSC2K52KK
+
 
 Adresse IPv4 statique
 
@@ -62,6 +64,7 @@ Masque de sous-réseau : 255.255.255.0
 Passerelle par défaut : 10.7.237.1
 
 Serveur DNS : 10.7.237.3
+
 
 Vérification de la configuration réseau
 
@@ -102,6 +105,7 @@ Ethernet adapter vEthernet (External):
    DNS Servers . . . . . . . . . . . : 10.7.237.3
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
+  
    PS C:\Users\Administrator> ping 10.7.237.3
 
 Pinging 10.7.237.3 with 32 bytes of data:
@@ -115,6 +119,7 @@ Ping statistics for 10.7.237.3:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 
+   
     PS C:\Users\Administrator> ping google.ca
 
 Pinging google.ca [142.250.139.94] with 32 bytes of data:
@@ -128,6 +133,7 @@ Ping statistics for 142.250.139.94:
 Approximate round trip times in milli-seconds:
     Minimum = 3ms, Maximum = 5ms, Average = 3ms
 
+    
     PS C:\Users\Administrator> query user
  USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
 >administrator         rdp-tcp#1           1  Active          .  2026-06-25 1:43 PM
