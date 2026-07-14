@@ -19,6 +19,13 @@ En conclusion, malgré certaines difficultés, ce lab a été une expérience en
  
 <img width="2048" height="1148" alt="signal-2026-06-16-101231_006" src="https://github.com/user-attachments/assets/db3952f5-a34a-4ab6-911f-a319a7cb4257" />
 
+<img width="2048" height="1148" alt="signal-2026-06-16-101231_004" 
+ src="https://github.com/user-attachments/assets/5cc5a458-946c-4a8b-818e-7d5d9185921a" />
+
+ <img width="2048" height="1148" alt="signal-2026-06-16-101231_004" src="https://github.com/user-attachments/assets/3d75db1e-c316-440d-9ccf-234a6beead9c" />
+
+
+
 <img width="2048" height="1148" alt="signal-2026-06-16-101231_002" src="https://github.com/user-attachments/assets/0473014f-1a56-4a25-a0f7-3f898efdbcfb" />
 
 
