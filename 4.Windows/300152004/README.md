@@ -8,3 +8,4 @@ Avant de lancer le déploiement il faut vérifier le matériel du serveur et pr�
 -Etape 1
 
 <img src="images/etape01.jpeg" width="40%" height="40%" />
+Au démarrage du serveur un diagnostic mémoire BIOS s'exécute automatiquement 
