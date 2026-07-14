@@ -1,4 +1,4 @@
-Rapport de laboratoire – Installation d'un disque NVMe
+description :
+Cet atelier avait pour objectif d’augmenter la capacité de stockage d’un serveur HP ProLiant DL360 G6 en installant un disque NVMe de 1 To sous Windows Server 2022 Datacenter. Après avoir vérifié la compatibilité du matériel, le disque a été installé avec un adaptateur PCIe, puis détecté correctement par le système. Il a ensuite été initialisé, formaté en NTFS et configuré pour le stockage des données. La connexion réseau a également été vérifiée et le Bureau à distance (RDP) a été activé. Les captures d’écran présentent les principales étapes réalisées. Tous les objectifs du laboratoire ont été atteints avec succès.
 
-Déroulement
-Au cours de ce laboratoire, nous avons ajouté un disque NVMe de 1 To à un serveur HP DL360 G6. Nous avons installé le disque avec son adaptateur PCIe, puis vérifié que Windows Server 2022 Datacenter le reconnaissait correctement. Ensuite, nous avons préparé le disque en l'initialisant et en le formatant afin qu'il puisse être utilisé comme espace de stockage. Enfin, nous avons confirmé que l'installation était réussie et que le serveur fonctionnait normalement.
+<img width="2048" height="1536" alt="nv5 ph14" src="https://github.com/user-attachments/assets/805bd8e7-59b5-4b56-aa68-086bca911a82" />
