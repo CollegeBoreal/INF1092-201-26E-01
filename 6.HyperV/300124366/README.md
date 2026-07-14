@@ -2,9 +2,13 @@ Rapport de laboratoire – Hyper-V
 Création d'une machine virtuelle Windows Server 2022
 
 Nom : Rosemene Bernard
+
 Numéro étudiant : 300124366
-Cours : _Administration systèmes___________________
-Professeur : ____________________
+
+Cours : _Introduction à l'administration des systèmes___________________
+
+Professeur : Brice Robert____________________
+
 Date : _14/07/2026___________________
 
 Objectif
