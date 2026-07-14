@@ -46,12 +46,27 @@ Test-NetConnection localhost -Port 3389
 
 query user
 
-hostname : WIN-3RSSC2K52KK
+Informations de la machine virtuelle
 
+Nom de la VM (Hostname)
 PS C:\Users\Administrator> hostname
 SRV-XX
-PS C:\Users\Administrator>
-                                         compartments
+hostname : WIN-3RSSC2K52KK
+
+Adresse IPv4 statique
+
+L'adresse IP configurée: 10.7.237.201
+
+Masque de sous-réseau : 255.255.254.0
+
+Passerelle par défaut : 10.7.237.1
+
+Serveur DNS : 10.7.237.3
+
+Vérification de la configuration réseau
+
+La commande suivante a été utilisée :
+
 PS C:\Users\Administrator> ipconfig /all
 
 Windows IP Configuration
@@ -112,5 +127,10 @@ Ping statistics for 142.250.139.94:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
     Minimum = 3ms, Maximum = 5ms, Average = 3ms
+
+    PS C:\Users\Administrator> query user
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+>administrator         rdp-tcp#1           1  Active          .  2026-06-25 1:43 PM
+PS C:\Users\Administrator>
 
     
