@@ -1,1 +1,5 @@
+Ce projet décrit les principales étapes à suivre pour contrôler l’état d’un serveur HP ProLiant DL360 G6 avant de procéder à son achat. Le but de cette vérification est de confirmer que le serveur fonctionne correctement et que ses composants matériels ne présentent aucun problème important.
 
+La procédure commence par une inspection visuelle de l’équipement afin de repérer les dommages possibles. Ensuite, le serveur est mis sous tension pour vérifier son démarrage et accéder aux paramètres du BIOS. Cette étape permet de confirmer la reconnaissance du processeur, de la mémoire vive et des disques installés. Le fonctionnement du contrôleur RAID est également examiné pour s’assurer que le système de stockage est en bon état.
+
+Les captures d’écran et les photos présentées dans ce projet montrent les différentes vérifications réalisées. Elles permettent de démontrer que le serveur a été testé avant son acquisition. Grâce à cette méthode, il est possible d’évaluer l’état général de l’équipement et de déterminer s’il peut être acheté et utilisé en toute confiance.
