@@ -58,4 +58,54 @@ L'écran Available Logical Drives confirme que le Logical Drive 1 est bien confi
 <img src="images/etape10.jpeg" width="40%" height="40%" />
 Les trois disques physiques sont cochés `[X]` et assignés au RAID 5, avec la partition de démarrage désactivée.
 
+-Etape 11
+
+<img src="images/etape11.jpeg" width="40%" height="40%" />
+Le serveur démarre sur le réseau (PXE) et contacte le serveur WDS.
+
+-Etape 12
+
+<img src="images/etape12.jpeg" width="40%" height="40%" />
+Une fenêtre de connexion demande les identifiants du domaine pour se connecter au serveur.
+
+-Etape 13
+
+<img src="images/etape13.jpeg" width="40%" height="40%" />
+Le Windows Boot Manager chargé depuis le serveur, propose deux images disponibles : Windows 11 Pro Setup et Windows Server 2022 Setup. On choisi Windows Server 2022 Setup.
+
+-Etape 14
+
+<img src="images/etape14.jpeg" width="40%" height="40%" />
+L'assistant affiche la liste des images disponibles sur le serveur WDS.
+
+-Etape 15
+
+<img src="images/etape15.jpeg" width="40%" height="40%" />
+L'écran « Où voulez-vous installer le système d'exploitation ? » affiche les partitions du disque RAID créé précédemment. On sélectionne la partition principale pour y installer le système.
+
+-Etape 16
+
+<img src="images/etape16.jpeg" width="40%" height="40%" />
+La copie et l'installation des fichiers de Windows Server démarrent.
+
+-Etape 17
+
+<img src="images/etape17.jpeg" width="40%" height="40%" />
+Au premier démarrage après installation, l'assistant demande le pays/région, la langue de l'application et la disposition du clavier (US).
+
+-Etape 18
+
+<img src="images/etape18.jpeg" width="40%" height="40%" />
+L'écran Customize settings demande de définir le mot de passe du compte Administrateur intégré.
+
+-Etape 19
+
+<img src="images/etape19.jpeg" width="40%" height="40%" />
+Une fois la configuration terminée, l'écran de verrouillage de Windows Server 2022 s'affiche, confirmant que le système est installé et opérationnel.
+
+-Etape 20
+
+<img src="images/etape20.jpeg" width="40%" height="40%" />
+Et enfin après connexion avec le compte Administrateur, le bureau de Windows Server 2022 est atteint, confirmant la réussite complète de l'installation via PXE.
+
 
