@@ -6,3 +6,5 @@ Le boîtier du serveur a été ouvert afin d'accéder aux composants internes. C
 
 
 <img src="images/6.png" width="50%">
+<img src="images/7.png" width="50%">
+<img src="images/9.png" width="50%">
