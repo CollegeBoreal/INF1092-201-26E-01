@@ -8,3 +8,11 @@ Le boîtier du serveur a été ouvert afin d'accéder aux composants internes. C
 <img src="images/6.png" width="50%">
 <img src="images/7.png" width="50%">
 <img src="images/9.png" width="50%">
+
+
+Après avoir vérifié les composants, nous avons branché le serveur à un écran afin de poursuivre la configuration.
+
+<img src="images/5.png" width="50%">
+<img src="images/4.png" width="50%">
+<img src="images/1.png" width="50%">
+<img src="images/2.png" width="50%">
