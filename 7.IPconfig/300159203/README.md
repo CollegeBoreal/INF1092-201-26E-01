@@ -13,7 +13,7 @@ Résultat de ping google.ca
 Validation de la résolution de nom de domaine externe et de l'accès Internet.
 <img width="1061" height="659" alt="Screenshot 2026-07-14 134748" src="https://github.com/user-attachments/assets/fb871911-088d-4179-96e5-285d2195b2b4" />
 Connexion RDP réussie à la VM
-Session Bureau à distance (mstsc) ouverte depuis le poste physique vers l'adresse 10.7.237.221 avec le compte Administrator.
+Session Bureau à distance (mstsc) ouverte depuis le poste physique vers l'adresse 10.7.237.221 avec le compte Administrator
 <img width="980" height="760" alt="Screenshot 2026-07-14 135448" src="https://github.com/user-attachments/assets/f404f8f2-086b-44b8-ba88-96fb9a8a5090" />
 
 
