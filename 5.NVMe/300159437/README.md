@@ -2,4 +2,12 @@ Il s'agit d'une capture d'écran d'un ordinateur sous Windows 10 affichant l'exp
 
 Durand ce travail j ai apris a cultiver la patience et a etre tres diligent dans les details . L une des choses que j ai fait c etait installer le windows 22 datacenter sur le le serveur et j ai fait les commandes pour pouvoir set le ip address 
 
-<img src="WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(1).jpeg" widht = "50%"  height = "50%" /><img/>
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(1).jpeg)
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(2).jpeg)        
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(3).jpeg)
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(4).jpeg)
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(5).jpeg)
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(6).jpeg)
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(7).jpeg)
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(7).jpeg)
+![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.19%20(3).jpeg)
