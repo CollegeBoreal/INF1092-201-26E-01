@@ -29,9 +29,7 @@ L'ajout d'un disque NVMe de 1TB est une solution simple pour améliorer la capac
 ## Preuves d'installation
 Les images ci-dessous présentent les différentes étapes réalisées lors de la recherche et de l'installation du disque NVMe.
 
-![Installation du disque NVMe](images/photo1.jpeg)
 
-![Détection du disque dans le BIOS](images/photo2.jpeg)
 
 ![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(1).jpeg)
 ![Image](images/WhatsApp%20Image%202026-06-30%20at%2012.55.17%20(2).jpeg)        
