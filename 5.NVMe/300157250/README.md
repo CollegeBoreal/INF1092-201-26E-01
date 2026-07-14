@@ -1,1 +1,13 @@
+#300157250
 
+Lors de cet atelier pratique, l’objectif principal était d’augmenter la capacité de stockage d’un serveur HP ProLiant DL360 G6 fonctionnant sous Windows Server 2022 Datacenter grâce à l’ajout d’un disque NVMe d’une capacité de 1 To. Cette opération avait pour but d’améliorer les possibilités de stockage du serveur existant et de mettre en place un nouvel espace destiné à l’enregistrement et à la gestion des données.
+
+Avant de procéder à l’installation du nouveau périphérique de stockage, j’ai commencé par effectuer une vérification de l’assemblage matériel du serveur afin de m’assurer que tous les composants étaient correctement installés et prêts à fonctionner. J’ai ensuite installé le disque NVMe de 1 To et vérifié sa détection lors du démarrage du serveur. Le système a reconnu correctement le nouveau matériel, ce qui a permis de poursuivre les étapes de configuration directement dans l’environnement Windows Server 2022.
+
+Une fois le disque détecté, j’ai effectué son initialisation afin de le préparer à être utilisé par le système d’exploitation. J’ai ensuite procédé au formatage du disque en configurant les paramètres nécessaires pour créer une nouvelle unité de stockage accessible par le serveur. Après cette étape, j’ai validé que l’espace disponible était correctement reconnu et que le disque était fonctionnel pour l’utilisation prévue.
+
+La configuration du serveur s’est poursuivie par la vérification de la connectivité réseau afin de confirmer que le serveur communiquait correctement avec l’infrastructure existante. J’ai également activé et configuré le Bureau à distance (RDP) afin de permettre une administration plus simple du serveur à partir d’un autre poste informatique. Cette fonctionnalité facilite la gestion du serveur sans avoir besoin d’être directement devant la machine physique.
+
+Les différentes captures d’écran présentées dans le rapport permettent de suivre les principales étapes réalisées durant l’atelier, notamment la reconnaissance du nouveau disque NVMe, son initialisation, son formatage, la confirmation de l’espace de stockage disponible ainsi que l’activation de l’accès à distance.
+
+En conclusion, l’installation du disque NVMe de 1 To sur le serveur HP ProLiant DL360 G6 s’est déroulée avec succès. Le serveur dispose maintenant d’une capacité de stockage supplémentaire pleinement fonctionnelle, d’une connexion réseau stable et d’un accès distant configuré. Cet atelier a permis de démontrer qu’il est possible d’améliorer les performances et les capacités d’un serveur existant grâce à une solution d’extension de stockage simple, efficace et économique.
