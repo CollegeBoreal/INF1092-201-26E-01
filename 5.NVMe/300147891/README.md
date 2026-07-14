@@ -83,7 +83,9 @@ Le serveur peut être utilisé comme mini data center à faible coût avec Windo
 <img width="628" height="831" alt="image" src="https://github.com/user-attachments/assets/6e41c429-7cde-462f-bfbe-068f66acbfad" />
 <img width="615" height="821" alt="image" src="https://github.com/user-attachments/assets/40355489-220e-4f45-802f-00d1b8c3df95" />
 <img width="1076" height="645" alt="image" src="https://github.com/user-attachments/assets/48328f5c-3194-4edf-95ec-7c2792356098" />
-<img width="918" height="618" alt="image" src="https://github.com/user-attachments/assets/5b5f665d-133f-4d83-aaf1-40ec0c895c90" />
+<img width="918" height="618" alt="image" src="https://github.com/user-attachments/assets/5b5f665d-133f-
+ <img width="887" height="783" alt="image" src="https://github.com/user-attachments/assets/1069739e-67ca-4388-bd62-07340dc603b7" />
+4d83-aaf1-40ec0c895c90" />
 <img width="1005" height="647" alt="image" src="https://github.com/user-attachments/assets/44e7cc9a-6391-4f67-a64e-e4de1a92d49c" />
 <img width="922" height="737" alt="image" src="https://github.com/user-attachments/assets/2e6777a5-cff1-4818-babf-92abc12f0cc4" />
 <img width="1031" height="792" alt="image" src="https://github.com/user-attachments/assets/03d0608d-c006-43c4-bef3-5369880b011c" />
