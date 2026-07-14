@@ -1,6 +1,28 @@
-ID: 300124366
+Rapport de laboratoire – Hyper-V
+Création d'une machine virtuelle Windows Server 2022
 
-Atelier: Creation de MV avec Hyper-V
+Nom : Rosemene Bernard
+Numéro étudiant : 300124366
+Cours : _Administration systèmes___________________
+Professeur : ____________________
+Date : _14/07/2026___________________
+
+Objectif
+
+L'objectif de ce laboratoire est de créer une machine virtuelle Windows Server 2022 fonctionnelle dans Hyper-V à l'aide de PowerShell. La machine virtuelle doit respecter les exigences du laboratoire et être capable de démarrer l'installation de Windows Server 2022.
+
+| Élément                | Configuration       |
+| ---------------------- | ------------------- |
+| Nom de la VM           | VM300124366         |
+| Génération             | Génération 1        |
+| Mémoire RAM            | 4 Go (fixe)         |
+| Processeurs            | 2                   |
+| Disque dur virtuel     | 60 Go               |
+| Commutateur réseau     | External            |
+| Système d'exploitation | Windows Server 2022 |
+
+
+Les principales commandes PowerShell utilisées sont :
 
 ```powershell
 $vm="VM300124366"
