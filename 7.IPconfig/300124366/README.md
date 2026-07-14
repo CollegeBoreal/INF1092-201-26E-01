@@ -6,9 +6,13 @@ Date :10/07/2026
 
 ID: 300124366
 
-hostname : WIN-3RSSC2K52KK
+Objectifs
+
+L'objectif de ce laboratoire était de configurer une machine virtuelle Windows Server 2022 afin de permettre son administration à distance.
 
 Les principales commandes powershell effectuées pour la configuration du reseau Hyper-v sont:
+
+hostname 
 
 Get-NetAdapter
 
@@ -41,3 +45,5 @@ Enable-NetFirewallRule `
 Test-NetConnection localhost -Port 3389
 
 query user
+
+hostname : WIN-3RSSC2K52KK
