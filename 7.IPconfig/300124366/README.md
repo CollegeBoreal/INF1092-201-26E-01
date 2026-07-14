@@ -1,6 +1,6 @@
 Nom de l'étudiant : Bernard Rosemene
 
-Cours : Administration systemes
+Cours : Introduction à l'administration des systèmes
 
 Date :10/07/2026
 
