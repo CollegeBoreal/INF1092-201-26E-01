@@ -8,7 +8,7 @@ ID: 300124366
 
 hostname : WIN-3RSSC2K52KK
 
-Voici les commandes effectuées pour la configuration du reseau Hyper-v 
+Les principales commandes powershell effectuées pour la configuration du reseau Hyper-v sont:
 
 Get-NetAdapter
 
