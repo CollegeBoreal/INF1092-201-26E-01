@@ -10,7 +10,7 @@ Objectifs
 
 L'objectif de ce laboratoire était de configurer une machine virtuelle Windows Server 2022 afin de permettre son administration à distance.
 
-Les principales commandes powershell effectuées pour la configuration du reseau Hyper-v sont:
+Les principales commandes powershell effectuées pour la configuration du réseau Hyper-V sont:
 
 hostname 
 
