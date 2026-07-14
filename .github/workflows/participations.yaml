@@ -22,9 +22,12 @@ jobs:
         shell: pwsh
         run: |
           $chapters = @(
-            "0.PlanDeCours",
-            "1.Programmation/1.IDE",
+            "0.PlanDeCours"
+            "1.Programmation/1.IDE"
             "3.IaC"
+            "4.Windows"
+            "5.NVMe"
+            "6.HyperV"
           )
 
           foreach ($chapter in $chapters) {
@@ -45,8 +48,8 @@ jobs:
           API_SYNC_TOKEN: ${{ secrets.API_SYNC_TOKEN }}
         run: |
           $chapters = @(
-            "0.PlanDeCours",
-            "1.Programmation/1.IDE",
+            "0.PlanDeCours"
+            "1.Programmation/1.IDE"
             "3.IaC"
             "4.Windows"
             "5.NVMe"
