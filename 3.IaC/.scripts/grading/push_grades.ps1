@@ -56,8 +56,7 @@ $files = @(
     "./.scripts/Participation-group5.md",
     "./.scripts/Participation-group6.md",
     "./.scripts/Participation-group7.md",
-    "./.scripts/Participation-group8.md",
-    "./.scripts/Participation-group9.md"
+    "./.scripts/Participation-group8.md"
 )
 
 # Parse participation entries from each file
