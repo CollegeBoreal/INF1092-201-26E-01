@@ -24,6 +24,23 @@ J'ai ensuite saisi les paramètres réseau demandés :
 # Passerelle par défaut : 10.7.237.1
 # Serveur DNS préféré : 10.7.237.3 
 
+# Image 1 – Tentative de connexion RDP
+
+La première image montre le logiciel Remote Desktop Connection (mstsc) qui tente de se connecter à l'adresse IP 10.7.237.222.
+
+L'état "Securing remote connection..." signifie que le client a réussi à joindre le serveur.
+Windows est en train d'établir une connexion sécurisée avant de demander les identifiants ou d'ouvrir la session.
+
+# Image 2 – Vérification du service RDP
+
+Dans PowerShell, la commande utilisée est :
+
+Get-NetTCPConnection -LocalPort 3389
+
+Le port 3389 est en état Listen.
+Le service Remote Desktop écoute bien les connexions entrantes.
+Le serveur est donc prêt à accepter des connexions RDP.
+
 
 
 
