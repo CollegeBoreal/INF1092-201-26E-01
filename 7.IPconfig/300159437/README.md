@@ -33,6 +33,8 @@ Windows est en train d'établir une connexion sécurisée avant de demander les 
 
 # Image 2 – Vérification du service RDP
 
+![Image](images/WhatsApp%20Image%202026-07-15%20at%2011.29.46%20(1).jpeg)
+
 Dans PowerShell, la commande utilisée est :
 
 Get-NetTCPConnection -LocalPort 3389
