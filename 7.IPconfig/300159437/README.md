@@ -15,6 +15,7 @@ Après avoir vérifié la configuration actuelle, j'ai ouvert les propriétés d
 
 ![Image](images/WhatsApp%20Image%202026-07-15%20at%2012.09.02%20(1).jpeg)
 
+![Image](images/WhatsApp%20Image%202026-07-15%20at%2012.09.02%20(2).jpeg)
 
 J'ai ensuite saisi les paramètres réseau demandés :
 
