@@ -11,6 +11,7 @@ L'objectif de ce laboratoire était de configurer le réseau d'une machine virtu
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/61e9e4a64495d32b09470ac9b0c9d3200043733c/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.41%20(1).jpeg)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/60f3d41af33a883ac851b61aadced9539c58832e/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.42.jpeg)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/0005e3304ff4767dca8ac7a8e35fef5e8e8a6573/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.42%20(1).jpeg)
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/efbf6eef6402b06d03377b8dd9f9bfa9363bb6f1/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.42%20(2).jpeg)
 
 Par la suite, j'ai testé la connectivité réseau en utilisant des commandes ping vers la passerelle, Internet et un nom de domaine afin de m'assurer que la configuration était correcte. J'ai ensuite activé le Bureau à distance (RDP), configuré les règles du pare-feu nécessaires et vérifié que le service fonctionnait correctement.
 
