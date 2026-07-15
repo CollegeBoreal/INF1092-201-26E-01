@@ -24,3 +24,4 @@ Enfin, j'ai établi une connexion à distance à la machine virtuelle avec Remot
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/257e747a7fbc5589b31d91e8f0feb607267c80cd/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.43%20(1).jpeg)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/9cc4ca7501deb7e16bb605dadba1bb8645f2c13c/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.43%20(2).jpeg)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/6a36e12df985e8a4a602e380897761399187ecfd/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.43%20(3).jpeg)
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/840954ad87fe757a449269172d0c4cb5887dc694/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.43%20(4).jpeg)
