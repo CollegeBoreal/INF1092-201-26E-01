@@ -46,7 +46,8 @@ Le port 3389 est en état Listen.
 Le service Remote Desktop écoute bien les connexions entrantes.
 Le serveur est donc prêt à accepter des connexions RDP.
 
-
+# Ensuite le Ping 10.7.237.1 
+![Image](images/WhatsApp%20Image%202026-07-15%20at%2013.45.22.jpeg)
 
 
 
