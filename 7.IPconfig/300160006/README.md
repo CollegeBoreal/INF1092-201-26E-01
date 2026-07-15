@@ -14,6 +14,7 @@ L'objectif de ce laboratoire était de configurer le réseau d'une machine virtu
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/efbf6eef6402b06d03377b8dd9f9bfa9363bb6f1/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.42%20(2).jpeg)
 
 Par la suite, j'ai testé la connectivité réseau en utilisant des commandes ping vers la passerelle, Internet et un nom de domaine afin de m'assurer que la configuration était correcte. J'ai ensuite activé le Bureau à distance (RDP), configuré les règles du pare-feu nécessaires et vérifié que le service fonctionnait correctement.
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/fe66d3e79e92383e6819c55ff31926dc153839fe/7.IPconfig/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.20.42%20(3).jpeg)
 
 Enfin, j'ai établi une connexion à distance à la machine virtuelle avec Remote Desktop (mstsc). Les différents tests ont confirmé que la configuration réseau et l'accès à distance étaient correctement configurés et pleinement fonctionnels.
 
