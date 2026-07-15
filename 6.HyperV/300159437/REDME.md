@@ -36,3 +36,4 @@ Valeur maximale configurée (environ 1 To).
 
 ![Image](images/WhatsApp%20Image%202026-07-14%20at%2016.19.26%20(1).jpeg)
 ![Image](images/WhatsApp%20Image%202026-07-14%20at%2016.19.26.jpeg)
+![Image](images/WhatsApp%20Image%202026-07-14%20at%2016.19.26%20(1).jpeg)
