@@ -23,4 +23,5 @@ Start-VM -Name $vm
 ```
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/704be770aac05aaff8aad6166f3974d3cc35f787/6.HyperV/300160006/images/WhatsApp%20Image%202026-07-01%20at%2013.18.40.jpeg)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/801c15f61d94f12076ce63a5d0d87fb4bb8046d9/6.HyperV/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.04.47.jpeg)
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/18ae8ba34f4341accf09393193b531ccbde1cdca/6.HyperV/300158085/README.md)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/f2b02b9a17a98b7826fd2baa0fcdb86388021bc0/6.HyperV/300160006/images/WhatsApp%20Image%202026-07-14%20at%2017.06.21.jpeg)
