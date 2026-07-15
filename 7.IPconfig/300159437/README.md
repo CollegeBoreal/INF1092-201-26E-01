@@ -28,6 +28,9 @@ J'ai ensuite saisi les paramètres réseau demandés :
 
 La première image montre le logiciel Remote Desktop Connection (mstsc) qui tente de se connecter à l'adresse IP 10.7.237.222.
 
+
+![Image](images/WhatsApp%20Image%202026-07-15%20at%2013.45.22%20(4).jpeg)
+
 L'état "Securing remote connection..." signifie que le client a réussi à joindre le serveur.
 Windows est en train d'établir une connexion sécurisée avant de demander les identifiants ou d'ouvrir la session.
 
