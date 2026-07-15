@@ -13,6 +13,9 @@ Les informations obtenues montrent que la machine possède une adresse IPv4 attr
 
 Après avoir vérifié la configuration actuelle, j'ai ouvert les propriétés de la carte réseau Ethernet, puis les paramètres du protocole IPv4. J'ai sélectionné l'option « Utiliser l'adresse IP suivante » afin de remplacer l'adresse obtenue automatiquement par une adresse IP fixe.
 
+![Image](images/WhatsApp%20Image%202026-07-15%20at%2012.09.02%20(1).jpeg)
+
+
 J'ai ensuite saisi les paramètres réseau demandés :
 
 # Adresse IP : 10.7.237.222 (Address personnel)
