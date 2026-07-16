@@ -14,8 +14,6 @@ Pour ce travail, j'ai testé un serveur HP ProLiant, j'ai commencé par ouvrir l
 
 <img src="images/etape4_ecran_boot_post.png" width="40%" height="40%" />
 
-<img src="images/etape4_diagnostic_cpu_alerte_alimentation.png" width="40%" height="40%" />
-
 <img src="images/etape5_connexion_proxmox.png" width="40%" height="40%" />
 
 <img src="images/etape4_diagnostic_cpu_alerte_alimentation.png" width="40%" height="40%" />
