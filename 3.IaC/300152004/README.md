@@ -10,8 +10,6 @@ Pour ce travail, j'ai testé un serveur HP ProLiant, j'ai commencé par ouvrir l
 
 <img src="images/etape2_barrette_ram_retiree.png" width="40%" height="40%" />
 
-<img src="images/etape2_disques_durs_retires" width="40%" height="40%" />
-
 <img src="images/etape3_etiquette_ilo.png" width="40%" height="40%" />
 
 <img src="images/etape4_ecran_boot_post.png" width="40%" height="40%" />
