@@ -85,38 +85,24 @@ La commande suivante a été utilisée pour attribuer deux processeurs virtuels 
 
 ```powershell
 Set-VMProcessor -VMName $vm -Count 2
-La mémoire dynamique a été désactivée avec la commande suivante :
-Set-VMMemory -VMName $vm -DynamicMemoryEnabled $false
-Le fichier ISO de Windows Server 2022 a ensuite été monté dans le lecteur DVD virtuel avec la commande :
-Set-VMDvdDrive `
-    -VMName $vm `
-    -ControllerNumber 1 `
-    -ControllerLocation 0 `
-    -Path $iso
-Les commandes de vérification confirment que la mémoire de démarrage est de 4 Go, que la VM possède 2 CPU et que le fichier ISO est correctement monté.
+```
+<img width="912" height="873" alt="Capture d’écran 2026-07-14 175046" src="https://github.com/user-attachments/assets/7f69191d-28d6-481c-be85-c6c2cbe4274e" />
 
-<img width="912" height="873" alt="Capture d’écran 2026-07-14 175046" src="https://github.com/user-attachments/assets/48ce6c99-9e3b-42b5-bfaf-a33c75edc577" />
 
 ## 8. Création des dossiers ISO et VM
+
 
 Cette image montre la création des dossiers nécessaires pour organiser les fichiers du laboratoire.
 Les variables suivantes ont été définies :
 
-powershell
+```powershell
 $studentId = "300159195"
 $vm = "VM$studentId"
 $isoFolder = "E:\ISO\$studentId"
 $vmFolder = "E:\VMs\$vm"
+```
 
-Les dossiers ont ensuite été créés avec les commandes :
-Les chemins créés sont :
-Dossier du fichier ISO : E:\ISO\300159195
-Dossier de la machine virtuelle : E:\VMs\VM300159195
-La commande Test-Path retourne True pour les deux dossiers, ce qui confirme qu’ils ont été créés correctement.
-
-<img width="927" height="885" alt="Capture d’écran 2026-07-14 174047" src="https://github.com/user-attachments/assets/ccde525b-1f98-4f6f-b98a-a2916631d4f7" />
-
-
+<img width="927" height="885" alt="Capture d’écran 2026-07-14 174047" src="https://github.com/user-attachments/assets/a7443b24-e9e8-414a-b8e6-9853699d1f49" />
 
 ## Conclusion
 
@@ -137,13 +123,5 @@ Les étapes réalisées sont les suivantes :
 - Premier démarrage réussi de Windows Server 2022
 
 La machine virtuelle est maintenant fonctionnelle et prête pour les prochaines étapes de configuration réseau et d’administration.
-
-
-
-
-
-
-
-
 
 
