@@ -32,7 +32,7 @@ Avant de configurer le disque, on attribue une adresse IP statique au serveur vi
 
 <img src="images/05-initialisation-partition-disque.png" width="50%" height="50%" />
 
-Le nouveau disque NVMe apparaît d'abord comme RAW dans le système. La première tentative de Clear-Dis` a échoué car le disque n'était pas encore initialisé, il a donc fallu d'abord le mettre en ligne puis l'initialiser en style GPT avant de créer la partition.
+Le nouveau disque NVMe apparaît d'abord comme RAW dans le système. La première tentative de Clear-Disk a échoué car le disque n'était pas encore initialisé, il a donc fallu d'abord le mettre en ligne puis l'initialiser en style GPT avant de créer la partition.
 
 -étape 6:
 
