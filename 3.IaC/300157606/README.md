@@ -65,3 +65,5 @@ configurer un BIOS/UEFI pour démarrer sur un support externe
 documenter correctement une procédure d’installation
 
 préparer l’environnement pour l’utilisation de l’Infrastructure as Code
+
+<image src=images/1.jpg width=50% height=50% > </image>
