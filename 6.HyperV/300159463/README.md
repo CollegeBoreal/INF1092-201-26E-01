@@ -3,4 +3,34 @@ Dans le cadre de ce projet, nous avons procédé au déploiement et à la config
 
 <image src=images/.1.jpeg width=50% height=50% > </image>
 
+<image src=images/.2.jpeg width=50% height=50% > </image>
 
+<image src=images/.3.jpeg width=50% height=50% > </image>
+
+<image src=images/.4.jpeg width=50% height=50% > </image>
+
+<image src=images/.5.jpeg width=50% height=50% > </image>
+
+<image src=images/.7.jpeg width=50% height=50% > </image>
+
+<image src=images/.9.jpeg width=50% height=50% > </image>
+
+<image src=images/.10.jpeg width=50% height=50% > </image>
+
+<image src=images/.15.jpeg width=50% height=50% > </image>
+
+<image src=images/.17.jpeg width=50% height=50% > </image>
+
+<image src=images/.18.jpeg width=50% height=50% > </image>
+
+<image src=images/.19.jpeg width=50% height=50% > </image>
+
+<image src=images/.20.jpeg width=50% height=50% > </image>
+
+<image src=images/.21.jpeg width=50% height=50% > </image>
+
+<image src=images/.22.jpeg width=50% height=50% > </image>
+
+<image src=images/.23.jpeg width=50% height=50% > </image>
+
+<image src=images/.24.jpeg width=50% height=50% > </image>
