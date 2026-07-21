@@ -21,3 +21,6 @@ En conclusion, l’installation de Windows Server 2022 Datacenter sur le serveur
 <image src=images/7.jpg width=50% height=50% > </image>
 <image src=images/8.jpg width=50% height=50% > </image>
 <image src=images/9.jpg width=50% height=50% > </image>
+<image src=images/10.jpeg width=50% height=50% > </image>
+<image src=images/11.jpeg width=50% height=50% > </image>
+<image src=images/12.jpeg width=50% height=50% > </image>
