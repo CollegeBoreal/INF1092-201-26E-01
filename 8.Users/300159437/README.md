@@ -22,5 +22,27 @@ Apres j ai creer des groupe pour mettre les user que j ai creer et aussi mettre 
 
 ![Image](images/WhatsApp%20Image%202026-07-22%20at%2012.28.08%20(8).jpeg)
 
+# Questions d'analyse
+# 1. Quelle est la différence entre un utilisateur et un groupe ?
+
+Un utilisateur est un compte permettant à une personne de se connecter à l'ordinateur. Un groupe est un ensemble d'utilisateurs qui permet de gérer leurs permissions collectivement.
+
+# 2. Pourquoi utilise-t-on les groupes pour attribuer des permissions ?
+
+Les groupes simplifient l'administration. Au lieu d'attribuer les permissions à chaque utilisateur individuellement, on les attribue au groupe. Tous les membres héritent automatiquement de ces permissions.
+
+# 3. Que signifie le principe du moindre privilège ?
+
+Le principe du moindre privilège consiste à donner à chaque utilisateur uniquement les droits nécessaires pour accomplir son travail, afin de limiter les risques de sécurité.
+
+# 4. Quelle commande PowerShell permet d'afficher les utilisateurs locaux ?
+
+Get-LocalUser
+
+ # 5. Quelle commande permet d'afficher les membres d'un groupe ?
+
+ Get-LocalGroupMember -Group "INF1092"
+
+ 
 # Fin 
 Ce travail ma permis de comprendre les commandes et un peu de active directory tous en utilisant une machinne virtuelle 
