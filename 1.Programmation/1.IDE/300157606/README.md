@@ -4,4 +4,5 @@
 
 ## Projet de Ouahiba
 
-![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/68095fab8e2166f19696ac0170ff7913bd745ce8/1.Programmation/1.IDE/300157606/image/133905317879843230.jpg)
+<img width="1028" height="629" alt="image" src="https://github.com/user-attachments/assets/94a6f017-9a00-4755-a8e8-7524491c16df" />
+
