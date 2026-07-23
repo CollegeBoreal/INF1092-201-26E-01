@@ -1,9 +1,4 @@
 # ID:300158085
-
-## Image choisie
-
-![Okapi](images/okapi.jpeg)
-
 ---
 
 ## Organisation de mon espace personnel
