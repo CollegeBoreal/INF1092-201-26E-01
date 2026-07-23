@@ -1,5 +1,6 @@
 Rapport de Laboratoire 8 USERS
 Réalisation des étapes et preuves
+
 Partie 1 : Création des utilisateurs
 Un mot de passe sécurisé a été converti en chaîne sécurisée, puis les comptes etudiant01 et etudiant02 ont été créés.
 <img width="2560" height="1176" alt="1" src="https://github.com/user-attachments/assets/19ac909d-9133-433b-b659-702eed477bce" />
