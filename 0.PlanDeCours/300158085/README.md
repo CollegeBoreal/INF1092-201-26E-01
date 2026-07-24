@@ -17,7 +17,7 @@ J’ai laissé l’image de l’okapi dans le dossier `images`. Cette image sert
 
 À la fin de cette activité, mon dossier contient :
 
-- un fichier `README.Md` ;
+- un fichier `README.md` ;
 - un dossier `images` ;
 - une image `okapi.jpeg` ;
 - un lien Markdown qui affiche correctement l’image dans le README ;
