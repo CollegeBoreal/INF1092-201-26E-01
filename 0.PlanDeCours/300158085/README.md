@@ -5,7 +5,7 @@
 
 Pour cette activité, j’ai créé mon espace personnel dans le dépôt du cours avec mon numéro étudiant `300158085`. Ce dossier me permet de garder mes fichiers bien organisés et faciles à retrouver.
 
-J’ai aussi utilisé un dossier `images` pour séparer les fichiers visuels du fichier principal `README.Md`. Cette structure rend le dépôt plus clair, surtout dans un projet GitHub partagé avec plusieurs étudiants.
+J’ai aussi utilisé un dossier `images` pour séparer les fichiers visuels du fichier principal `README.md`. Cette structure rend le dépôt plus clair, surtout dans un projet GitHub partagé avec plusieurs étudiants.
 
 ## Image choisie
 
