@@ -50,6 +50,7 @@ Preuves d'installation :Les captures d'écran suivantes montrent les principales
 
 
 
+<img width="4032" height="1816" alt="image" src="https://github.com/user-attachments/assets/9aa0c364-282e-406e-a5a3-8b25545f83d6" />
 
 
 
