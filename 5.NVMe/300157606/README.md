@@ -60,6 +60,6 @@ Preuves d'installation :Les captures d'écran suivantes montrent les principales
 <img width="4032" height="1816" alt="image" src="https://github.com/user-attachments/assets/d85aa2a3-3d2e-47b1-a6ed-2c75e1bd84c2" />
 
 
-
+https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/main/5.NVMe/300157606/images/20260616_163812.jpg?raw=true
 
 
