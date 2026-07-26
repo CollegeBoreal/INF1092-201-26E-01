@@ -38,6 +38,8 @@ Conclusion:Ce laboratoire nous a permis d'apprendre à installer un disque NVMe 
 Preuves d'installation :Les captures d'écran suivantes montrent les principales étapes du laboratoire, notamment l'installation du disque, sa détection dans le BIOS, son initialisation dans Windows Server et les vérifications finales de son fonctionnement.
 
 
-<img width="455" height="313" alt="image 1" src="https://github.com/user-attachments/assets/361cb062-cf9a-487d-8b7d-9d8439fcbcb3" />
+<img width="50%" height="50%" alt="image 1" src="https://github.com/user-attachments/assets/361cb062-cf9a-487d-8b7d-9d8439fcbcb3" />
+
+<img width="50%" height="50%" alt="image2" src="https://github.com/user-attachments/assets/193ae2cd-0f44-4fe5-89be-955f080c7d6f" />
 
 
