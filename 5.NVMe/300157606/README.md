@@ -5,9 +5,7 @@ Dans ce laboratoire, nous avons installé un disque NVMe de 1 To sur un serveur 
 
   
 
-Objectif:
-
-        L'objectif de ce laboratoire est d'installer un disque NVMe de 1 To sur un serveur afin d'augmenter la capacité de stockage et d'améliorer les performances du système.
+Objectif: L'objectif de ce laboratoire est d'installer un disque NVMe de 1 To sur un serveur afin d'augmenter la capacité de stockage et d'améliorer les performances du système.
 
 
 
@@ -34,12 +32,8 @@ Objectif:
     Pour terminer, nous avons vérifié que le disque apparaissait correctement dans Windows et réalisé un test de lecture et d'écriture pour confirmer son bon fonctionnement.
 
 
-Conclusion
-
-    Ce laboratoire nous a permis d'apprendre à installer un disque NVMe sur un serveur HP DL360 G6. Après l'installation et la configuration, le disque a été reconnu sans problème et fonctionne correctement. Cette opération permet d'améliorer la capacité de stockage et les performances du serveur.
+Conclusion:Ce laboratoire nous a permis d'apprendre à installer un disque NVMe sur un serveur HP DL360 G6. Après l'installation et la configuration, le disque a été reconnu sans problème et fonctionne correctement. Cette opération permet d'améliorer la capacité de stockage et les performances du serveur.
 
 
-Preuves d'installation
-
-    Les captures d'écran suivantes montrent les principales étapes du laboratoire, notamment l'installation du disque, sa détection dans le BIOS, son initialisation dans Windows Server et les vérifications finales de son fonctionnement.
+Preuves d'installation :Les captures d'écran suivantes montrent les principales étapes du laboratoire, notamment l'installation du disque, sa détection dans le BIOS, son initialisation dans Windows Server et les vérifications finales de son fonctionnement.
 
