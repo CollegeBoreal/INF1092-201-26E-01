@@ -198,3 +198,7 @@ Les captures ajoutées à la fin du rapport montrent :
 
 <img width="4000" height="3000" alt="20260721_142018" src="https://github.com/user-attachments/assets/a3e68cce-fff5-4ec4-bb67-6fa0ad593f2b" />
 
+<img width="4000" height="3000" alt="20260721_142925" src="https://github.com/user-attachments/assets/5021ee34-1441-46c2-b369-6cf13d1c16d9" />
+
+<img width="4000" height="3000" alt="20260721_143036" src="https://github.com/user-attachments/assets/29d3016a-7688-40ba-a1d0-d295897c897c" />
+
