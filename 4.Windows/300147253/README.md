@@ -2,7 +2,7 @@ RAPPORT D'ATELIER : Installation de Windows Server 2022 Datacenter via PXE
 
 Cours : Introduction à l'administration des systèmes
 
-Étudiant : Azzeddine Ameur (remplace par ton nom si nécessaire)
+Étudiant : Azzeddine Ameur 
 
 Objectif
 
