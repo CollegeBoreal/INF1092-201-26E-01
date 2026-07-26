@@ -54,4 +54,5 @@ Preuves d'installation :Les captures d'écran suivantes montrent les principales
 
 
 
+<img width="4032" height="1816" alt="image" src="https://github.com/user-attachments/assets/ddaf2620-0258-4a27-9beb-c3c2b2324ac7" />
 
