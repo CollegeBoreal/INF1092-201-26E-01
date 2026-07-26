@@ -17,7 +17,7 @@
 |:hash:| Boréal :id: | README.md | images |
 |------|-------------|-----------|--------|
 | 0 | [300124366](../300124366/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261495945?s=460&v=4' width=20 height=20></image>](https://github.com/rb0980h-dot) | :1st_place_medal: | :heavy_check_mark: |
-| 1 | [300147253](../300147253/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: |
+| 1 | [300147253](../300147253/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :1st_place_medal: | :heavy_check_mark: |
 | 2 | [300147891](../300147891/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261496046?s=460&v=4' width=20 height=20></image>](https://github.com/amadbarry96) | :1st_place_medal: | :heavy_check_mark: |
 | 3 | [300155045](../300155045/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image>](https://github.com/chouaibait) | :2nd_place_medal: | :heavy_check_mark: |
 | 4 | [300151722](../300151722/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261488966?s=460&v=4' width=20 height=20></image>](https://github.com/islamoustani5-collab) | :1st_place_medal: | :heavy_check_mark: |
@@ -48,4 +48,4 @@
 | 29 | [300160504](../300160504/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image>](https://github.com/mmounir07) | :1st_place_medal: | :x: |
 | 30 | [300160733](../300160733/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image>](https://github.com/belhadiyanis200-a11y) | :1st_place_medal: | :heavy_check_mark: |
 | 31 | [300160862](../300160862/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image>](https://github.com/cherifyamna) | :1st_place_medal: | :heavy_check_mark: |
-| :abacus: | \$\frac{29}{32}\$ = 90.62% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 29 |
+| :abacus: | \$\frac{30}{32}\$ = 93.75% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 30 |
