@@ -61,3 +61,5 @@ Preuves d'installation :Les captures d'écran suivantes montrent les principales
 <img width="4032" height="1816" alt="image" src="https://github.com/user-attachments/assets/6beb5018-70e9-4fcd-8057-333ec66ad0a7" />
 
 
+
+<img width="4032" height="1816" alt="image" src="https://github.com/user-attachments/assets/d85aa2a3-3d2e-47b1-a6ed-2c75e1bd84c2" />
