@@ -1,4 +1,4 @@
-#   PROJET INSTALLATION D UNE MACHINE VIRTUEL DANS LE SERVEUR 
+#   PROJET INSTALLATION D UNE MACHINE VIRTUEL DANS LE SERVEUR .
 
 Les captures d'écran montrent l'utilisation de plusieurs commandes PowerShell pour obtenir des informations sur une machine virtuelle Hyper-V nommée VM300159437. Ces commandes permettent à un administrateur de vérifier l'état de la machine virtuelle ainsi que sa configuration matérielle.
  Informations générales sur la machine virtuelle Hyper-V
