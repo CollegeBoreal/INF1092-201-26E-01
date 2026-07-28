@@ -34,6 +34,7 @@ Puis, on vérifie si tout est prêt avec l'hote Hyper-V
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-28 at 4 56 44 PM" src="https://github.com/user-attachments/assets/bb48c5c1-56d0-4916-b30c-9f4912db6dcb" />
 
 
+
 Les principales commandes PowerShell utilisées pour créer la machine virtuelle sont :
 
 ```powershell
