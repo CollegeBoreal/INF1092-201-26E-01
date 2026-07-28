@@ -29,6 +29,7 @@ On n'a d'abord installé le SSH et le HYPER-V sur le serveur avant la créattion
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-28 at 4 54 54 PM" src="https://github.com/user-attachments/assets/4a95b065-1bff-4007-ab9f-6b189768f451" />
 
+
 Puis, on vérifie si tout est prêt avec l'hote Hyper-V
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-28 at 4 56 44 PM" src="https://github.com/user-attachments/assets/bb48c5c1-56d0-4916-b30c-9f4912db6dcb" />
