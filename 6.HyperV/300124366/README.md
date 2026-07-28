@@ -25,6 +25,14 @@ L'objectif de ce laboratoire est de créer une machine virtuelle Windows Server 
 | Commutateur réseau     | External            |
 | Système d'exploitation | Windows Server 2022 |
 
+On n'a d'abord installé le SSH et le HYPER-V sur le serveur avant la créattion de la machine virtuelle.
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-28 at 4 54 54 PM" src="https://github.com/user-attachments/assets/4a95b065-1bff-4007-ab9f-6b189768f451" />
+
+Puis, on teste 
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-28 at 4 56 44 PM" src="https://github.com/user-attachments/assets/bb48c5c1-56d0-4916-b30c-9f4912db6dcb" />
+
 
 Les principales commandes PowerShell utilisées sont :
 
@@ -43,3 +51,8 @@ Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 
 Start-VM -Name $vm
 ```
+
+
+
+
+
