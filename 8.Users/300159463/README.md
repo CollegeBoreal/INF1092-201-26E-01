@@ -1,6 +1,5 @@
 
-
-
+L'objectif de cette séance de travaux pratiques était d'automatiser l'administration locale d'un système Windows à l'aide de PowerShell. Les manipulations portaient sur la gestion du cycle de vie des comptes utilisateurs, l'organisation des privilèges via des groupes locaux, ainsi que la configuration fine de la sécurité du système de fichiers NTFS
 
 
 
