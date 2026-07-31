@@ -54,6 +54,22 @@ Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 Start-VM -Name $vm
 ```
 
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 10 PM" src="https://github.com/user-attachments/assets/baa5cb20-a325-44c8-b60d-6b8c93d88fba" />
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 18 PM" src="https://github.com/user-attachments/assets/e8433633-2444-451d-ba82-5526ae669dce" />
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM (1)" src="https://github.com/user-attachments/assets/bf479ea5-557d-46d8-8d3d-da6023de2158" />
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM" src="https://github.com/user-attachments/assets/4730fc82-78b9-405f-a670-41975db26384" />
+
+
+
+
+
+
+
+
+
 
 
 
