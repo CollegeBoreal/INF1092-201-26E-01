@@ -62,6 +62,9 @@ Start-VM -Name $vm
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM" src="https://github.com/user-attachments/assets/4730fc82-78b9-405f-a670-41975db26384" />
 
+<img width="1200" height="468" alt="WhatsApp Image 2026-07-30 at 6 45 16 PM" src="https://github.com/user-attachments/assets/c01db459-544b-492f-97e4-62fa03fe7249" />
+
+
 
 
 
