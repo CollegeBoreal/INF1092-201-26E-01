@@ -5,11 +5,11 @@ Nom : Rosemene Bernard
 
 Numéro étudiant : 300124366
 
-Cours : _Introduction à l'administration des systèmes___________________
+Cours : _Introduction à l'administration des systèmes
 
-Professeur : Brice Robert____________________
+Professeur : Brice Robert
 
-Date : _14/07/2026___________________
+Date : 30/07/2026
 
 Objectif
 
@@ -25,18 +25,31 @@ L'objectif de ce laboratoire est de créer une machine virtuelle Windows Server 
 | Commutateur réseau     | External            |
 | Système d'exploitation | Windows Server 2022 |
 
-On n'a d'abord installé le SSH et le HYPER-V sur le serveur avant la créattion de la machine virtuelle.
+- On n'a d'abord installé le SSH et le HYPER-V sur le serveur avant la créattion de la machine virtuelle.
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-28 at 4 54 54 PM" src="https://github.com/user-attachments/assets/4a95b065-1bff-4007-ab9f-6b189768f451" />
 
 
-Puis, on vérifie si tout est prêt avec l'hote Hyper-V
+- Puis, on vérifie si tout est prêt avec l'hote Hyper-V
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-28 at 4 56 44 PM" src="https://github.com/user-attachments/assets/bb48c5c1-56d0-4916-b30c-9f4912db6dcb" />
 
+<img width="1200" height="468" alt="WhatsApp Image 2026-07-30 at 6 45 16 PM" src="https://github.com/user-attachments/assets/c01db459-544b-492f-97e4-62fa03fe7249" />
 
+- VM Fonctionnelle
+La machine virtuelle a été créée avec succès dans Hyper-V Manager. Son état est actuellement en Running, et les ressources système (CPU et RAM) sont allouées dynamiquement et stables.
 
-Les principales commandes PowerShell utilisées pour créer la machine virtuelle sont :
+<img width="1200" height="1260" alt="WhatsApp Image 2026-07-30 at 6 45 17 PM" src="https://github.com/user-attachments/assets/e52fcd6b-dad5-48f3-b442-b371913ab936" />
+
+- Installation Windows démarre : L'amorçage sur le fichier ISO est réussi et l'écran de configuration de l'installation s'affiche correctement
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 10 PM" src="https://github.com/user-attachments/assets/baa5cb20-a325-44c8-b60d-6b8c93d88fba" />
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM (1)" src="https://github.com/user-attachments/assets/bf479ea5-557d-46d8-8d3d-da6023de2158" />
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM" src="https://github.com/user-attachments/assets/2040784f-e9dd-4bac-b8b3-0598262ba692" />
+
+- Les principales commandes PowerShell utilisées pour créer la machine virtuelle sont :
 
 ```powershell
 $vm="VM300124366"
@@ -53,21 +66,6 @@ Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 
 Start-VM -Name $vm
 ```
-
-<img width="1200" height="468" alt="WhatsApp Image 2026-07-30 at 6 45 16 PM" src="https://github.com/user-attachments/assets/c01db459-544b-492f-97e4-62fa03fe7249" />
-
-VM Fonctionnelle
-La machine virtuelle a été créée avec succès dans Hyper-V Manager. Son état est actuellement en Running, et les ressources système (CPU et RAM) sont allouées dynamiquement et stables.
-
-<img width="1200" height="1260" alt="WhatsApp Image 2026-07-30 at 6 45 17 PM" src="https://github.com/user-attachments/assets/e52fcd6b-dad5-48f3-b442-b371913ab936" />
-
-Installation Windows démarre : L'amorçage sur le fichier ISO est réussi et l'écran de configuration de l'installation s'affiche correctement
-
-<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 10 PM" src="https://github.com/user-attachments/assets/baa5cb20-a325-44c8-b60d-6b8c93d88fba" />
-
-<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM (1)" src="https://github.com/user-attachments/assets/bf479ea5-557d-46d8-8d3d-da6023de2158" />
-
-<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM" src="https://github.com/user-attachments/assets/2040784f-e9dd-4bac-b8b3-0598262ba692" />
 
 
 
