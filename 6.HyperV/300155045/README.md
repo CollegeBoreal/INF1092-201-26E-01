@@ -38,8 +38,8 @@ Cette capture d’écran montre le bureau de Windows Server 2022 après la fin d
 Conclusion
 L’installation de la machine virtuelle a été réalisée avec succès. La VM utilise la génération 1, une mémoire RAM fixe de 4 Go, deux processeurs et un disque virtuel de 60 Go. Windows Server 2022 Datacenter est installé et la machine virtuelle fonctionne correctement dans Hyper-V.
 ``` powershell
-$vm="VM300160862"
-$iso="D:\ISO\300160862\win2022.iso"
+$vm="VM300155045"
+$iso="D:\ISO\300155045\win2022.iso"
 
 New-VM -Name $vm -Generation 1 -MemoryStartupBytes 4GB `
   -NewVHDPath "D:\VMs\$vm\$vm.vhdx" -NewVHDSizeBytes 60GB `
