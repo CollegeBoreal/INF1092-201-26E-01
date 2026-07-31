@@ -46,4 +46,29 @@ Test-NetConnection localhost -Port 3389
 
 query user
 
+Nom de la machine virtuelle
+
+<img width="1600" height="522" alt="WhatsApp Image 2026-07-30 at 6 45 13 PM" src="https://github.com/user-attachments/assets/446dafeb-5ec7-457a-ba36-9e09214271bd" />
+
+Configuration de l'adresse IP statique
+
+<img width="1434" height="629" alt="WhatsApp Image 2026-07-30 at 6 45 13 PM (1)" src="https://github.com/user-attachments/assets/bc598fe2-a928-4cf0-aab2-6b924203ca92" />
+
+Vérification de la connectivité réseau
+
+<img width="1498" height="702" alt="WhatsApp Image 2026-07-30 at 6 45 13 PM (3)" src="https://github.com/user-attachments/assets/d4945935-3de9-4091-9d20-935fedd07c4e" />
+
+Ping vers Google
+
+<img width="1600" height="787" alt="WhatsApp Image 2026-07-30 at 6 45 13 PM (2)" src="https://github.com/user-attachments/assets/a72fd5a8-5e5b-4553-9a47-08a3c18ea257" />
+
+Activation du Bureau à distance et connexion RDP
+
+Le Bureau à distance a été activé sur la machine virtuelle afin de permettre une connexion à distance.
+
+Les paramètres du pare-feu Windows autorisent les connexions RDP. Et, une connexion Bureau à distance a été établie avec succès entre l'ordinateur hôte et la machine virtuelle.
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 12 PM (2)" src="https://github.com/user-attachments/assets/c017b0ef-2aa4-4a6f-ae24-be577118bb68" />
+
+
 
