@@ -70,5 +70,8 @@ Les paramètres du pare-feu Windows autorisent les connexions RDP. Et, une conne
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 12 PM (2)" src="https://github.com/user-attachments/assets/c017b0ef-2aa4-4a6f-ae24-be577118bb68" />
 
+<img width="1079" height="914" alt="WhatsApp Image 2026-07-30 at 6 45 11 PM" src="https://github.com/user-attachments/assets/b589add3-bb2b-4a6b-b371-a9fb0409ff0d" />
+
+
 
 
