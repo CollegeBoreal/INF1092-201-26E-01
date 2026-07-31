@@ -13,6 +13,7 @@ vérifier que la restauration s'est déroulée correctement.
 J'ai arrêté la machine virtuelle VM300159437 avec la commande :
 
  Stop-VM -Name "VM300159437"
+ 
  ![Image](images/WhatsApp%20Image%202026-07-31%20at%2010.45.06.jpeg)
 
 # Étape 2 : Sauvegarde (Export)
@@ -20,6 +21,7 @@ J'ai arrêté la machine virtuelle VM300159437 avec la commande :
 Une fois la machine arrêtée, j'ai créé une sauvegarde avec :
 
 Export-VM -Name "VM300159437" -Path "E:\Backups\HyperV"
+
 ![Image](images/WhatsApp%20Image%202026-07-31%20at%2010.45.07%20(1).jpeg)
 
 # Étape 3 : Vérification de la sauvegarde
@@ -33,6 +35,7 @@ Get-ChildItem "E:\Backups\HyperV\VM300159437"
 J'ai restauré la machine virtuelle à partir du dossier de sauvegarde avec la commande :
 
 Import-VM -Path "E:\Backups\HyperV\VM300159437\Virtual Machines\*.vmcx"
+
 
 ![Image](images/WhatsApp%20Image%202026-07-31%20at%2010.45.06%20(1).jpeg)
 # Étape 5 : Démarrage de la machine virtuelle
