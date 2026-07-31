@@ -54,6 +54,8 @@ Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 Start-VM -Name $vm
 ```
 
+Installation Windows démarre : L'amorçage sur le fichier ISO est réussi et l'écran de configuration de l'installation s'affiche correctement
+
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 10 PM" src="https://github.com/user-attachments/assets/baa5cb20-a325-44c8-b60d-6b8c93d88fba" />
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 18 PM" src="https://github.com/user-attachments/assets/e8433633-2444-451d-ba82-5526ae669dce" />
@@ -64,7 +66,10 @@ Start-VM -Name $vm
 
 <img width="1200" height="468" alt="WhatsApp Image 2026-07-30 at 6 45 16 PM" src="https://github.com/user-attachments/assets/c01db459-544b-492f-97e4-62fa03fe7249" />
 
+VM Fonctionnelle
+La machine virtuelle a été créée avec succès dans Hyper-V Manager. Son état est actuellement en Running, et les ressources système (CPU et RAM) sont allouées dynamiquement et stables.
 
+<img width="1200" height="1260" alt="WhatsApp Image 2026-07-30 at 6 45 17 PM" src="https://github.com/user-attachments/assets/e52fcd6b-dad5-48f3-b442-b371913ab936" />
 
 
 
