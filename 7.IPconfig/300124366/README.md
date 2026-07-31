@@ -31,8 +31,7 @@ L'objectif de ce laboratoire était de configurer une machine virtuelle Windows 
 - Activation du Bureau à distance et connexion RDP
 
 Le Bureau à distance a été activé sur la machine virtuelle afin de permettre une connexion à distance.
-
-Les paramètres du pare-feu Windows autorisent les connexions RDP. Et, une connexion Bureau à distance a été établie avec succès entre l'ordinateur hôte et la machine virtuelle.
+Les paramètres du pare-feu Windows autorisent les connexions RDP. Puis, une connexion Bureau à distance a été établie avec succès entre l'ordinateur hôte et la machine virtuelle.
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 12 PM (2)" src="https://github.com/user-attachments/assets/c017b0ef-2aa4-4a6f-ae24-be577118bb68" />
 
