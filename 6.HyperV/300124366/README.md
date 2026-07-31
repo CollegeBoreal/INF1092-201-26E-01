@@ -67,6 +67,9 @@ Installation Windows démarre : L'amorçage sur le fichier ISO est réussi et l'
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM (1)" src="https://github.com/user-attachments/assets/bf479ea5-557d-46d8-8d3d-da6023de2158" />
 
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 14 PM" src="https://github.com/user-attachments/assets/2040784f-e9dd-4bac-b8b3-0598262ba692" />
+
+
 
 
 
