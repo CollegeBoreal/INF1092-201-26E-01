@@ -55,59 +55,64 @@ scp SOURCE user@IP:DESTINATION
 
 Sur ta VM Linux :
 
-ssh-keygen -t ed25519 -C "inf1092-grading"
+> ssh-keygen -t ed25519 -C "inf1092-grading"
 
 
 Accepte l'emplacement par défaut :
 
-~/.ssh/id_ed25519
+> ~/.ssh/id_ed25519
 
 
 et pour l'automatisation, laisse le mot de passe vide.
 
 Affiche ensuite la clé publique :
 
-cat ~/.ssh/id_ed25519.pub
+> cat ~/.ssh/id_ed25519.pub
 
 
 Sur l'hôte Windows Hyper-V (10.7.237.7), connecte-toi une fois puis exécute :
 
+```powershell
 mkdir $env:ProgramData\ssh -Force
 notepad $env:ProgramData\ssh\administrators_authorized_keys
-
+```
 
 Colle le contenu de id_ed25519.pub.
 
 Puis applique les permissions :
 
+```powershell
 icacls "$env:ProgramData\ssh\administrators_authorized_keys" /inheritance:r
 icacls "$env:ProgramData\ssh\administrators_authorized_keys" /grant "Administrators:F"
 icacls "$env:ProgramData\ssh\administrators_authorized_keys" /grant "SYSTEM:F"
-
+```
 
 Redémarre OpenSSH :
 
+```powershell
 Restart-Service sshd
-
+```
 
 Test :
 
-ssh Administrator@10.7.237.7 hostname
+> ssh Administrator@10.7.237.7 hostname
 
 
 Tu ne devrais plus avoir de demande de mot de passe.
 
 Pour tes scripts INF1092, ça devient :
 
+```bash
 ssh Administrator@10.7.237.7 \
   'powershell -Command "(Get-VMNetworkAdapter -VMName ''VM300124366'').IPAddresses"'
-
+```
 
 ou même :
 
+```bash
 ssh Administrator@10.7.237.7 \
   'powershell Invoke-Command -VMName VM300124366 -ScriptBlock { hostname }'
-
+```
 
 sans aucune interaction humaine.
 
