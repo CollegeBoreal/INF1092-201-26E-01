@@ -142,49 +142,6 @@ Après l’installation, nous avons défini un mot de passe complexe pour le com
 
 Le bureau de **Windows Server 2022 Datacenter Evaluation** est affiché. Cette image confirme que l’installation a réussi et que le serveur démarre correctement sur le nouveau système.
 
-Vérifications à effectuer après l’installation :
-
-- [x] Windows Server 2022 Datacenter démarre
-- [x] Interface graphique accessible
-- [ ] Carte Ethernet reconnue dans le Gestionnaire de périphériques
-- [ ] Adresse IP obtenue avec `ipconfig`
-- [ ] Passerelle joignable avec `ping`
-- [ ] Accès à Internet vérifié, si autorisé dans le laboratoire
-- [ ] Bureau à distance activé et testé
-- [ ] Aucune erreur critique dans le Gestionnaire de serveur
-- [ ] État du RAID toujours normal après redémarrage
-
-## 8. Accès à distance
-
-Pour permettre l’administration à distance :
-
-1. ouvrir **Server Manager**;
-2. sélectionner **Local Server**;
-3. activer **Remote Desktop**;
-4. autoriser la règle correspondante dans le pare-feu;
-5. relever l’adresse IP avec `ipconfig`;
-6. tester la connexion depuis un autre poste avec `mstsc`.
-
-L’accès à distance ne doit être activé que sur un réseau autorisé et protégé.
-
-## Décision finale
-
-### INSTALLER / ACCEPTER ✅ si :
-
-- [x] Windows Server 2022 Datacenter fonctionne
-- [ ] Ethernet fonctionne correctement
-- [ ] Aucun message d’erreur matériel ou RAID n’apparaît
-- [ ] Le serveur demeure stable après plusieurs redémarrages
-
-### REFUSER ❌ si :
-
-- l’installation ne se termine pas;
-- une erreur de mémoire RAM apparaît;
-- le volume RAID demeure dégradé;
-- un disque n’est pas détecté;
-- le serveur est instable;
-- les ventilateurs restent continuellement à plein régime;
-- la carte réseau n’est pas reconnue.
 
 ## Conclusion
 
