@@ -78,6 +78,6 @@ Commande utilisée :
 
 $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
 
-<img width="1600" height="1200" alt="WhatsApp Image 2026-07-30 at 6 45 09 PM" src="https://github.com/user-attachments/assets/1b69ed02-fc59-4e30-9299-ed6999c93eb7" />
+
 
 
