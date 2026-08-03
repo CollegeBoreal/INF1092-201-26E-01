@@ -1,6 +1,6 @@
 300152004
 
-**Création d'une VM Windows Server 2022 sous Hyper-V**
+**Configuration réseau et accès à distance (RDP)**
 
 Dans ce lab j'ai finalisé la configuration réseau de la VM Windows Server créée précédemment je lui ai attribué une adresse IP statique, configuré son serveur DNS et sa passerelle par défaut, puis vérifié que la connectivité fonctionne.
 
