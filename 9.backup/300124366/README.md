@@ -24,5 +24,6 @@ Etape et Action
 ```
 
 ![](Images/photo1.jpeg)
+![](Images/photo2.jpeg)
 
 
