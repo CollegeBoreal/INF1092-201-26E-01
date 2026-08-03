@@ -83,7 +83,10 @@ $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
 
 ![Création utilisateur](Images/capture1.jpeg)
 ![](Images/capture7.jpeg)
-![Ajout d'utilisateurs dans le groupe](Images/capture6.jpeg)
+
+## Ajout d'utilisateurs dans le groupe
+
+![Ajout utilisateurs](Images/capture6.jpeg)
 
 
 
