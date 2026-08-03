@@ -152,10 +152,10 @@ Invoke-Command -VMName VM300124366 -ScriptBlock {
 
 Avantages :
 
-pas besoin de connaître l'IP
-pas besoin de WinRM
-pas besoin de SSH dans les VM étudiantes
-fonctionne même si l'étudiant a cassé son réseau
+- pas besoin de connaître l'IP
+- pas besoin de WinRM
+- pas besoin de SSH dans les VM étudiantes
+- fonctionne même si l'étudiant a cassé son réseau
 
 Pour INF1092, c'est probablement l'approche la plus robuste : GitHub Runner Linux → SSH vers Hyper‑V → PowerShell Direct dans les VM. 🚀
 
