@@ -13,9 +13,11 @@ Ce laboratoire couvre la sauvegarde (export) et la restauration (import) d'une m
 
 Étape et Action
 
+<<<<<<< HEAD
 Sauvegarde		Export de la VM
 Vérification		Liste et comparaison des VM
 Restauration		Import de la VM
 Démarrage		Démarrage de la VM restaurée
 Arrêt (avant backup)	Arrêt propre de la VM
+
 
