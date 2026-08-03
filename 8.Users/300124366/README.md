@@ -78,6 +78,10 @@ Commande utilisée :
 
 $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
 
+## Création de l'utilisateur
+
+![Création utilisateur](Images/capture1.jpeg)
+
 
 
 
