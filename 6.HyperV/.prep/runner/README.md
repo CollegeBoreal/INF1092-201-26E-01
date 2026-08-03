@@ -12,12 +12,13 @@ le runner pourra exécuter les vérifications automatiquement.
 
 Dans GitHub :
 
+```text
 Repository
  → Settings
  → Actions
  → Runners
  → New self-hosted runner
-
+```
 
 Choisis :
 
