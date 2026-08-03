@@ -22,9 +22,10 @@ Repository
 
 Choisis :
 
+```text
 Linux
 x64
-
+```
 
 GitHub va générer quelque chose comme :
 
