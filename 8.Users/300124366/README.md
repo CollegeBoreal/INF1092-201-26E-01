@@ -77,6 +77,7 @@ Commande utilisée :
 ```powershell
 
 $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
+```
 
 ## Création de l'utilisateur
 
