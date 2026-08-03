@@ -110,8 +110,8 @@ ssh Administrator@10.7.237.7 \
 ou même :
 
 ```bash
-ssh Administrator@10.7.237.7 \
-  'powershell Invoke-Command -VMName VM300124366 -ScriptBlock { hostname }'
+ssh -i ~/.ssh/b300098957@ramena -o LogLevel=ERROR Administrator@10.7.237.7 \
+'powershell -Command "(Get-VMNetworkAdapter -VMName ''VM300124366'').IPAddresses | Select-Object -First 1"'
 ```
 
 sans aucune interaction humaine.
