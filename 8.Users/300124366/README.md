@@ -77,6 +77,31 @@ Commande utilisée :
 ```powershell
 
 $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
+```
+
+## Création de l'utilisateur
+
+![Création utilisateur](Images/capture1.jpeg)
+![](Images/capture7.jpeg)
+
+## Ajout d'utilisateurs dans le groupe
+
+![Ajout utilisateurs](Images/capture6.jpeg)
+
+##  Attribution de permissions sur un dossier
+
+![Attribution permission](Images/capture5.jpeg)
+![](Images/capture8.jpeg)
+
+## Activation et désactivation de comptes utilisateurs
+
+![](Images/capture10.jpeg)
+
+
+
+
+
+
 
 
 

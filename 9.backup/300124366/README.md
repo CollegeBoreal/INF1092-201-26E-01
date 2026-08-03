@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# Laboratoire Backup
 
 
@@ -41,4 +42,6 @@ Ce laboratoire couvre la sauvegarde (export) et la restauration (import) d'une m
 !\[](Images/photo1.jpeg)
 
 !\[](Images/photo2.jpeg)
+=======
+>>>>>>> 5c5196792c716d9f01bdecc53ab707464195c598
 
