@@ -82,7 +82,7 @@ $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
 ## Création de l'utilisateur
 
 ![Création utilisateur](Images/capture1.jpeg)
-![Création utilisateur 2](Images/capture7.jpeg)
+![](Images/capture7.jpeg)
 
 
 
