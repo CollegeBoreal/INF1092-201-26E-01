@@ -156,3 +156,29 @@ pas besoin de SSH dans les VM étudiantes
 fonctionne même si l'étudiant a cassé son réseau
 
 Pour INF1092, c'est probablement l'approche la plus robuste : GitHub Runner Linux → SSH vers Hyper‑V → PowerShell Direct dans les VM. 🚀
+
+---
+
+```lua
+● actions.runner.CollegeBoreal-INF1092-201-26E-01.vm30098957.service - GitHub Actions Runner (CollegeBoreal-INF1092-201-26E-01.vm30098957)
+     Loaded: loaded (/etc/systemd/system/actions.runner.CollegeBoreal-INF1092-201-26E-01.vm30098957.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2026-08-03 16:00:31 EDT; 41s ago
+   Main PID: 19606 (runsvc.sh)
+      Tasks: 20 (limit: 28727)
+     Memory: 43.2M
+        CPU: 367ms
+     CGroup: /system.slice/actions.runner.CollegeBoreal-INF1092-201-26E-01.vm30098957.service
+             ├─19606 /bin/bash /home/b300098957/Developer/actions-runner/runsvc.sh
+             ├─19609 ./externals/node20/bin/node ./bin/RunnerService.js
+             └─19616 /home/b300098957/Developer/actions-runner/bin/Runner.Listener run --startuptype service
+
+Aug 03 16:00:31 vm30098957 systemd[1]: Started GitHub Actions Runner (CollegeBoreal-INF1092-201-26E-01.v…98957).
+Aug 03 16:00:31 vm30098957 runsvc.sh[19606]: .path=/tools/Xilinx/Vitis_HLS/2023.1/bin:/tools/Xilinx/Mode…inx/Vit
+Aug 03 16:00:31 vm30098957 runsvc.sh[19609]: Starting Runner listener with startup type: service
+Aug 03 16:00:31 vm30098957 runsvc.sh[19609]: Started listener process, pid: 19616
+Aug 03 16:00:31 vm30098957 runsvc.sh[19609]: Started running service
+Aug 03 16:00:31 vm30098957 runsvc.sh[19609]: √ Connected to GitHub
+Aug 03 16:00:32 vm30098957 runsvc.sh[19609]: Current runner version: '2.336.0'
+Aug 03 16:00:32 vm30098957 runsvc.sh[19609]: 2026-08-03 20:00:32Z: Listening for Jobs
+Hint: Some lines were ellipsized, use -l to show in full.
+```
