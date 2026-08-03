@@ -1,12 +1,12 @@
-\# Laboratoire PowerShell : Gestion des utilisateurs (INF1092)
+\## Informations du laboratoire
 
 
 
-\## Objectif
+\*\*Cours :\*\* Administration des systèmes 
 
+\*\*Sujet :\*\* Gestion des utilisateurs, groupes et permissions avec PowerShell  
 
-
-Apprendre à gérer les utilisateurs, les groupes et les permissions à l'aide de PowerShell.
+\*\*Étudiant :\*\* 300124366  
 
 
 
@@ -14,11 +14,63 @@ Apprendre à gérer les utilisateurs, les groupes et les permissions à l'aide d
 
 
 
-\# Partie 1 : Création des utilisateurs
+\# Objectif
 
 
 
-\## Création du mot de passe sécurisé
+L'objectif de ce laboratoire est d'apprendre à gérer les utilisateurs locaux, les groupes et les permissions de fichiers à l'aide de PowerShell.
+
+
+
+Les opérations suivantes ont été réalisées pendant ce laboratoire:
+
+
+
+\- Création et gestion de comptes utilisateurs locaux.
+
+\- Création et administration de groupes.
+
+\- Ajout d'utilisateurs dans des groupes.
+
+\- Attribution de permissions sur un dossier.
+
+\- Activation et désactivation de comptes utilisateurs.
+
+\- Suppression des ressources créées.
+
+\- Application des bonnes pratiques de sécurité avec PowerShell.
+
+
+
+\---
+
+
+
+\# Prérequis
+
+
+
+Avant de commencer, les éléments suivants sont nécessaires :
+
+
+
+\- Windows 10/11 ou Windows Server.
+
+\- PowerShell exécuté en tant qu'administrateur.
+
+\- Un compte avec des privilèges administratifs.
+
+
+
+\---
+
+
+
+La première étape consiste à créer un mot de passe sécurisé qui sera utilisé pour les comptes utilisateurs.
+
+
+
+Commande utilisée :
 
 
 
