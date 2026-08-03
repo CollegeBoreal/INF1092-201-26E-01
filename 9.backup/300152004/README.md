@@ -1,6 +1,6 @@
 300152004
 
-****
+**Laboratoire Backup : Sauvegarde et restauration d'une VM Hyper-V**
 
 Dans ce lab j'ai sauvegardé et restauré une machine virtuelle Hyper-V avec PowerShell; j'ai exporté une VM existante vers un dossier de sauvegarde (Export-VM), puis la réimporter soit à son emplacement d'origine, soit comme copie indépendante avec un nouvel identifiant.
 
