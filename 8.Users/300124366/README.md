@@ -84,7 +84,7 @@ $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
 ![Création utilisateur](Images/capture1.jpeg)
 ![](Images/capture7.jpeg)
 
-![Création et Adminitration de goupe](Images/capture6.jpeg)
+
 
 
 
