@@ -94,9 +94,6 @@ $Password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
 ![](Images/capture8.jpeg)
 ![](Images/capture9.jpeg)
 
-## Activation et désactivation de comptes utilisateurs.
-
-![](Images/capture10.jpeg)
 
 
 
