@@ -1,7 +1,7 @@
 PROJET INSTALLATION D UNE MACHINE VIRTUEL DANS LE SERVEUR .
 Les captures d'écran montrent l'utilisation de plusieurs commandes PowerShell pour obtenir des informations sur une machine virtuelle Hyper-V nommée VM300159180. Ces commandes permettent à un administrateur de vérifier l'état de la machine virtuelle ainsi que sa configuration matérielle. Informations générales sur la machine virtuelle Hyper-V
 
-Cette fenêtre PowerShell montre plusieurs commandes qui affichent les caractéristiques de la machine virtuelle VM300159437.
+Cette fenêtre PowerShell montre plusieurs commandes qui affichent les caractéristiques de la machine virtuelle VM300159180.
 
 Get-VM -Name "VM300159180"
 Cette commande affiche les informations générales de la machine virtuelle.
