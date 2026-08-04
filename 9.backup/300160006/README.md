@@ -75,3 +75,4 @@ Get-VM
 Résultat : la VM restaurée apparaît dans la liste des machines virtuelles.
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/ab46c4cc3118847cb514a531b18db084278d8e41/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(1).jpeg)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/7f33e9255a6bb78311e50528691a4bd60d431afe/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(3).jpeg)
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/b781ada338811708bac626c346e845ea7b59f609/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(5).jpeg)
