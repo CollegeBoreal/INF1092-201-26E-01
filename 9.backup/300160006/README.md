@@ -45,3 +45,31 @@ Les fichiers importants obtenus sont :
 .vhdx : disque dur virtuel de la machine ;.vmcx : fichier de configuration Hyper-V.
 Résultat : la sauvegarde de la VM est disponible.
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/e10962f0bff5af4b6e1bb5f8b000dbeaf4701a97/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(5).jpeg)
+#  Étape 6 : Vérification avant restauration
+
+Avant d’importer la machine virtuelle, j’ai vérifié les informations de la sauvegarde.
+Commande utilisée :
+Compare-VM -Path "D:\Backups\HyperV\VM300160006\Virtual Machines\GUID.vmcx"
+Cette commande permet de vérifier si la machine virtuelle peut être restaurée correctement sur le serveur Hyper-V.
+
+# Étape 7 : Importation de la machine virtuelle
+
+J’ai restauré la machine virtuelle à partir du fichier de sauvegarde.
+Commande utilisée :
+Import-VM -Path "D:\Backups\HyperV\VM300160006\Virtual Machines\GUID.vmcx"
+L’importation permet de recréer la machine virtuelle dans Hyper-V avec sa configuration et ses fichiers.
+
+# Étape 8 : Importation comme nouvelle copie
+
+Comme la machine virtuelle originale existait déjà, j’ai importé la sauvegarde comme une copie avec un nouvel identifiant.
+Commande utilisée :
+Import-VM -Path "D:\Backups\HyperV\VM300160006\Virtual Machines\GUID.vmcx" -Copy -GenerateNewId
+Cette option évite les conflits entre la VM originale et la VM restaurée.
+Résultat : une nouvelle machine virtuelle a été créée.
+
+# Étape 9 : Vérification de la restauration
+
+J’ai vérifié que la machine virtuelle restaurée apparaissait bien dans Hyper-V.
+Commande utilisée :
+Get-VM
+Résultat : la VM restaurée apparaît dans la liste des machines virtuelles.
