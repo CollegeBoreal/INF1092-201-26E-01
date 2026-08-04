@@ -73,3 +73,4 @@ J’ai vérifié que la machine virtuelle restaurée apparaissait bien dans Hype
 Commande utilisée :
 Get-VM
 Résultat : la VM restaurée apparaît dans la liste des machines virtuelles.
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/ab46c4cc3118847cb514a531b18db084278d8e41/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(1).jpeg)
