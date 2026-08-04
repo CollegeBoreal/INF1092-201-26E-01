@@ -1,4 +1,5 @@
 Description 
+
 Dans ce laboratoire, j’ai procédé à la mise en place d’une machine virtuelle Windows Server 2022 en utilisant Hyper‑V. Pour commencer, j’ai récupéré l’image ISO de Windows Server 2022 via Azure Education, puis je l’ai placée dans mon répertoire personnel situé sur D:\ISO.
 
 J’ai ensuite créé une machine virtuelle de génération 1 en respectant les paramètres requis : allocation de 4 Go de mémoire fixe, configuration de 2 processeurs virtuels, création d’un disque dur virtuel de 60 Go, et connexion au commutateur réseau External. Après cela, j’ai monté l’ISO sur le lecteur DVD virtuel, puis j’ai démarré la VM afin de vérifier que l’assistant d’installation de Windows Server 2022 se lançait correctement.
