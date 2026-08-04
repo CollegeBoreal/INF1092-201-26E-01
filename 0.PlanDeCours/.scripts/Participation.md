@@ -27,7 +27,7 @@
 | 8 | [300155462](../300155462/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/231498971?s=460&v=4' width=20 height=20></image>](https://github.com/zakariamamssi05) | :1st_place_medal: | :heavy_check_mark: |
 | 9 | [300156534](../300156534/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489191?s=460&v=4' width=20 height=20></image>](https://github.com/salhiwalid540-hue) | :1st_place_medal: | :heavy_check_mark: |
 | 10 | [300157250](../300157250/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261491627?s=460&v=4' width=20 height=20></image>](https://github.com/jeanpi-erre01) | :1st_place_medal: | :heavy_check_mark: |
-| 11 | [300157298](../300157298/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/288085455?s=460&v=4' width=20 height=20></image>](https://github.com/amar20101999) | :x: | :x: |
+| 11 | [300157298](../300157298/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/288085455?s=460&v=4' width=20 height=20></image>](https://github.com/amar20101999) | :1st_place_medal: | :heavy_check_mark: |
 | 12 | [300157307](../300157307/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494517?s=460&v=4' width=20 height=20></image>](https://github.com/amaradjida7-hub) | :1st_place_medal: | :heavy_check_mark: |
 | 13 | [300157423](../300157423/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261497291?s=460&v=4' width=20 height=20></image>](https://github.com/gaya-994) | :1st_place_medal: | :heavy_check_mark: |
 | 14 | [300157606](../300157606/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261497731?s=460&v=4' width=20 height=20></image>](https://github.com/ouahiba1994) | :1st_place_medal: | :heavy_check_mark: |
@@ -48,4 +48,4 @@
 | 29 | [300160504](../300160504/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image>](https://github.com/mmounir07) | :1st_place_medal: | :x: |
 | 30 | [300160733](../300160733/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image>](https://github.com/belhadiyanis200-a11y) | :1st_place_medal: | :heavy_check_mark: |
 | 31 | [300160862](../300160862/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image>](https://github.com/cherifyamna) | :1st_place_medal: | :heavy_check_mark: |
-| :abacus: | \$\frac{30}{32}\$ = 93.75% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 30 |
+| :abacus: | \$\frac{31}{32}\$ = 96.88% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 31 |
