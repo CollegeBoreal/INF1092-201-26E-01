@@ -44,3 +44,4 @@ dir D:\Backups\HyperV -Recurse
 Les fichiers importants obtenus sont :
 .vhdx : disque dur virtuel de la machine ;.vmcx : fichier de configuration Hyper-V.
 Résultat : la sauvegarde de la VM est disponible.
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/e10962f0bff5af4b6e1bb5f8b000dbeaf4701a97/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(5).jpeg)
