@@ -36,3 +36,11 @@ le disque virtuel .vhdx ;
 les fichiers nécessaires au fonctionnement d’Hyper-V.
 Résultat : un dossier contenant la sauvegarde de la VM a été créé.
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/3b6fc9445c39c6fdab0fc069e7619e4d6e8a0897/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(1).jpeg)
+ #   Étape 5 : Vérification des fichiers sauvegardés
+
+J’ai vérifié que les fichiers d’exportation étaient bien présents dans le dossier de sauvegarde.
+Commande utilisée :
+dir D:\Backups\HyperV -Recurse
+Les fichiers importants obtenus sont :
+.vhdx : disque dur virtuel de la machine ;.vmcx : fichier de configuration Hyper-V.
+Résultat : la sauvegarde de la VM est disponible.
