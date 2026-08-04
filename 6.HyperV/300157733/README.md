@@ -113,9 +113,35 @@ La VM respecte les paramètres demandés :
  Génération 1
  4 Go de RAM fixe
  2 processeurs
- Disque virtuel de 60 Go
+
+ 
+ 
+ Dsque virtuel de 60 Go
  Réseau externe
  Installation de Windows Server 2022 réussie
 
 Cette documentation correspond uniquement au premier devoir : création de la VM.
 La partie configuration IP statique, DNS, passerelle et RDP sera documentée séparément.
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/63aa6f14-04b7-46b5-9dfc-f94007e2a640" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/5e6e80d4-3a15-45cc-9618-8b9a8919951b" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/9f8e1aa2-48d2-4309-a97a-5167cf3cb375" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/0be6739b-2f82-4cf4-a4e9-247df9af79c0" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/0146f531-82b2-4247-a657-75407ce37fb9" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/03feb817-a08d-4d54-9646-92f81d8dc0d0" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/e6f11640-a61d-4779-bad6-24f687c24645" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/545137a7-81b2-4fcc-a852-ad13e44ad523" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/732ad825-d006-4950-a7b8-e93229c2b7af" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/c29ff1b5-c49f-40e7-a825-f2d2a30a93e7" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/c4f5e19a-9814-4622-bb73-848cbf0a2335" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/07177fae-ee61-46f6-b8f4-feddcfd2d833" />
+
+
+
+
+
+
+
+
+
+
