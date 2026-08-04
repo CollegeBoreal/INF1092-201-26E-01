@@ -30,6 +30,12 @@ Validation et résultat final
 La commande d'inspection finale confirme la présence de deux machines virtuelles distinctes, toutes deux en cours d'exécution (Running), prouvant la réussite de l'opération de sauvegarde et de restauration.
 
 <img width="603" height="582" alt="Screenshot 2026-07-28 164319" src="https://github.com/user-attachments/assets/ba149980-fa21-4e9b-8494-93a30f15e350" />
+La machine virtuelle restaurée sur le disque secondaire (E:\RestoredVM) a été renommée sous l'identifiant VM300159203-RESTORE afin de la distinguer clairement de la machine d'origine.
+
+Gestion des états des machines virtuelles : La VM d'origine (VM300159203) située sur la partition principale (C:\) a été arrêtée proprement (Off). La machine restaurée (VM300159203-RESTORE) a été maintenue en état de fonctionnement (Running)
+
+<img width="1024" height="633" alt="image" src="https://github.com/user-attachments/assets/4788d408-7971-4cf8-9fdc-56de49fc184a" />
+
 
 
 
