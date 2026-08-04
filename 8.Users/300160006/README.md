@@ -31,4 +31,17 @@ La commande Get-Acl a permis de vérifier les permissions appliquées.
 
 # Résultat : le groupe INF1092 possède un contrôle total sur le dossier.
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/cd310cda16bffd04380e7c2356c2be14e1cad4c2/8.Users/300160006/images/WhatsApp%20Image%202026-08-04%20at%2012.42.33%20(2).jpeg)
+# Étape 5 : Désactivation du compte utilisateur
+J’ai désactivé le compte etudiant02 avec PowerShell.
+La désactivation permet de bloquer l’accès d’un utilisateur sans supprimer son compte.
+# Résultat : le compte est temporairement inaccessible.
+
+# Étape 6 : Réactivation du compte utilisateur
+Pour terminer, j’ai réactivé le compte etudiant02.
+Cette opération permet de restaurer l’accès de l’utilisateur sans avoir besoin de recréer son compte.
+# Résultat : le compte est de nouveau actif.
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/1b2bb8211b3355bc6dd1a7aecadf1fad32a96980/8.Users/300160006/images/WhatsApp%20Image%202026-08-04%20at%2012.42.33.jpeg)
+  # Conclusion
+Ce laboratoire m’a permis de pratiquer l’administration Windows avec PowerShell.
+J’ai appris à créer des utilisateurs, gérer un groupe et appliquer des permissions sur un dossier.
+J’ai également compris l’importance des groupes et du principe du moindre privilège pour assurer une meilleure organisation et une meilleure sécurité des accès.
