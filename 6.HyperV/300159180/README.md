@@ -12,4 +12,9 @@ Cette commande affiche les paramètres de mémoire.
 
 DynamicMemoryEnabled : False La mémoire dynamique est désactivée. La VM utilise toujours la quantité de mémoire configurée au démarrage. Minimum : 512 MB Valeur minimale possible si la mémoire dynamique était activée. Startup : 4096 MB La VM démarre avec 4 Go de RAM. Maximum : 1048576 MB Valeur maximale configurée (environ 1 To).
 <img width="4000" height="3000" alt="20260721_161351" src="https://github.com/user-attachments/assets/a916d15a-1edb-4493-b2b5-54b7d1e942ce" />
+<img width="4000" height="3000" alt="20260721_161330" src="https://github.com/user-attachments/assets/91a604aa-1328-404c-bb34-b03acc22728e" />
+<img width="4000" height="3000" alt="20260721_161335" src="https://github.com/user-attachments/assets/774beae4-c978-4bc6-84ea-b7ca08456e61" />
+<img width="4000" height="3000" alt="20260721_161258" src="https://github.com/user-attachments/assets/a1c3a672-f9ec-433b-a34b-6b0a755e04f1" />
+
+
 
