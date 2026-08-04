@@ -86,3 +86,8 @@ Get-VM
 Résultat : la machine virtuelle démarre correctement.
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/4702200fd14ba7188046650ba7fcbf1fd70bdfa8/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(6).jpeg)
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/f1b33da18d0b701e9d8074327c7c92aa18d09caa/9.backup/300160006/images/WhatsApp%20Image%202026-08-04%20at%2013.42.38%20(7).jpeg)
+#   Conclusion
+
+Ce laboratoire m’a permis de comprendre le processus de sauvegarde et de restauration d’une machine virtuelle Hyper-V avec PowerShell.
+La commande Export-VM permet de créer une sauvegarde complète d’une VM, tandis que Import-VM permet de la récupérer rapidement.
+Cette méthode est importante en administration système, car elle permet de protéger les machines virtuelles et de les restaurer en cas de panne ou de perte de données.
