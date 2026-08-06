@@ -23,5 +23,16 @@ Set-VMMemory -VMName $vm -DynamicMemoryEnabled $false
 Set-VMDvdDrive -VMName $vm -ControllerNumber 1 -ControllerLocation 0 -Path $iso
 
 Start-VM -Name $vm
+
 ```
+
+<img width="1512" height="982" alt="Capture d’écran 2026-07-30 à 19 14 44" src="https://github.com/user-attachments/assets/87a774fb-3802-460c-9b3a-736fe7bce26d" />
+
+<img width="1512" height="982" alt="Capture d’écran 2026-07-30 à 19 04 08" src="https://github.com/user-attachments/assets/be98de10-fe1a-43df-b9c9-4e9c32bb3209" />
+
+<img width="1512" height="982" alt="Capture d’écran 2026-07-30 à 19 15 23" src="https://github.com/user-attachments/assets/4fa76cf5-efcd-4c7a-9006-c110f2f0245e" />
+
+
+
+
 
