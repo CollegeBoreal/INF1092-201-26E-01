@@ -1,4 +1,4 @@
-# Participation au 04-08-2026 23:34
+# Participation au 06-08-2026 23:13
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -46,6 +46,6 @@
 | 27 | [300160006](../300160006/README.md) :point_right: [maimouna247](https://github.com/maimouna247) <image src='https://avatars0.githubusercontent.com/u/261489041?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 28 | [300160424](../300160424/README.md) :point_right: [youcef-1994](https://github.com/youcef-1994) <image src='https://avatars0.githubusercontent.com/u/261502136?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 29 | [300160504](../300160504/README.md) :point_right: [mmounir07](https://github.com/mmounir07) <image src='https://avatars0.githubusercontent.com/u/261492337?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
-| 30 | [300160733](../300160733/README.md) :point_right: [belhadiyanis200-a11y](https://github.com/belhadiyanis200-a11y) <image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 30 | [300160733](../300160733/README.md) :point_right: [belhadiyanis200-a11y](https://github.com/belhadiyanis200-a11y) <image src='https://avatars0.githubusercontent.com/u/261489188?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 31 | [300160862](../300160862/README.md) :point_right: [cherifyamna](https://github.com/cherifyamna) <image src='https://avatars0.githubusercontent.com/u/261494322?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | :abacus: | \$\\frac{27}{32}\$ = 84.38% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 27 |
