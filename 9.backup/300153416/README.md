@@ -36,3 +36,14 @@ Export-VM -Name "VM300153416" -Path "Chemin_Sauvegarde"
 
 Restauration :
 Import-VM -Path "Chemin_VM_Exportee\VM.vmcx"
+<img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 15 37 14 (2)" src="https://github.com/user-attachments/assets/7422c97c-17fe-4e85-86d7-b5fec915798a" />
+<img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 15 37 14 (1)" src="https://github.com/user-attachments/assets/e05353d8-63b1-4eb2-b80b-3045cae4b52e" />
+<img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 15 37 14" src="https://github.com/user-attachments/assets/c390f64f-2bbd-44d7-882b-eed872249784" />
+<img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 15 34 47 (2)" src="https://github.com/user-attachments/assets/799f8be8-79b4-4052-8c6c-1c7a08989c5c" />
+<img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 15 34 47 (1)" src="https://github.com/user-attachments/assets/630decab-0bbb-4f85-98dc-5b5179392459" />
+<img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 15 34 47" src="https://github.com/user-attachments/assets/7c81bfcf-e9fc-4cd4-8c82-61bef0395d45" />
+
+
+
+
+
