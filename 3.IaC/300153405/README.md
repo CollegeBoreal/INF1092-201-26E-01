@@ -1,4 +1,4 @@
-300153404
+300153405
 # Rapport d’atelier — Préparation d’un serveur physique
 
 Dans le cadre de cet atelier, nous avons procédé à la préparation d’un serveur physique et à l’installation de son système d’exploitation. Cette étape était essentielle avant de pouvoir automatiser sa configuration à l’aide de l’Infrastructure as Code.
