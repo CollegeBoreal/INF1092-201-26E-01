@@ -1,3 +1,10 @@
+Rapport d'atelier - Hyper-V
+ID : 300153405
+Nom : Rekaik Khaled 
+Projet : Hyper-V
+Cours : INF1092-201-E26-01
+-----------------------------------------------------------------------------------------------------------------------------------
+
 Création et configuration d'une machine virtuelle Windows Server 2022 avec Hyper-V
 Introduction
 
