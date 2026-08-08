@@ -3,6 +3,9 @@
 ### Projet : Configuration IP et RDP
 ### Cours : INF1092-201-E26-01
 ---------------------------------------------------------------------------------------------------------------------------------
+
+# Réseau Hyper‑V et accès RDP
+
 ## 1. Vérification du nom de la machine virtuelle et de la configuration réseau
 
 Avant de modifier la configuration réseau, j'ai vérifié le nom de la machine virtuelle ainsi que la configuration réseau actuelle à l'aide des commandes suivantes :
