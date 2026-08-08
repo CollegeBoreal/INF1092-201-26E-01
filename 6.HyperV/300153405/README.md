@@ -1,11 +1,12 @@
-Rapport d'atelier - Hyper-V
-ID : 300153405
-Nom : Rekaik Khaled 
-Projet : Hyper-V
-Cours : INF1092-201-E26-01
+# Rapport d'atelier - Hyper-V
+### ID : 300153405
+### Nom : Rekaik Khaled 
+### Projet : Hyper-V
+### Cours : INF1092-201-E26-01
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Création et configuration d'une machine virtuelle Windows Server 2022 avec Hyper-V
+# Création et configuration d'une machine virtuelle Windows Server 2022 avec Hyper-V
 Introduction
 
 Dans ce laboratoire, j'ai créé et configuré une machine virtuelle Windows Server 2022 à l'aide de Microsoft Hyper-V sur Windows Server.
@@ -21,7 +22,7 @@ Nombre de processeurs : 2
 Disque virtuel : 60 Go (VHDX)
 Commutateur réseau : External
 Système d'exploitation : Windows Server 2022
-1. Création et configuration de la machine virtuelle
+## 1. Création et configuration de la machine virtuelle
 
 <img width="1680" height="978" alt="1" src="https://github.com/user-attachments/assets/fd94ab82-fd93-4c27-9bc5-2b243084b32d" />
 
@@ -41,7 +42,7 @@ Démarrage de la machine virtuelle
 Cette étape permet de préparer entièrement la machine avant l'installation du système d'exploitation.
 
 
-2. Vérification de la configuration de la machine virtuelle
+## 2. Vérification de la configuration de la machine virtuelle
 
 <img width="1686" height="980" alt="2" src="https://github.com/user-attachments/assets/2a4873cf-fe90-437d-a930-b9c9652f1b8b" />
 
@@ -59,7 +60,7 @@ le commutateur réseau utilisé est External.
 Ces informations confirment que la configuration respecte les exigences du laboratoire.
 
 
-3. Vérification du disque virtuel et du réseau
+## 3. Vérification du disque virtuel et du réseau
 
 <img width="1686" height="985" alt="3" src="https://github.com/user-attachments/assets/daa53387-9eb0-48a7-9769-eead5101c63f" />
 
@@ -75,7 +76,7 @@ la carte réseau connectée au commutateur virtuel External.
 Cette étape confirme que les ressources de stockage et le réseau sont correctement configurés.
 
 
-4. Premier démarrage de Windows Server
+## 4. Premier démarrage de Windows Server
 
 Cette image montre le premier démarrage de la machine virtuelle.
 
@@ -84,7 +85,7 @@ Cette image montre le premier démarrage de la machine virtuelle.
 L'écran de verrouillage de Windows Server apparaît, ce qui confirme que la machine virtuelle démarre correctement et que l'installation progresse normalement.
 
 
-5. Chargement de Windows Server
+## 5. Chargement de Windows Server
 
 Cette capture montre l'écran de démarrage de Windows Server.
 
@@ -95,7 +96,7 @@ Le système charge les services nécessaires avant de poursuivre l'installation 
 Cette étape confirme que la machine virtuelle démarre correctement à partir du fichier ISO monté précédemment.
 
 
-6. Installation de Windows Server 2022
+## 6. Installation de Windows Server 2022
 
 <img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 8 30 27 PM" src="https://github.com/user-attachments/assets/389e689c-cd78-47ab-b939-54ee1019d379" />
 
@@ -114,9 +115,9 @@ finalisation de l'installation.
 Cette progression confirme que l'installation du système d'exploitation se déroule normalement.
 
 
-Conclusion
+# Conclusion
 
-Au cours de ce laboratoire, j'ai créé et configuré avec succès une machine virtuelle Windows Server 2022 à l'aide de Microsoft Hyper-V.
+Au cours de ce laboratoire, j'ai créé et configuré avec succès une machine virtuelle Windows Server 2022 à l'aide de Microsoft HyperV.
 
 Les principales étapes réalisées sont les suivantes :
 
