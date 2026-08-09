@@ -1,6 +1,6 @@
 Nom : Yanis Belhadi 300160733
-Réseau Hyper-V et accès RDP :
-1. Vérification du nom de la machine virtuelle et de la configuration réseau
+
+1. Vérification du nom de la machine virtuelle et de la configuration réseau :
 
 Avant de modifier la configuration réseau, j’ai vérifié le nom de la machine virtuelle ainsi que la configuration IP actuelle ,La commande hostname permet de vérifier le nom de la machine virtuelle.
 La commande ipconfig /all permet d’afficher les informations réseau comme l’adresse IPv4, le masque de sous-réseau, la passerelle par défaut et les serveurs DNS.
@@ -8,6 +8,7 @@ La commande ipconfig /all permet d’afficher les informations réseau comme l�
 <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/e67729df-b230-4e9f-b491-ec03a9d7a5bc" />
 
 2. Vérification de l’interface réseau Ethernet :
+
 J’ai ensuite vérifié l’interface réseau utilisée par la machine virtuelle , Le résultat montre que l’interface utilisée est Ethernet avec un adaptateur Microsoft Hyper-V Network Adapter.
 L’état de l’interface est Up, ce qui confirme que la carte réseau est active. La vitesse de connexion affichée est de 1 Gbps.
 
