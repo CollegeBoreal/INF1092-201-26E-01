@@ -6,6 +6,12 @@ Introduction :
 
 Dans ce laboratoire, j’ai réalisé la sauvegarde et la restauration d’une machine virtuelle Hyper-V avec PowerShell. La machine utilisée est VM300160733. L’objectif est d’exporter la machine virtuelle dans un dossier de sauvegarde, de vérifier les fichiers créés, puis d’importer une copie de la VM afin de confirmer que la restauration fonctionne correctement.
 
+Préparation de la sauvegarde :
+
+Dans cette étape, je définis le nom de la machine virtuelle VM300160733 et le chemin de sauvegarde D:\Backups\HyperV. Je crée ensuite le dossier de sauvegarde, vérifie l’état de la VM avec Get-VM, puis je l’arrête avant de commencer l’exportation.
+
+<img width="1766" height="1015" alt="image" src="https://github.com/user-attachments/assets/40e32a68-4518-4b9a-8afa-96a255442ccf" />
+
 Exportation de la machine virtuelle :
 
 La machine virtuelle VM300160733 est arrêtée avant la sauvegarde. Elle est ensuite exportée dans le dossier D:\Backups\HyperV. La commande Get-ChildItem permet de vérifier les dossiers et les fichiers créés pendant l’exportation. Une deuxième tentative d’exportation indique que le dossier existe déjà.
