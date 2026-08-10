@@ -22,3 +22,5 @@ Disque dur virtuel	60 Go
 Commutateur réseau	External
 Système d'exploitation	Windows Server 2022
 On n'a d'abord installé le SSH et le HYPER-V sur le serveur avant la créattion de la machine virtuelle.
+![Uploading image.png…]()
+
