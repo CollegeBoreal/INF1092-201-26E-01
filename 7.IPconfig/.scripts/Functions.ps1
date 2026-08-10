@@ -71,7 +71,7 @@ function Get-RdpStatus {
         & nc -z -w $Timeout $ServerIP 3389 *> $null
 
         if ($LASTEXITCODE -eq 0) {
-            return ":heavy_check_mark:"
+            return ":white_check_mark:"
         }
 
         return ":x:"
