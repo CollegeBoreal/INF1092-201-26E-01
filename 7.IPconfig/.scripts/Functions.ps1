@@ -58,3 +58,25 @@ function Write-LabStudentRow {
         Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Server) |"
     }
 }
+
+function Get-RdpStatus {
+    param(
+        [Parameter(Mandatory)]
+        [string]$ServerIP,
+
+        [int]$Timeout = 2
+    )
+
+    try {
+        & nc -z -w $Timeout $ServerIP 3389 *> $null
+
+        if ($LASTEXITCODE -eq 0) {
+            return ":heavy_check_mark:"
+        }
+
+        return ":x:"
+    }
+    catch {
+        return ":x:"
+    }
+}
