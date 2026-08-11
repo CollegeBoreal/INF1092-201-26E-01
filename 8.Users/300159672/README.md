@@ -19,15 +19,15 @@ En cours de route, j'ai rencontré et corrigé plusieurs erreurs : un guillemet 
 
  ## Questions d'analyse ##
 
-## 1 - Quelle est la différence entre un utilisateur et un groupe ? ##
+## 1 - Quelle est la différence entre un utilisateur et un groupe ? 
 Un utilisateur est un compte permettant à une personne de se connecter à l'ordinateur. Un groupe est un ensemble d'utilisateurs qui permet de gérer leurs permissions collectivement.
-## 2- Pourquoi utilise-t-on les groupes pour attribuer des permissions ?##
+## 2- Pourquoi utilise-t-on les groupes pour attribuer des permissions ?
 Les groupes simplifient l'administration. Au lieu d'attribuer les permissions à chaque utilisateur individuellement, on les attribue au groupe. Tous les membres héritent automatiquement de ces permissions.
-## 3- Que signifie le principe du moindre privilège ?##
+## 3- Que signifie le principe du moindre privilège ?
 Le principe du moindre privilège consiste à donner à chaque utilisateur uniquement les droits nécessaires pour accomplir son travail, afin de limiter les risques de sécurité.
-## 4- Quelle commande PowerShell permet d'afficher les utilisateurs locaux ? ##
+## 4- Quelle commande PowerShell permet d'afficher les utilisateurs locaux ? 
 Get-LocalUser
-## 5- Quelle commande permet d'afficher les membres d'un groupe ?##
+## 5- Quelle commande permet d'afficher les membres d'un groupe ?
 Get-LocalGroupMember -Group "INF1092"
 
 
