@@ -67,4 +67,5 @@ documenter correctement une procédure d’installation
 
 préparer l’environnement pour l’utilisation de l’Infrastructure as Code
 ![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/f3cc74ce5d2b50ef14bfaa85fad764dcfe620ad5/3.IaC/300155462/images/WhatsApp%20Image%202026-06-29%20at%2016.19.38%20(1).jpeg)
+![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/31381ed688854b82c20a0bc4651d6df90e0b39bc/3.IaC/300155462/images/WhatsApp%20Image%202026-06-29%20at%2016.19.38%20(10).jpeg)
 
