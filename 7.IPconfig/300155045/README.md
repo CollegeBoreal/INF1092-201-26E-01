@@ -5,7 +5,6 @@ Nom : Chouaib Ait
 ID étudiant : 300155045
 Cours : Administration réseau / Windows Server
 Laboratoire : Configuration IP statique, DNS, passerelle et RDP
-Date : __________________
 
 1. Objectifs du laboratoire
 
