@@ -26,9 +26,6 @@ La première étape consiste à vérifier le nom de la machine virtuelle à l’
 
 hostname
 
-Résultat obtenu :
-
-[Nom de ma VM]
 
 Capture d’écran :
 Insérer ici une capture d’écran montrant la commande hostname et son résultat.
