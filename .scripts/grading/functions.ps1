@@ -49,8 +49,27 @@ function Get-RubricLevelIdFromReadmeEmoji {
             }
         }
 
+        5 {
+            $fail   = $Levels[0]
+            $bronze = $Levels[1]
+            $silver = $Levels[2]
+            $gold   = $Levels[3]
+            $champ  = $Levels[4]
+
+            switch -Regex ($Emoji) {
+                ':x:|❌'               { return $fail }
+                ':3rd_place_medal:|🥉' { return $bronze }
+                ':2nd_place_medal:|🥈' { return $silver }
+                ':1st_place_medal:|🥇' { return $gold }
+                ':trophy:|🏆'          { return $champ }
+                default {
+                    throw "Unknown README emoji for 5-level rubric: $Emoji"
+                }
+            }
+        }
+
         default {
-            throw "Levels must contain either 3 values [fail,silver,gold] or 4 values [fail,bronze,silver,gold]"
+            throw "Levels must contain either 3 values [fail,silver,gold] or 4 values [fail,bronze,silver,gold] or 5 values [fail,bronze,silver,gold,trophy]"
         }
     }
 }

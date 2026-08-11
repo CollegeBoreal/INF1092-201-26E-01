@@ -47,7 +47,7 @@ function Get-ParticipationGrades {
             # README.md quantity (fail/silver/gold)
             # ---------------------------------
             $readEmoji = ($cols[3]).Trim()
-            $levels = @(483, 484, 485)  # fail, silver, gold
+            $levels = @(492, 493, 494)  # fail, silver, gold
             $readScore = Get-RubricLevelIdFromReadmeEmoji `
                 -Emoji $readEmoji `
                 -Levels $levels
@@ -58,20 +58,20 @@ function Get-ParticipationGrades {
             $imgEmoji = ($cols[4]).Trim()
             $imgScore = Get-RubricLevelIdFromEmoji `
                 -Emoji $imgEmoji `
-                -FailLevelId 486 `
-                -PassLevelId 487
+                -FailLevelId 495 `
+                -PassLevelId 496
 
             # If README.md exceeds expectations,
             # images folder is implicitly considered present
-            if ($readScore -gt 485) {
-                $imgScore = 487
+            if ($readScore -gt 494) {
+                $imgScore = 496
             }
 
             # ---------------------------------
-            # Appreciation (fail/silver/gold)
+            # Appreciation (fail/silver/gold/trophy)
             # ---------------------------------
             $appEmoji = ($cols[5]).Trim()
-            $appLevels = @(488, 489, 490, 491)  # fail, bronze, silver, gold
+            $appLevels = @(497, 498, 499, 500, 501)  # fail, bronze, silver, gold, trophy
             $appScore = Get-RubricLevelIdFromReadmeEmoji `
                 -Emoji $appEmoji `
                 -Levels $appLevels
@@ -122,9 +122,9 @@ function New-LMSRubricFromEntry {
 
     # Build rubric
     $rubric = @(
-        @{ criterionid = 205;  levelid = $Entry.readme;    remark = "Quantité README.md " }
-        @{ criterionid = 206;  levelid = $Entry.image;     remark = "Présence répertoire images " }
-        @{ criterionid = 207;  levelid = $Entry.app;       remark = $Entry.comments }
+        @{ criterionid = 208;  levelid = $Entry.readme;    remark = "Quantité README.md " }
+        @{ criterionid = 209;  levelid = $Entry.image;     remark = "Présence répertoire images " }
+        @{ criterionid = 210;  levelid = $Entry.app;       remark = $Entry.comments }
     )
 
     # Validate level IDs (avoid Moodle crash)

@@ -42,7 +42,7 @@ $LMSStudents = Get-LMSStudentInfo -LMSResponse $responseLMS
 # =====================================================================
 
 # LMS assignment ID where participation grades will be submitted
-$LMSAssignmentID = 43
+$LMSAssignmentID = 44
 
 # ---------------------------------------------------------------------
 # READ PARTICIPATION FILES

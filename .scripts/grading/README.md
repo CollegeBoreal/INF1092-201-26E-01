@@ -57,6 +57,11 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
   "cmid": 48,
   "name": "6.HyperV"
 }
+{
+  "id": 44,
+  "cmid": 49,
+  "name": "7.IPconfig"
+}
 
 ```
 
