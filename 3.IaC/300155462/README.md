@@ -1,18 +1,74 @@
 #300155462
+Dans cet atelier, nous avons réalisé la mise en place et l’installation du système d’exploitation sur un serveur physique.
+Cette étape constituait la base nécessaire avant d’automatiser la configuration à l’aide de l’Infrastructure as Code.
 
-je vais vous présenter les différentes étapes de notre projet d'installation et de configuration d'un serveur. Nous avons commencé par inspecter le matériel, puis nous avons installé le système d'exploitation, vérifié le bon fonctionnement du serveur et effectué sa configuration. Les images présentées illustrent les principales étapes de ce projet.
+ 1. Préparation du serveur
+Avant de commencer toute installation logicielle, nous avons procédé à une vérification complète du matériel :
 
-Le boîtier du serveur a été ouvert afin d'accéder aux composants internes. Cette étape permet d'effectuer une inspection visuelle de la carte mère, du processeur, de la mémoire RAM, des ventilateurs et des autres composants avant toute intervention.
+processeur
 
+mémoire vive (RAM)
 
-<img src="images/6.png" width="50%">
-<img src="images/7.png" width="50%">
-<img src="images/9.png" width="50%">
+disques de stockage
 
+alimentation
 
-Après avoir vérifié les composants, nous avons branché le serveur à un écran afin de poursuivre la configuration.
+système de ventilation
 
-<img src="images/5.png" width="50%">
-<img src="images/4.png" width="50%">
-<img src="images/1.png" width="50%">
-<img src="images/2.png" width="50%">
+Une fois ces éléments validés, nous avons branché les périphériques indispensables :
+
+écran
+
+clavier
+
+souris
+
+câbles d’alimentation
+
+Cette phase garantit que le serveur est pleinement opérationnel avant de lancer l’installation.
+
+2. Mise sous tension et accès au système
+Après avoir allumé le serveur :
+
+Le système a démarré correctement.
+
+Nous avons accédé à l’interface de gestion.
+
+Nous avons saisi les identifiants nécessaires (nom d’utilisateur et mot de passe).
+
+Une fois connectés, nous avons pu entrer dans les paramètres du BIOS/UEFI.
+
+ 3. Configuration du démarrage
+Nous avons ensuite modifié l’ordre de démarrage afin que le serveur boote sur la clé USB contenant l’installateur du système d’exploitation.
+
+Cette configuration est indispensable pour lancer l’installation depuis un support externe.
+
+ 4. Documentation par captures d’écran
+Les captures d’écran enregistrées dans le dossier images/ illustrent :
+
+le démarrage initial du serveur
+
+l’accès au BIOS/UEFI
+
+la sélection du périphérique USB
+
+le lancement de l’installateur
+
+Elles servent de preuve visuelle et permettent de suivre chaque étape du processus.
+
+ Conclusion
+Cet atelier m’a permis de :
+
+maîtriser les étapes de préparation matérielle d’un serveur
+
+configurer un BIOS/UEFI pour démarrer sur un support externe
+
+documenter correctement une procédure d’installation
+
+préparer l’environnement pour l’utilisation de l’Infrastructure as Code
+
+<image src=images/1.jpg width=50% height=50% > </image>
+<image src=images/2.jpg width=50% height=50% > </image>
+<image src=images/8.jpg width=50% height=50% > </image>
+<image src=images/9.jpg width=50% height=50% > </image>
+<image src=images/10.jpg width=50% height=50% > </image>
