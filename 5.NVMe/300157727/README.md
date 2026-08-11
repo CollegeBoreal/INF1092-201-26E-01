@@ -29,3 +29,4 @@ Preuves d'installation Les images ci-dessous présentent les différentes étape
 <img width="2016" height="908" alt="WhatsApp Image 2026-06-18 at 17 07 48" src="https://github.com/user-attachments/assets/9f3a37a8-c6c1-43fe-91e8-14781f08635d" />
 <img width="2016" height="908" alt="WhatsApp Image 2026-06-18 at 17 07 48 (1)" src="https://github.com/user-attachments/assets/78805be4-bb4c-442b-9326-7ebc6ba8425d" />
 
+<img width="2016" height="908" alt="623705573-d884e862-bb7f-4b67-ac35-c89bd16958d3" src="https://github.com/user-attachments/assets/c25a8ad3-6cc6-40c6-bfd4-21cff8375f98" />
