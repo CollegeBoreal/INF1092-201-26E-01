@@ -67,8 +67,3 @@ documenter correctement une procédure d’installation
 
 préparer l’environnement pour l’utilisation de l’Infrastructure as Code
 
-<image src=images/1.jpg width=50% height=50% > </image>
-<image src=images/2.jpg width=50% height=50% > </image>
-<image src=images/8.jpg width=50% height=50% > </image>
-<image src=images/9.jpg width=50% height=50% > </image>
-<image src=images/10.jpg width=50% height=50% > </image>
