@@ -1,120 +1,317 @@
-### ID : 300155045
-### Nom : CHOUAIB AIT
-### Projet : Configuration IP et RDP
-### Cours : INF1092-201-E26-01
----------------------------------------------------------------------------------------------------------------------------------
+RAPPORT DE LABORATOIRE
+Configuration réseau et Bureau à distance (RDP)
 
-# Réseau Hyper‑V et accès RDP
+Nom : Chouaib Ait
+ID étudiant : 300155045
+Cours : Administration réseau / Windows Server
+Laboratoire : Configuration IP statique, DNS, passerelle et RDP
+Date : __________________
 
-## 1. Vérification du nom de la machine virtuelle et de la configuration réseau
+1. Objectifs du laboratoire
 
-Avant de modifier la configuration réseau, j'ai vérifié le nom de la machine virtuelle ainsi que la configuration réseau actuelle à l'aide des commandes suivantes :
+L’objectif de ce laboratoire est de configurer et de tester les paramètres réseau d’une machine virtuelle Windows.
+
+Les objectifs principaux sont :
+
+Configurer une adresse IPv4 statique.
+Configurer la passerelle par défaut.
+Configurer un serveur DNS.
+Vérifier la connectivité réseau.
+Activer le Bureau à distance (RDP).
+Vérifier que le port RDP est fonctionnel.
+Se connecter à la machine virtuelle à distance.
+Vérifier les sessions RDP actives.
+2. Vérification du nom de la VM
+
+La première étape consiste à vérifier le nom de la machine virtuelle à l’aide de la commande :
 
 hostname
 
+Résultat obtenu :
+
+[Nom de ma VM]
+
+Capture d’écran :
+Insérer ici une capture d’écran montrant la commande hostname et son résultat.
+
+3. Vérification de la configuration réseau actuelle
+
+La configuration réseau actuelle a été vérifiée avec la commande :
+
 Get-NetIPConfiguration
+
+Une autre commande permettant d'obtenir les informations réseau est :
+
+ipconfig /all
+
+Les informations importantes vérifiées sont :
+
+Adresse IPv4
+Masque de sous-réseau
+Passerelle par défaut
+Serveur DNS
+Interface réseau
+
+Capture d’écran :
+Insérer ici une capture d’écran de ipconfig /all.
+
+4. Identification de l'interface réseau
+
+Avant de configurer l’adresse IP, l’interface réseau a été identifiée avec :
 
 Get-NetAdapter
 
-La commande hostname permet de confirmer le nom de la machine virtuelle. Les commandes Get-NetIPConfiguration et Get-NetAdapter permettent de consulter la configuration réseau existante et d'identifier l'interface Ethernet qui sera utilisée pour la configuration de l'adresse IP statique.
+L’interface utilisée pour la configuration est :
 
-Capture d'écran : Vérification du nom de la machine et de la configuration réseau
+Ethernet
+5. Configuration de l'adresse IP statique
 
-<img width="2040" height="1536" alt="WhatsApp Image 2026-08-07 at 9 21 26 PM" src="https://github.com/user-attachments/assets/860b9880-aca8-487a-aa35-9df02edbdd0c" />
+Les paramètres réseau demandés dans le laboratoire sont :
 
-## 2. Configuration de l'adresse IP statique
+Paramètre	Valeur
+Adresse IP	10.7.237.x
+Masque	255.255.255.0
+Passerelle	10.7.237.1
+DNS	10.7.237.3
 
-Cette image montre la configuration de l'adresse IPv4 statique de la machine virtuelle à l'aide de PowerShell.
+L’adresse IP statique a été configurée avec la commande suivante :
 
-L'interface réseau Ethernet a été identifiée avec Get-NetAdapter, puis configurée avec les paramètres suivants :
+New-NetIPAddress `
+-InterfaceAlias "Ethernet" `
+-IPAddress 10.7.237.x `
+-PrefixLength 23 `
+-DefaultGateway 10.7.237.1
 
-Adresse IP : 10.7.237.207
-Préfixe réseau : 23
-Passerelle par défaut : 10.7.237.1
+Remarque : x doit être remplacé par l’adresse IP attribuée à ma VM.
 
-Cette étape permet de donner une adresse IP fixe à la machine virtuelle.
+6. Configuration du serveur DNS
 
-Capture d'écran : Configuration de l'adresse IP statique
+Le serveur DNS a été configuré avec la commande :
 
-<img width="1724" height="994" alt="Capture d’écran 2026-08-06 202347" src="https://github.com/user-attachments/assets/3c280f43-0a51-4dcc-b4c5-655964aa6f3f" />
+Set-DnsClientServerAddress `
+-InterfaceAlias "Ethernet" `
+-ServerAddresses 10.7.237.3
 
+La configuration a ensuite été vérifiée avec :
 
-## 3. Vérification de la configuration IP
+ipconfig /all
 
-Cette image montre le résultat de la commande New-NetIPAddress confirmant que l'adresse IP a été créée avec succès.
+Le serveur DNS affiché doit être :
 
-Les informations affichées permettent de vérifier :
+10.7.237.3
 
-l'adresse IPv4 ;
-le préfixe réseau ;
-l'interface Ethernet ;
-la configuration persistante.
+Capture d’écran :
+Insérer ici une capture montrant l'adresse IP, la passerelle et le DNS.
 
-Cette étape confirme que la configuration réseau est correctement appliquée.
+7. Vérification de la connectivité réseau
 
-Capture d'écran : Vérification de l'adresse IP
+Plusieurs tests ont été effectués afin de vérifier le fonctionnement du réseau.
 
-<img width="1719" height="994" alt="Capture d’écran 2026-08-06 202600" src="https://github.com/user-attachments/assets/38ee1fdd-33ac-4630-8d66-7e03b6b48c8a" />
+7.1 Test de la passerelle
 
-## 4. Configuration DNS et tests de connectivité
+Commande :
 
-Cette image montre la configuration du serveur DNS avec la commande :
-
-Set-DnsClientServerAddress
-
-Les vérifications suivantes ont ensuite été effectuées :
-
-ipconfig
 ping 10.7.237.1
+
+Résultat :
+
+Réponse de 10.7.237.1
+
+Le test confirme que la machine virtuelle peut communiquer avec la passerelle.
+
+7.2 Test de la connectivité Internet
+
+Commande :
+
 ping 8.8.8.8
 
-Les réponses obtenues démontrent que la machine virtuelle communique correctement avec la passerelle et avec Internet.
+Résultat :
 
-Capture d'écran : Configuration DNS et tests réseau
+Réponse de 8.8.8.8
 
-<img width="1705" height="997" alt="Capture d’écran 2026-08-06 202614" src="https://github.com/user-attachments/assets/daabf0c9-0375-4ccd-ab46-a47f507ada3e" />
+Ce test permet de vérifier la connectivité IP vers Internet.
 
-## 5. Activation du Bureau à distance (RDP)
+7.3 Test de résolution DNS
 
-Cette image montre l'activation du Bureau à distance.
+Commande :
 
-Les commandes suivantes ont été exécutées :
+ping google.ca
 
-activation de Remote Desktop ;
-ouverture des règles du pare-feu Windows ;
-vérification du port 3389.
+Résultat :
 
-Le résultat indique que le service RDP est bien à l'écoute (Listening).
+Réponse de google.ca
 
-Capture d'écran : Activation du Bureau à distance
+Ce résultat confirme que la résolution DNS fonctionne correctement.
 
-<img width="1714" height="988" alt="Capture d’écran 2026-08-06 202630" src="https://github.com/user-attachments/assets/1709d534-733d-4925-8e2c-53bcfa8eaf6c" />
+Capture d’écran :
+Insérer ici une capture des trois tests Ping.
 
-## 6. Vérification de la session utilisateur
+8. Activation du Bureau à distance (RDP)
 
-Cette image montre les dernières vérifications du laboratoire.
+Le Bureau à distance a été activé avec la commande PowerShell suivante :
 
-Les commandes exécutées sont :
+Set-ItemProperty `
+-Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" `
+-Name "fDenyTSConnections" `
+-Value 0
+
+Cette commande permet d'autoriser les connexions Bureau à distance sur la machine.
+
+9. Configuration du pare-feu
+
+Les règles du pare-feu Windows nécessaires au Bureau à distance ont été activées avec :
+
+Enable-NetFirewallRule `
+-DisplayGroup "Remote Desktop"
+
+Les règles peuvent être vérifiées avec :
+
+Get-NetFirewallRule -DisplayGroup "Remote Desktop"
+
+Résultat attendu :
+
+Les règles associées à Remote Desktop doivent être activées.
+
+10. Vérification du port RDP
+
+Le port utilisé par RDP est le port TCP 3389.
+
+La disponibilité du port a été vérifiée avec :
+
+Test-NetConnection localhost -Port 3389
+
+Le résultat attendu est :
+
+TcpTestSucceeded : True
+
+Cela confirme que le service RDP écoute correctement sur le port 3389.
+
+Capture d’écran :
+Insérer ici une capture montrant TcpTestSucceeded : True.
+
+11. Vérification du compte utilisateur
+
+Le compte utilisateur et les utilisateurs locaux ont été vérifiés avec :
+
+whoami
+
+et :
 
 Get-LocalUser
+
+Le compte utilisé pour la connexion RDP est :
+
+Administrator
+12. Connexion à la VM avec RDP
+
+Depuis le poste physique, l’outil Bureau à distance a été lancé avec :
+
+Win + R
+
+Puis :
+
+mstsc
+
+L’adresse IP de la VM a ensuite été saisie :
+
+10.7.237.x
+
+Les informations de connexion utilisées sont :
+
+Utilisateur : Administrator
+Mot de passe : ********
+
+La connexion RDP a été établie avec succès.
+
+Capture d’écran :
+Insérer ici une capture d’écran montrant la session RDP connectée à la VM.
+
+13. Vérification de la session RDP
+
+Une fois connecté en RDP, la session active a été vérifiée avec :
+
 query user
 
-Les résultats confirment que :
+ou :
 
-le compte Administrator est actif ;
-une session utilisateur est ouverte sur la machine virtuelle.
+quser
 
-Cette étape valide le bon fonctionnement de l'accès à distance.
+La commande permet d’afficher les utilisateurs actuellement connectés à la machine.
 
-Capture d'écran : Vérification de la session utilisateur
+Résultat :
 
-<img width="1699" height="983" alt="Capture d’écran 2026-08-06 202643" src="https://github.com/user-attachments/assets/4784b3b9-2a9c-4362-aefc-4f0a3c321197" />
+Administrator    Active
 
-# Conclusion
+Capture d’écran :
+Insérer ici une capture de query user ou quser.
 
-Au cours de ce laboratoire, j'ai configuré avec succès les paramètres réseau de ma machine virtuelle Windows Server 2022. J'ai vérifié 
-la configuration existante, configuré une adresse IP statique, défini la passerelle par défaut et le serveur DNS, puis validé 
-la connectivité réseau à l'aide des commandes ipconfig et ping. J'ai également activé le Bureau à distance (RDP) et confirmé 
-son bon fonctionnement en vérifiant le port d'écoute ainsi que la session utilisateur active. Ce laboratoire m'a permis de mieux 
-comprendre la configuration réseau sous Windows Server et de préparer la machine virtuelle pour les prochains travaux portant 
-sur les services réseau et l'administration à distance.
+14. Test entre étudiants
+
+Un test de communication avec une autre machine virtuelle peut être effectué avec :
+
+ping 10.7.237.202
+
+Si la communication est autorisée par le laboratoire, une connexion RDP peut également être testée avec :
+
+mstsc
+
+Puis l'adresse IP de la VM de l'autre étudiant est saisie.
+
+15. Dépannage
+
+En cas de problème avec RDP, les règles du pare-feu peuvent être vérifiées avec :
+
+Get-NetFirewallRule -DisplayGroup "Remote Desktop"
+
+La configuration IP peut être vérifiée avec :
+
+ipconfig
+
+Le fonctionnement du port RDP peut être testé avec :
+
+Test-NetConnection localhost -Port 3389
+
+Si le résultat est :
+
+TcpTestSucceeded : True
+
+le port 3389 est accessible localement.
+
+16. Tableau récapitulatif
+Élément	Résultat
+Nom de la VM	__________________
+ID étudiant	300155045
+Nom	Chouaib Ait
+Adresse IP	10.7.237.___
+Masque	255.255.255.0
+Passerelle	10.7.237.1
+DNS	10.7.237.3
+Ping passerelle	Réussi / Échoué
+Ping 8.8.8.8	Réussi / Échoué
+Ping google.ca	Réussi / Échoué
+RDP	Activé
+Port RDP	3389
+Test du port	TcpTestSucceeded : True / False
+Connexion RDP	Réussie / Échouée
+17. Captures d'écran à remettre
+
+Les captures suivantes doivent être incluses dans le rapport :
+
+Nom de la VM avec la commande hostname.
+Configuration réseau avec ipconfig /all.
+Adresse IP, passerelle et DNS configurés.
+Ping de la passerelle 10.7.237.1.
+Ping de 8.8.8.8.
+Ping de google.ca.
+Test du port RDP avec TcpTestSucceeded : True.
+Connexion RDP réussie à la VM.
+Session RDP active avec query user.
+18. Conclusion
+
+Ce laboratoire m’a permis de mettre en pratique la configuration réseau d’une machine virtuelle Windows. J’ai configuré une adresse IPv4 statique ainsi que la passerelle et le serveur DNS.
+
+J’ai ensuite vérifié la connectivité avec plusieurs tests ping, notamment vers la passerelle, une adresse IP externe et un nom de domaine afin de confirmer le fonctionnement de la résolution DNS.
+
+Enfin, j’ai activé le Bureau à distance (RDP), configuré le pare-feu Windows, vérifié le port TCP 3389 et effectué une connexion à distance à ma machine virtuelle.
+
+Ce laboratoire permet donc de mieux comprendre les notions d’adressage IPv4, de passerelle, de DNS, de pare-feu et d’administration à distance avec Windows.
