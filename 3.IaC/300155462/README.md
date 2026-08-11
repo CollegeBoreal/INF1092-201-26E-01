@@ -1,1 +1,18 @@
-![images alt](https://github.com/CollegeBoreal/INF1092-201-26E-01/blob/1d1ce575fb53dd3f2438e32bb3569e41c3a5441f/3.IaC/300155462/images/WhatsApp%20Image%202026-06-29%20at%2016.19.38%20(11).jpeg)
+#300155462
+
+je vais vous présenter les différentes étapes de notre projet d'installation et de configuration d'un serveur. Nous avons commencé par inspecter le matériel, puis nous avons installé le système d'exploitation, vérifié le bon fonctionnement du serveur et effectué sa configuration. Les images présentées illustrent les principales étapes de ce projet.
+
+Le boîtier du serveur a été ouvert afin d'accéder aux composants internes. Cette étape permet d'effectuer une inspection visuelle de la carte mère, du processeur, de la mémoire RAM, des ventilateurs et des autres composants avant toute intervention.
+
+
+<img src="images/6.png" width="50%">
+<img src="images/7.png" width="50%">
+<img src="images/9.png" width="50%">
+
+
+Après avoir vérifié les composants, nous avons branché le serveur à un écran afin de poursuivre la configuration.
+
+<img src="images/5.png" width="50%">
+<img src="images/4.png" width="50%">
+<img src="images/1.png" width="50%">
+<img src="images/2.png" width="50%">
