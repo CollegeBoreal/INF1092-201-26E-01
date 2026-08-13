@@ -27,13 +27,6 @@ Cette vérification m’a permis de connaître la configuration actuelle avant d
 
 
 
-
-
-
-
-
-
-
 Étape 2 – Attribution d’une adresse IP fixe
 
 Après avoir vérifié les informations du réseau, j’ai accédé aux propriétés de la connexion Ethernet, 
@@ -42,4 +35,16 @@ puis à la configuration du protocole IPv4.
 J’ai ensuite choisi l’option « Utiliser l’adresse IP suivante » afin de configurer manuellement 
 une adresse IP sur ma machine virtuelle. Cette modification permet de garder une adresse IP statique,
  au lieu d’utiliser une adresse attribuée automatiquement par le réseau.
+
+Ensuite le Ping 10.7.237.1
+        le Ping 10.7.237.3
+        le Ping 8.8.8.8
+        le Ping google.ca
+
+
+
+
+Pour finir, j’ai utilisé Remote Desktop (mstsc) pour me connecter à distance à ma machine virtuelle. 
+La connexion a fonctionné correctement, ce qui confirme que l’adresse IP,
+ le service RDP et les paramètres du pare-feu ont été bien configurés.
 
