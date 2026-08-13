@@ -1,0 +1,45 @@
+Projet d’adressage IP sur une machine virtuelle
+
+Dans ce projet, je présente les étapes que j’ai suivies pour configurer une adresse IP sur ma machine virtuelle. 
+Cette configuration permet à la machine d’être accessible à distance en utilisant
+ le service RDP (Remote Desktop Protocol).
+
+Étape 1 – Vérification de la configuration réseau
+
+Avant de commencer la configuration de l’adresse IP, j’ai ouvert Windows PowerShell en mode administrateur
+ afin de vérifier les paramètres réseau déjà présents sur ma machine virtuelle.
+
+J’ai utilisé les commandes suivantes :
+
+
+                   "  hostname"
+                    " Get-NetIPConfiguration"
+
+La commande hostname m’a permis de vérifier le nom de ma machine.
+
+Ensuite, la commande Get-NetIPConfiguration m’a permis d’afficher les informations concernant la configuration réseau.
+
+J’ai constaté que la machine virtuelle avait déjà une adresse IPv4 attribuée automatiquement,
+ soit 10.7.236.215. La passerelle par défaut était 10.7.237.1, et plusieurs serveurs DNS étaient également configurés.
+
+Cette vérification m’a permis de connaître la configuration actuelle avant de passer à la configuration manuelle de l’adresse IP.
+
+
+
+
+
+
+
+
+
+
+
+Étape 2 – Attribution d’une adresse IP fixe
+
+Après avoir vérifié les informations du réseau, j’ai accédé aux propriétés de la connexion Ethernet, 
+puis à la configuration du protocole IPv4.
+
+J’ai ensuite choisi l’option « Utiliser l’adresse IP suivante » afin de configurer manuellement 
+une adresse IP sur ma machine virtuelle. Cette modification permet de garder une adresse IP statique,
+ au lieu d’utiliser une adresse attribuée automatiquement par le réseau.
+
